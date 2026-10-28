@@ -342,3 +342,6 @@ p { margin: 0 0 1em; } p:last-child { margin-bottom: 0; }
 }
 .team-list li { align-content: start; }
 @media (max-width: 560px) { .display { font-size: clamp(2.5rem, 11vw, 3.2rem); } }
+.team-foot { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 8px 48px; margin-top: 24px; }
+.team-foot p { color: var(--mute); max-width: 56ch; margin: 0; }
+.team-foot .link-more { margin-top: 0; }
