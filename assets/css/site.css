@@ -379,3 +379,13 @@ p:last-child { margin-bottom: 0; }
   .legend-side { grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); }
   .legend-side img { aspect-ratio: auto; height: 100%; min-height: 240px; }
 }
+
+/* Logo */
+.brand .logo { height: 50px; width: auto; }
+.logo-foot { height: 64px; width: auto; margin-bottom: 18px; }
+@media (max-width: 900px) { .brand .logo { height: 42px; } }
+/* Inhaberfoto hochkant */
+.owners-grid { grid-template-columns: .8fr 1.2fr; }
+.owners-photo img { aspect-ratio: 3 / 4; max-height: 760px; object-position: center 30%; }
+@media (max-width: 900px) { .owners-grid { grid-template-columns: 1fr; } .owners-photo img { aspect-ratio: 4 / 5; } }
+@media (min-width: 901px) { :root { --head-h: 80px; } .brand .logo { height: 60px; } }
