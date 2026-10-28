@@ -11,8 +11,10 @@ Auswahl aus dem Shooting (BauserviceCraig_Cloud, Tag 1 bis 11), als WebP für da
 - Garten Erfurt: `08_referenzen/...vorher-garten-erfurt` ↔ `02_garten-landschaftsbau/...header-garten-einfamilienhaus-erfurt-nachher`
 - Fassade Blankenhain: `08_referenzen/...vorher-fassade-blankenhain` ↔ `04_innenausbau-sanierung/...fassadensanierung-blankenhain-nachher`
 
+## Hinweis
+- Header Bausachverständiger: `07_bausachverstaendiger/...header-bauschaden-tuerschwelle` (auch für Startseite nutzbar)
+
 ## Offen
 - Teamportraits 01 bis 10: Namen kommen noch von den Craigs
-- 4 Bilder fehlen noch (Originale zu groß für den Export): Tag5WeimarGroß_FX2-138, Tag4aWeimar_FX2-24 (Startseite / Header Bausachverständiger), Garten-Bild Nr. 350, Poolbau-Bild Nr. 816
 - Keine Badsanierungsbilder vorhanden, kaum Innen-Fliesen
 - Desktop-Hero-Video im Querformat (16:9) fehlt noch
