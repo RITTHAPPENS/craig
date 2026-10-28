@@ -2,18 +2,71 @@
   document.documentElement.classList.add('js');
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
 
-  // Menü
+  // Navigation: Mobilmenü und Mega-Menü "Leistungen"
   const btn = document.querySelector('[data-menu]');
   const nav = document.getElementById('nav');
-  if (btn && nav) {
-    const set = (open) => {
-      btn.setAttribute('aria-expanded', String(open));
-      btn.querySelector('.sr').textContent = open ? 'Menü schließen' : 'Menü öffnen';
-      nav.classList.toggle('is-open', open);
-    };
-    btn.addEventListener('click', () => set(btn.getAttribute('aria-expanded') !== 'true'));
-    nav.addEventListener('click', (e) => { if (e.target.closest('a')) set(false); });
-    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') set(false); });
+  const trigger = document.querySelector('[data-mega-trigger]');
+  const mega = document.querySelector('[data-mega]');
+  const backdrop = document.querySelector('[data-backdrop]');
+  const desktop = window.matchMedia('(min-width: 901px)');
+  const fine = window.matchMedia('(hover: hover) and (pointer: fine)');
+
+  const setMenu = (open) => {
+    if (!btn) return;
+    btn.setAttribute('aria-expanded', String(open));
+    btn.querySelector('.sr').textContent = open ? 'Menü schließen' : 'Menü öffnen';
+    nav.classList.toggle('is-open', open);
+    document.documentElement.classList.toggle('menu-open', open);
+    if (!open) setMega(false);
+  };
+  const setMega = (open) => {
+    if (!trigger) return;
+    trigger.setAttribute('aria-expanded', String(open));
+    mega.classList.toggle('is-open', open);
+    if (desktop.matches && backdrop) {
+      if (open) { backdrop.hidden = false; requestAnimationFrame(() => backdrop.classList.add('is-on')); }
+      else { backdrop.classList.remove('is-on'); setTimeout(() => { if (!mega.classList.contains('is-open')) backdrop.hidden = true; }, 220); }
+    }
+  };
+
+  btn && btn.addEventListener('click', () => setMenu(btn.getAttribute('aria-expanded') !== 'true'));
+  let hoverOpenedAt = 0;
+  trigger && trigger.addEventListener('click', () => {
+    if (Date.now() - hoverOpenedAt < 600) return;
+    setMega(trigger.getAttribute('aria-expanded') !== 'true');
+  });
+  backdrop && backdrop.addEventListener('click', () => setMega(false));
+  nav && nav.addEventListener('click', (e) => { if (e.target.closest('a')) { setMega(false); setMenu(false); } });
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Escape') return;
+    if (mega && mega.classList.contains('is-open')) { setMega(false); trigger.focus(); }
+    else if (nav && nav.classList.contains('is-open')) { setMenu(false); btn.focus(); }
+  });
+  desktop.addEventListener('change', () => { setMega(false); setMenu(false); });
+
+  // Desktop: Öffnen beim Überfahren mit kurzer Absichtsverzögerung
+  if (trigger && mega) {
+    const item = trigger.closest('.nav-item');
+    let tOpen, tClose;
+    item.addEventListener('pointerenter', (e) => {
+      if (!desktop.matches || !fine.matches || e.pointerType !== 'mouse') return;
+      clearTimeout(tClose); tOpen = setTimeout(() => { hoverOpenedAt = Date.now(); setMega(true); }, 90);
+    });
+    item.addEventListener('pointerleave', (e) => {
+      if (!desktop.matches || e.pointerType !== 'mouse') return;
+      clearTimeout(tOpen); tClose = setTimeout(() => setMega(false), 180);
+    });
+    // Fokus verlässt das Menü: schließen
+    item.addEventListener('focusout', (e) => { if (desktop.matches && !item.contains(e.relatedTarget)) setMega(false); });
+
+    // Vorschaubild wechselt mit der Leistung
+    const imgs = mega.querySelectorAll('[data-preview-img]');
+    const show = (key) => imgs.forEach((im) => im.classList.toggle('is-active', im.dataset.previewImg === key));
+    mega.querySelectorAll('[data-preview]').forEach((a) => {
+      a.addEventListener('pointerenter', () => show(a.dataset.preview));
+      a.addEventListener('focus', () => show(a.dataset.preview));
+    });
+    mega.addEventListener('pointerleave', () => show('team'));
   }
 
   // Hero-Video: respektiert reduzierte Bewegung, pausierbar
