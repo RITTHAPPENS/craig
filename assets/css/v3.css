@@ -4,9 +4,9 @@
 @import url("v2.css");
 
 @font-face {
-  font-family: "Bricolage";
-  src: url("../fonts/bricolage-var.woff2") format("woff2-variations"), url("../fonts/bricolage-var.woff2") format("woff2");
-  font-weight: 200 800;
+  font-family: "Onest";
+  src: url("../fonts/onest-var.woff2") format("woff2-variations"), url("../fonts/onest-var.woff2") format("woff2");
+  font-weight: 100 900;
   font-display: swap;
 }
 
@@ -27,14 +27,14 @@ body { background: var(--bg); color: var(--ink); }
 ::selection { background: var(--accent); color: var(--ink); }
 :focus-visible { outline-color: var(--ink); }
 
-/* Typo: Bricolage, Satzschreibung, schwer und eng */
+/* Typo: Onest, Satzschreibung, schwer und eng */
 .display, .h2, .quote p, .panel-name, .big-phone {
-  font-family: "Bricolage", "Archivo", sans-serif;
-  font-stretch: 100%; text-transform: none; font-weight: 750; letter-spacing: -.035em;
+  font-family: "Onest", "Archivo", sans-serif;
+  font-stretch: 100%; text-transform: none; font-weight: 700; letter-spacing: -.03em;
 }
 .display { font-size: clamp(2.8rem, 6vw + .6rem, 6.6rem); line-height: .92; max-width: 13ch; }
 .h2 { font-size: clamp(2.3rem, 3.8vw + .8rem, 4.6rem); line-height: .95; margin-bottom: 28px; }
-.h3 { font-family: "Bricolage", sans-serif; font-weight: 700; letter-spacing: -.02em; }
+.h3 { font-family: "Onest", sans-serif; font-weight: 700; letter-spacing: -.02em; }
 
 /* Buttons: Signalgelb mit dunkler Schrift */
 .btn-accent { background: var(--accent); color: var(--on-accent); }
@@ -76,7 +76,7 @@ html.menu-open .site-head .menu-btn, html.menu-open .site-head .head-phone { col
 .vals { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; }
 .vals li { display: grid; grid-template-columns: 200px 1fr; gap: 16px; align-items: baseline; padding: 18px 0; border-top: 1px solid var(--line); }
 .vals li:last-child { border-bottom: 1px solid var(--line); }
-.vals strong { font-family: "Bricolage", sans-serif; font-weight: 750; font-size: 1.35rem; letter-spacing: -.02em; }
+.vals strong { font-family: "Onest", sans-serif; font-weight: 750; font-size: 1.35rem; letter-spacing: -.02em; }
 .vals span { color: var(--mute); }
 @media (max-width: 900px) { .intro-grid { grid-template-columns: 1fr; } }
 @media (max-width: 560px) { .vals li { grid-template-columns: 1fr; gap: 4px; } }
@@ -115,7 +115,7 @@ html.menu-open .site-head .menu-btn, html.menu-open .site-head .head-phone { col
 .voices-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 16px 32px; }
 .voices-head .h2 { margin: 0; }
 .rating { display: inline-flex; align-items: center; gap: 12px; padding: 12px 16px; background: #fff; border: 1px solid var(--line); text-decoration: none; margin: 0; }
-.rating strong { font-family: "Bricolage", sans-serif; font-size: 1.5rem; font-weight: 800; margin-right: 4px; }
+.rating strong { font-family: "Onest", sans-serif; font-size: 1.5rem; font-weight: 800; margin-right: 4px; }
 .rating > .ic { color: var(--mute); }
 .stars { color: var(--accent); }
 .stars .ic { filter: drop-shadow(0 0 .5px rgb(0 0 0 / .5)); }
@@ -131,7 +131,7 @@ html.menu-open .site-head .menu-btn, html.menu-open .site-head .head-phone { col
 .quote p::before, .quote p::after { color: var(--accent); }
 .owners .h3 { color: #fff; }
 .facts { border-top-color: var(--accent); }
-.facts dt { font-family: "Bricolage", sans-serif; font-stretch: 100%; text-transform: none; font-size: 1.5rem; letter-spacing: -.02em; }
+.facts dt { font-family: "Onest", sans-serif; font-stretch: 100%; text-transform: none; font-size: 1.5rem; letter-spacing: -.02em; }
 .facts dd { color: rgb(255 255 255 / .7); }
 .owners .link-more { color: #fff; border-bottom-color: var(--accent); margin-top: 32px; }
 .owners .link-more .ic { color: var(--accent); }
@@ -139,7 +139,7 @@ html.menu-open .site-head .menu-btn, html.menu-open .site-head .head-phone { col
 
 /* Ablauf */
 .steps { border-top-color: var(--ink); }
-.step-n { font-family: "Bricolage", sans-serif; font-stretch: 100%; color: var(--ink); background: var(--accent); width: 56px; height: 56px; display: grid; place-items: center; font-size: 1.8rem; }
+.step-n { font-family: "Onest", sans-serif; font-stretch: 100%; color: var(--ink); background: var(--accent); width: 56px; height: 56px; display: grid; place-items: center; font-size: 1.8rem; }
 @media (max-width: 900px) { .step-n { width: 46px; height: 46px; font-size: 1.5rem; } }
 
 /* Kontakt mit Formular */
@@ -184,3 +184,13 @@ html.menu-open .site-head .menu-btn, html.menu-open .site-head .head-phone { col
 .hero-inner { min-width: 0; width: 100%; }
 @media (max-width: 560px) { .display { font-size: clamp(2.3rem, 10.5vw, 3rem); max-width: none; } .h2 { font-size: clamp(2rem, 9vw, 2.6rem); } }
 @media (max-width: 900px) { .panel { aspect-ratio: auto; min-height: 380px; } .panel::after { background: linear-gradient(0deg, rgb(10 11 11 / .92) 0%, rgb(10 11 11 / .55) 60%, rgb(10 11 11 / .2) 100%); } }
+
+/* Einzugsgebiet */
+.area-text { color: var(--mute); max-width: 44ch; font-size: 1.1rem; }
+.addr { display: flex; align-items: center; gap: 10px; font-weight: 700; margin-top: 24px; }
+.addr .ic { width: 22px; height: 22px; padding: 3px; background: var(--accent); color: var(--on-accent); }
+.towns { border-top: 3px solid var(--ink); }
+.towns li { padding: 18px 0; align-items: baseline; }
+.towns li span:first-child { font-family: "Onest", sans-serif; font-weight: 700; font-size: clamp(1.3rem, 1vw + 1rem, 1.7rem); letter-spacing: -.02em; }
+.towns li:first-child span:last-child { background: var(--accent); color: var(--on-accent); font-weight: 700; padding: 2px 8px; font-size: .9rem; }
+.towns li span:last-child { text-align: right; } .towns li span:first-child { white-space: nowrap; }
