@@ -72,11 +72,10 @@
   // Hero-Hintergrundvideo: passende Datei je Format, erst nach dem Poster laden, pausierbar
   const video = document.querySelector('.hero-video');
   const toggle = document.querySelector('[data-video-toggle]');
-  if (video && toggle && !reduce.matches) {
+  if (video && toggle) {
     const tall = window.matchMedia('(max-aspect-ratio: 4/5)');
     const pick = () => tall.matches ? video.dataset.srcTall
       : (window.innerWidth * (window.devicePixelRatio || 1) > 2000 ? video.dataset.srcXl : video.dataset.srcWide);
-    const saveData = navigator.connection && navigator.connection.saveData;
     const load = () => {
       const src = pick();
       if (video.getAttribute('src') === src) return;
@@ -91,12 +90,12 @@
     video.addEventListener('playing', () => { video.classList.add('is-playing'); label(); });
     video.addEventListener('pause', label);
     toggle.addEventListener('click', () => { video.paused ? video.play() : video.pause(); });
-    if (!saveData) {
-      toggle.hidden = false;
-      const start = () => ('requestIdleCallback' in window) ? requestIdleCallback(load, { timeout: 1200 }) : setTimeout(load, 300);
-      document.readyState === 'complete' ? start() : window.addEventListener('load', start, { once: true });
-      tall.addEventListener('change', load);
-    }
+    toggle.hidden = false;
+    load();
+    tall.addEventListener('change', load);
+    // Falls der Browser Autoplay blockiert (z. B. iPhone-Stromsparmodus): bei der ersten Berührung starten
+    const kick = () => { if (video.paused && toggle.dataset.user !== 'paused') video.play().catch(() => {}); };
+    ['touchstart', 'pointerdown', 'scroll', 'keydown'].forEach((ev) => window.addEventListener(ev, kick, { once: true, passive: true }));
     // außerhalb des Sichtfelds pausieren, spart Akku
     if ('IntersectionObserver' in window) {
       new IntersectionObserver(([en]) => {

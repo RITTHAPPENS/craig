@@ -538,3 +538,5 @@ p:last-child { margin-bottom: 0; }
 .tvid-btn { left: 16px; top: auto; bottom: 16px; margin: 0; width: 64px; height: 64px; }
 .tvid-btn .ic { width: 26px; height: 26px; }
 @media (max-width: 760px) { .tvid-btn { width: 52px; height: 52px; left: 12px; bottom: 12px; margin: 0; } .tvid-btn .ic { width: 22px; height: 22px; } }
+.rating-text { font-size: 1.15rem; }
+.rating-text strong { font-size: 1.6rem; font-weight: 800; margin-right: 4px; }
