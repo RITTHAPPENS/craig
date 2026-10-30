@@ -13,7 +13,7 @@
 <meta property="og:description" content="Bauen. Begleiten. Bewerten. Ihr Bauunternehmen aus Bad Berka für ganz Thüringen.">
 <meta property="og:image" content="assets/img/01_startseite/bauservice-craig-team-baustelle-banner.webp">
 <link rel="preload" href="assets/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="assets/video/bauservice-craig-hero-mobil-poster.webp" as="image">
+
 <link rel="stylesheet" href="assets/css/site.css">
 <script>document.documentElement.classList.add("js")</script>
 <script type="application/ld+json">
@@ -115,9 +115,19 @@
 
 <main id="inhalt">
 
-  <!-- HERO -->
   <section class="hero" aria-labelledby="h1">
-    <div class="wrap hero-grid">
+    <div class="hero-media" aria-hidden="true">
+      <picture>
+        <source media="(max-aspect-ratio: 4/5)" srcset="assets/video/bauservice-craig-hero-mobil-poster.webp">
+        <img class="hero-poster" src="assets/video/bauservice-craig-hero-quer-poster.webp" alt="" width="1920" height="1080" fetchpriority="high" decoding="async">
+      </picture>
+      <video class="hero-video" muted loop playsinline preload="none"
+             data-src-tall="assets/video/bauservice-craig-hero-mobil.mp4"
+             data-src-wide="assets/video/bauservice-craig-hero-quer-1280.mp4"
+             data-src-xl="assets/video/bauservice-craig-hero-quer.mp4"></video>
+      <div class="hero-scrim"></div>
+    </div>
+    <div class="wrap hero-inner">
       <div class="hero-copy">
         <h1 id="h1" class="display">Bauunternehmen aus Bad Berka. Für ganz Thüringen.</h1>
         <p class="lead">Außenanlagen, Sanierung, Bauleitung und Bauschadenbewertung aus einer Hand. Inhabergeführt von Marvin und Carissa Craig.</p>
@@ -126,17 +136,8 @@
           <a class="btn btn-ghost" href="tel:+491607625394"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>0160 7625394</a>
         </div>
       </div>
-      <figure class="hero-sheet">
-        <div class="sheet-frame">
-          <video class="hero-video" autoplay muted loop playsinline preload="metadata"
-                 poster="assets/video/bauservice-craig-hero-mobil-poster.webp"
-                 aria-label="Das Team von Bauservice Craig bei der Arbeit auf Baustellen in Thüringen">
-            <source src="assets/video/bauservice-craig-hero-mobil.mp4" type="video/mp4">
-          </video>
-          <button class="video-toggle" type="button" data-video-toggle aria-pressed="false">Video anhalten</button>
-        </div>
-      </figure>
     </div>
+    <button class="video-toggle" type="button" data-video-toggle aria-pressed="false" hidden>Video anhalten</button>
   </section>
 
   <!-- KOMPETENZEN -->
