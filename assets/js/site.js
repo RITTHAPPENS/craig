@@ -129,4 +129,19 @@
       io.observe(steps);
     }
   }
+
+  // Kundenstimmen: Video erst beim Klick laden, nur eins gleichzeitig
+  document.querySelectorAll('[data-tvid]').forEach((fig) => {
+    const btn = fig.querySelector('.tvid-play');
+    btn.addEventListener('click', () => {
+      const v = document.createElement('video');
+      v.src = fig.dataset.src; v.controls = true; v.playsInline = true; v.preload = 'auto';
+      v.poster = btn.querySelector('img').src;
+      v.setAttribute('aria-label', btn.getAttribute('aria-label').replace(' abspielen', ''));
+      v.addEventListener('play', () => document.querySelectorAll('.tvid video').forEach((o) => { if (o !== v) o.pause(); }));
+      btn.replaceWith(v);
+      v.play().catch(() => {});
+      v.focus();
+    }, { once: true });
+  });
 })();

@@ -517,3 +517,24 @@ p:last-child { margin-bottom: 0; }
   .js .hero-poster { animation: heroZoom 1600ms var(--ease-out) both; }
 }
 @keyframes heroZoom { from { transform: scale(1.06); } }
+
+/* ===== Kundenstimmen (Video, lädt erst beim Klick) ===== */
+.tvids { list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(16px, 2vw, 28px); margin-top: clamp(32px, 4vw, 48px); }
+.tvid { margin: 0; }
+.tvid-play, .tvid video { display: block; position: relative; width: 100%; aspect-ratio: 16 / 9; padding: 0; border: 0; background: #111; cursor: pointer; overflow: hidden; }
+.tvid-play img { width: 100%; height: 100%; object-fit: cover; transition: transform 700ms var(--ease-out); }
+.tvid-play::after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, rgb(10 10 10 / .45), rgb(10 10 10 / 0) 55%); }
+.tvid-btn { position: absolute; left: 50%; top: 50%; z-index: 1; display: grid; place-items: center; width: 76px; height: 76px; margin: -38px 0 0 -38px; background: var(--accent); color: var(--accent-ink); box-shadow: 0 10px 30px -8px rgb(0 0 0 / .45); transition: transform 220ms var(--ease-out); }
+.tvid-btn .ic { width: 30px; height: 30px; margin-left: 4px; }
+.tvid-dur { position: absolute; right: 12px; bottom: 12px; z-index: 1; font-size: .82rem; font-weight: 700; color: #fff; font-variant-numeric: tabular-nums; }
+.tvid-play:active .tvid-btn { transform: scale(.95); }
+@media (hover: hover) and (pointer: fine) { .tvid-play:hover img { transform: scale(1.03); } .tvid-play:hover .tvid-btn { transform: scale(1.06); } }
+.tvid video { object-fit: contain; cursor: auto; }
+.tvid figcaption { display: grid; gap: 2px; padding-top: 14px; }
+.tvid figcaption strong { font-size: 1.1rem; }
+.tvid figcaption span { color: var(--mute); font-size: .95rem; }
+@media (max-width: 760px) { .tvids { grid-template-columns: 1fr; } .tvid-btn { width: 64px; height: 64px; margin: -32px 0 0 -32px; } }
+.reviews-grid { grid-template-columns: 1fr; }
+.tvid-btn { left: 16px; top: auto; bottom: 16px; margin: 0; width: 64px; height: 64px; }
+.tvid-btn .ic { width: 26px; height: 26px; }
+@media (max-width: 760px) { .tvid-btn { width: 52px; height: 52px; left: 12px; bottom: 12px; margin: 0; } .tvid-btn .ic { width: 22px; height: 22px; } }
