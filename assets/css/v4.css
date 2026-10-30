@@ -1,0 +1,129 @@
+/* Bauservice Craig · Startseite v4
+   Welt: der neue Standort. Anthrazit, Schwarz, Nussbaum-Lamellen, Cognac-Leder, Eiche, Olivgrün.
+   Aufbau und Komponenten aus v3/v2, hier nur Welt, Farben und Materialien. */
+@import url("v3.css");
+
+@font-face {
+  font-family: "Schibsted";
+  src: url("../fonts/schibsted-var.woff2") format("woff2-variations"), url("../fonts/schibsted-var.woff2") format("woff2");
+  font-weight: 400 900;
+  font-display: swap;
+}
+
+:root {
+  --bg: #f3f2ef;          /* weiße Wand, minimal warm */
+  --ground: #e6e3dd;      /* Eiche hell als Fläche */
+  --ink: #1d1c1a;         /* Anthrazit */
+  --ink-2: #2b2926;
+  --mute: #5a5650;        /* 6.4:1 auf --bg */
+  --line: rgb(29 28 26 / .14);
+  --accent: #a4562a;      /* Cognac */
+  --accent-2: #8c4720;
+  --on-accent: #ffffff;   /* 5.3:1 auf Cognac */
+  --walnut: #3b2618;
+  --walnut-2: #24170f;
+  --olive: #66674e;
+  --oak: #c49a6c;
+}
+body { background: var(--bg); color: var(--ink); }
+::selection { background: var(--accent); color: #fff; }
+:focus-visible { outline-color: var(--accent); }
+
+/* Typo */
+.display, .h2, .quote p, .panel-name, .big-phone, .h3, .vals strong, .facts dt, .step-n, .rating strong, .towns li span:first-child {
+  font-family: "Schibsted", "Archivo", sans-serif;
+}
+.display { font-weight: 800; letter-spacing: -.035em; }
+.h2 { font-weight: 800; letter-spacing: -.03em; }
+
+/* Buttons und Links */
+.btn-accent { background: var(--accent); color: var(--on-accent); }
+@media (hover: hover) and (pointer: fine) { .btn-accent:hover { background: var(--accent-2); } }
+.link-more { border-bottom-color: var(--accent); }
+.link-more .ic { color: var(--accent); }
+
+/* Header */
+.site-head.is-solid, html.menu-open .site-head { background: rgb(243 242 239 / .94); }
+@supports (backdrop-filter: blur(1px)) { .site-head.is-solid { background: rgb(243 242 239 / .84); } }
+.key-mark { background: var(--accent); border-color: var(--accent); color: #fff; }
+.mega-key { color: var(--accent); }
+.mega-link .ic { color: var(--accent); }
+.nav-link::after { background: var(--accent); }
+
+/* Hero: warmer Verlauf wie Abendlicht */
+.hero-scrim { background:
+  linear-gradient(0deg, rgb(20 14 10 / .85) 0%, rgb(20 14 10 / .35) 48%, rgb(20 14 10 / .2) 100%),
+  linear-gradient(90deg, rgb(20 14 10 / .5) 0%, rgb(20 14 10 / 0) 60%); }
+
+/* Werte: Lamellen-Kante links */
+.vals li { border-top-color: var(--line); }
+.vals strong { color: var(--ink); }
+
+/* Leistungen */
+.panel { background: var(--walnut); }
+.panel::after { background: linear-gradient(0deg, rgb(20 14 10 / .9) 0%, rgb(20 14 10 / .35) 55%, rgb(20 14 10 / .1) 100%); }
+.panel-key { background: var(--accent); color: #fff; }
+.panel-go .ic { color: var(--oak); }
+
+/* Vorher/Nachher */
+.compare-handle .ic { background: var(--accent); color: #fff; }
+.compare.is-dragging .compare-handle .ic { background: var(--accent-2); }
+
+/* Kundenstimmen */
+.rating { background: #fff; }
+.stars { color: var(--accent); }
+.stars .ic { filter: none; }
+.tvid-btn { background: var(--accent); color: #fff; }
+
+/* Inhaber: Nussbaum-Lamellen wie die Wand im Standort */
+.owners-split { background: var(--ink); }
+.owners-copy { position: relative; isolation: isolate; max-width: none; }
+.owners-split > .owners-copy::before { content: ""; position: absolute; inset: 0; z-index: -1;
+  background:
+    linear-gradient(180deg, rgb(20 14 10 / .55), rgb(20 14 10 / .82)),
+    repeating-linear-gradient(90deg, #4a3020 0 16px, #2a1b12 16px 21px); }
+.owners-copy > * { max-width: 620px; }
+.quote p::before, .quote p::after { color: var(--oak); }
+.facts { border-top-color: var(--oak); }
+.owners .link-more { border-bottom-color: var(--oak); }
+.owners .link-more .ic { color: var(--oak); }
+
+/* Neuer Standort */
+.standort-lead { color: var(--mute); max-width: 60ch; font-size: 1.1rem; margin: 0 0 clamp(32px, 4vw, 48px); }
+.standort-grid { display: grid; grid-template-columns: 1.15fr 1fr; grid-template-rows: auto 1fr; gap: 14px; }
+.standort-big { grid-row: span 2; margin: 0; }
+.standort-big img { width: 100%; height: 100%; object-fit: cover; aspect-ratio: 4 / 3; }
+.standort-plan { margin: 0; background: var(--ground); }
+.standort-plan img { width: 100%; aspect-ratio: 1600 / 769; object-fit: cover; }
+.standort-list { list-style: none; margin: 0; padding: 22px 24px; display: grid; gap: 0; background: var(--olive); color: #fff; align-content: center; }
+.standort-list li { display: grid; gap: 2px; padding: 12px 0; border-top: 1px solid rgb(255 255 255 / .22); }
+.standort-list li:first-child { border-top: 0; }
+.standort-list strong { font-family: "Schibsted", sans-serif; font-size: 1.25rem; font-weight: 800; letter-spacing: -.01em; }
+.standort-list span { color: rgb(255 255 255 / .85); font-size: .95rem; }
+.standort-note { color: var(--mute); font-size: .85rem; margin-top: 10px; }
+@media (max-width: 900px) { .standort-grid { grid-template-columns: 1fr; } .standort-big { grid-row: auto; } }
+
+/* Ablauf */
+.steps { border-top-color: var(--ink); }
+.step-n { background: var(--ink); color: #fff; }
+
+/* Einzugsgebiet */
+.addr .ic { background: var(--accent); color: #fff; }
+.towns { border-top-color: var(--ink); }
+.towns li:first-child span:last-child { background: var(--accent); color: #fff; }
+
+/* Kontakt: Nussbaum-Lamellen */
+.contact { position: relative; isolation: isolate; background: var(--walnut-2); }
+.contact::before { content: ""; position: absolute; inset: 0; z-index: -1;
+  background:
+    linear-gradient(90deg, rgb(20 14 10 / .9) 0%, rgb(20 14 10 / .78) 50%, rgb(20 14 10 / .6) 100%),
+    repeating-linear-gradient(90deg, #4a3020 0 16px, #2a1b12 16px 21px); }
+.contact-list .ic { color: var(--oak); }
+.contact-list li { border-top-color: rgb(255 255 255 / .18); }
+.form { background: var(--bg); }
+.field input:focus-visible, .field select:focus-visible, .field textarea:focus-visible { outline-color: var(--accent); }
+.field-check input { accent-color: var(--accent); }
+
+/* Footer */
+.site-foot { background: var(--ground); }
+.owners-copy { align-self: stretch; display: grid; align-content: center; }
