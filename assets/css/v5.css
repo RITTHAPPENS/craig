@@ -578,8 +578,6 @@ html.menu-open .site-head .head-phone .ic { color: var(--accent); }
 .contact .form-status { color: #fff; }
 .contact .form-status.is-error { color: #ff8f7d; }
 @media (max-width: 560px) { .contact .wrap { padding-inline: var(--gut); } .contact-side { padding-inline: 0; } }
-.contact .field-check input { appearance: none; -webkit-appearance: none; display: grid; place-items: center; width: 22px; height: 22px; margin: 2px 0 0; background: transparent; border: 1px solid rgb(255 255 255 / .55); cursor: pointer; }
-.contact .field-check input::after { content: ""; width: 11px; height: 6px; border-left: 2px solid #fff; border-bottom: 2px solid #fff; transform: translateY(-2px) rotate(-45deg) scale(0); transition: transform 160ms var(--ease-out); }
-.contact .field-check input:checked { background: var(--accent); border-color: var(--accent); }
-.contact .field-check input:checked::after { transform: translateY(-2px) rotate(-45deg) scale(1); }
+.contact .field-check input { appearance: none; -webkit-appearance: none; flex: none; width: 24px; height: 24px; margin: 1px 0 0; padding: 0; background: transparent no-repeat center / 16px 16px; border: 1px solid rgb(255 255 255 / .55); cursor: pointer; transition: background-color 160ms var(--ease-out), border-color 160ms var(--ease-out); }
+.contact .field-check input:checked { background-color: var(--accent); border-color: var(--accent); background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='%23ffffff'%3E%3Cpath d='M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z'/%3E%3C/svg%3E"); }
 .contact .field-check input:focus-visible { outline: 2px solid var(--sand); outline-offset: 2px; }
