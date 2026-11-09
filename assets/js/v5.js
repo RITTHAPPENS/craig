@@ -15,6 +15,21 @@
       return { w, per, pages: Math.ceil(cards.length / per) };
     };
     let m = metrics();
+    // Überschrift wechselt mit der Gruppe der ersten sichtbaren Karte
+    const title = document.querySelector('[data-rail-title]');
+    let shown = title ? title.textContent : '';
+    let swapT = 0;
+    const setTitle = (at) => {
+      if (!title) return;
+      const first = Math.min(cards.length - 1, at * m.per);
+      const next = cards[first].dataset.group;
+      if (!next || next === shown) return;
+      shown = next;
+      if (reduce.matches) { title.textContent = next; return; }
+      clearTimeout(swapT);
+      title.classList.add('is-swapping');
+      swapT = setTimeout(() => { title.textContent = next; title.classList.remove('is-swapping'); }, 200);
+    };
     const page = () => Math.min(m.pages - 1, Math.round(rail.scrollLeft / (m.w * m.per)));
     const buildDots = () => {
       if (!dotsBox) return;
@@ -27,6 +42,7 @@
       if (next) next.disabled = rail.scrollLeft >= max;
       const at = rail.scrollLeft >= max ? m.pages - 1 : page();
       if (dotsBox) [...dotsBox.children].forEach((d, i) => d.classList.toggle('is-on', i === at));
+      setTitle(at);
     };
     const go = (dir) => {
       const target = Math.max(0, Math.min(m.pages - 1, page() + dir));

@@ -37,7 +37,7 @@
 <header class="site-head" data-head>
   <div class="wrap head-row">
     <a class="brand" href="./" aria-label="Bauservice Craig, zur Startseite">
-      <img class="logo" src="../assets/logo/bauservice-craig-logo-dunkel.svg" alt="Bauservice Craig, Ihre Vision unsere Mission" width="1745" height="712">
+      <img class="logo logo-light" src="../assets/logo/bauservice-craig-logo.svg" alt="" width="1745" height="712" aria-hidden="true"><img class="logo logo-dark" src="../assets/logo/bauservice-craig-logo-dunkel.svg" alt="Bauservice Craig, Ihre Vision unsere Mission" width="1745" height="712">
     </a>
     <nav class="nav" aria-label="Hauptnavigation" id="nav">
       <ul class="nav-list">
@@ -46,7 +46,7 @@
           <div class="mega" id="mega" data-mega>
             <div class="wrap mega-grid">
               <div class="mega-group mega-a">
-                <p class="mega-key">Bauen</p>
+                <p class="mega-key"><span class="key-mark">A</span>Bauen</p>
                 <ul class="mega-list">
             <li><a class="mega-link" href="#leistungen" data-preview="garten"><span class="mega-name">Garten- &amp; Landschaftsbau</span><span class="mega-desc">Pflaster, Terrassen, Erdarbeiten, Poolbau</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
             <li><a class="mega-link" href="#leistungen" data-preview="innenausbau"><span class="mega-name">Innenausbau &amp; Sanierung</span><span class="mega-desc">Trockenbau, Modernisierung, Komplettsanierung</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
@@ -56,13 +56,13 @@
               </div>
               <div class="mega-group mega-bc">
                 <div>
-                  <p class="mega-key">Begleiten</p>
+                  <p class="mega-key"><span class="key-mark">B</span>Begleiten</p>
                   <ul class="mega-list">
             <li><a class="mega-link" href="#leistungen" data-preview="bauleitung"><span class="mega-name">Bauleitung &amp; Baubegleitung</span><span class="mega-desc">Gewerke koordinieren, Qualität sichern</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
                   </ul>
                 </div>
                 <div>
-                  <p class="mega-key">Bewerten</p>
+                  <p class="mega-key"><span class="key-mark">C</span>Bewerten</p>
                   <ul class="mega-list">
             <li><a class="mega-link" href="#leistungen" data-preview="gutachten"><span class="mega-name">Bausachverständiger</span><span class="mega-desc">Bauschäden, Mängel, Feuchteschäden</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
                   </ul>
@@ -144,47 +144,47 @@
     <div class="svc-build">
       <div class="wrap">
         <div class="svc-bar">
-          <h3 class="svc-title"><span class="tag">Bauen</span>Wir bauen für Sie</h3>
+          <div class="svc-title"><span class="tag">Bauen</span><h3 class="svc-name" data-rail-title aria-live="polite">Unsere Schwerpunkte</h3></div>
           <div class="rail-nav">
             <button class="rail-btn" type="button" data-rail-prev aria-controls="rail" aria-label="Vorherige Leistungen"><svg class="ic" aria-hidden="true"><use href="#i-caret-l"/></svg></button>
             <button class="rail-btn" type="button" data-rail-next aria-controls="rail" aria-label="Nächste Leistungen"><svg class="ic" aria-hidden="true"><use href="#i-caret-r"/></svg></button>
           </div>
         </div>
         <ul class="slides" id="rail" data-rail aria-label="Leistungen im Bereich Bauen" tabindex="0">
-        <li class="slide-card" role="group" aria-roledescription="Leistung" aria-label="1 von 12"><a href="#leistungen">
+        <li class="slide-card" data-group="Unsere Schwerpunkte" role="group" aria-roledescription="Leistung" aria-label="1 von 12"><a href="#leistungen">
           <span class="slide-img"><img src="../assets/img/03_poolbau/bauservice-craig-header-poolbau-betonbecken.webp" alt="Betonbecken eines Pools im Rohbau in einem Garten" width="2400" height="1600" loading="lazy" decoding="async"></span>
           <span class="slide-body"><span class="slide-name">Poolbau</span><span class="slide-desc">Vom Aushub über Bodenplatte und Poolrohbau bis zum fertig gestalteten Poolumfeld.</span><span class="slide-go">Poolbau entdecken<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span></span></a></li>
-        <li class="slide-card" role="group" aria-roledescription="Leistung" aria-label="2 von 12"><a href="#leistungen">
+        <li class="slide-card" data-group="Unsere Schwerpunkte" role="group" aria-roledescription="Leistung" aria-label="2 von 12"><a href="#leistungen">
           <span class="slide-img"><img src="../assets/img/02_garten-landschaftsbau/bauservice-craig-header-garten-einfamilienhaus-erfurt-nachher.webp" alt="Fertige Außenanlage mit Terrasse und Rasen an einem Einfamilienhaus in Erfurt" width="2400" height="1600" loading="lazy" decoding="async"></span>
           <span class="slide-body"><span class="slide-name">Komplette Außenanlagen</span><span class="slide-desc">Durchdachte Gesamtlösungen für Grundstücke, Höfe, Wege, Mauern und Entwässerung.</span><span class="slide-go">Außenanlagen entdecken<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span></span></a></li>
-        <li class="slide-card" role="group" aria-roledescription="Leistung" aria-label="3 von 12"><a href="#leistungen">
+        <li class="slide-card" data-group="Unsere Schwerpunkte" role="group" aria-roledescription="Leistung" aria-label="3 von 12"><a href="#leistungen">
           <span class="slide-img"><img src="../assets/img/04_innenausbau-sanierung/bauservice-craig-sanierung-altbau-flur.webp" alt="Entkernter Altbauflur während einer Sanierung" width="1600" height="1067" loading="lazy" decoding="async"></span>
           <span class="slide-body"><span class="slide-name">Komplettsanierung</span><span class="slide-desc">Alle Arbeiten koordiniert, vom Rückbau und Rohbau bis zum fertigen Innenausbau.</span><span class="slide-go">Sanierung entdecken<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span></span></a></li>
-        <li class="slide-card" role="group" aria-roledescription="Leistung" aria-label="4 von 12"><a href="#leistungen">
+        <li class="slide-card" data-group="Besondere Stärken im Außenbereich" role="group" aria-roledescription="Leistung" aria-label="4 von 12"><a href="#leistungen">
           <span class="slide-img"><img src="../assets/img/01_startseite/bauservice-craig-hero-fassadenplatte-bagger-weimar.webp" alt="Bagger setzt ein großes Betonelement an einem Hanggrundstück in Weimar" width="2400" height="1600" loading="lazy" decoding="async"></span>
           <span class="slide-body"><span class="slide-name">L-Steine &amp; Stützwände</span><span class="slide-desc">Fachgerecht gegründete Lösungen für Hangbefestigungen, Höhenunterschiede und Grundstücksgrenzen.</span><span class="slide-go">Stützwände entdecken<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span></span></a></li>
-        <li class="slide-card" role="group" aria-roledescription="Leistung" aria-label="5 von 12"><a href="#leistungen">
+        <li class="slide-card" data-group="Besondere Stärken im Außenbereich" role="group" aria-roledescription="Leistung" aria-label="5 von 12"><a href="#leistungen">
           <span class="slide-img"><img src="../assets/img/07_bausachverstaendiger/bauservice-craig-begutachtung-mauerwerk.webp" alt="Mitarbeiter an einer Mauer aus Naturstein" width="1600" height="1067" loading="lazy" decoding="async"></span>
           <span class="slide-body"><span class="slide-name">Natursteinmauern</span><span class="slide-desc">Individuell gefertigte Mauern mit natürlichem Charakter und hochwertiger handwerklicher Ausführung.</span><span class="slide-go">Naturstein entdecken<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span></span></a></li>
-        <li class="slide-card" role="group" aria-roledescription="Leistung" aria-label="6 von 12"><a href="#leistungen">
+        <li class="slide-card" data-group="Besondere Stärken im Außenbereich" role="group" aria-roledescription="Leistung" aria-label="6 von 12"><a href="#leistungen">
           <span class="slide-img"><img src="../assets/img/02_garten-landschaftsbau/bauservice-craig-terrassenplatten-verlegen.webp" alt="Mitarbeiter verlegen großformatige Terrassenplatten" width="1600" height="1067" loading="lazy" decoding="async"></span>
           <span class="slide-body"><span class="slide-name">Terrassenbau</span><span class="slide-desc">Individuelle Terrassen aus Keramik, Naturstein oder WPC und BPC, passend zu Haus und Grundstück.</span><span class="slide-go">Terrassen entdecken<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span></span></a></li>
-        <li class="slide-card" role="group" aria-roledescription="Leistung" aria-label="7 von 12"><a href="#leistungen">
+        <li class="slide-card" data-group="Arbeiten rund ums Grundstück" role="group" aria-roledescription="Leistung" aria-label="7 von 12"><a href="#leistungen">
           <span class="slide-img"><img src="../assets/img/02_garten-landschaftsbau/bauservice-craig-pflasterarbeiten-hof.webp" alt="Pflasterer setzt Steine in einer Hoffläche" width="1600" height="1067" loading="lazy" decoding="async"></span>
           <span class="slide-body"><span class="slide-name">Pflaster, Wege &amp; Einfahrten</span><span class="slide-desc">Belastbare und sauber entwässerte Flächen für Einfahrten, Höfe, Wege und Stellplätze.</span><span class="slide-go">Pflasterbau entdecken<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span></span></a></li>
-        <li class="slide-card" role="group" aria-roledescription="Leistung" aria-label="8 von 12"><a href="#leistungen">
+        <li class="slide-card" data-group="Arbeiten rund ums Grundstück" role="group" aria-roledescription="Leistung" aria-label="8 von 12"><a href="#leistungen">
           <span class="slide-img"><img src="../assets/img/02_garten-landschaftsbau/bauservice-craig-steinschneiden-trennschleifer.webp" alt="Mitarbeiter schneidet Stein mit dem Trennschleifer" width="1600" height="1067" loading="lazy" decoding="async"></span>
           <span class="slide-body"><span class="slide-name">Treppenanlagen &amp; Eingangsbereiche</span><span class="slide-desc">Sichere und maßgenaue Eingangslösungen, vom Unterbau bis zur fertigen Oberfläche.</span><span class="slide-go">Treppenanlagen entdecken<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span></span></a></li>
-        <li class="slide-card" role="group" aria-roledescription="Leistung" aria-label="9 von 12"><a href="#leistungen">
+        <li class="slide-card" data-group="Arbeiten rund ums Grundstück" role="group" aria-roledescription="Leistung" aria-label="9 von 12"><a href="#leistungen">
           <span class="slide-img"><img src="../assets/img/02_garten-landschaftsbau/bauservice-craig-bagger-erdarbeiten.webp" alt="Bagger bei Erdarbeiten auf einem Baugrundstück" width="1600" height="1067" loading="lazy" decoding="async"></span>
           <span class="slide-body"><span class="slide-name">Erdarbeiten, Fundamente &amp; Bodenplatten</span><span class="slide-desc">Aushub, Planum, Gründung, Bewehrung und Betonarbeiten als zuverlässige Basis des Projekts.</span><span class="slide-go">Rohbau entdecken<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span></span></a></li>
-        <li class="slide-card" role="group" aria-roledescription="Leistung" aria-label="10 von 12"><a href="#leistungen">
+        <li class="slide-card" data-group="Sanierung und Rückbau" role="group" aria-roledescription="Leistung" aria-label="10 von 12"><a href="#leistungen">
           <span class="slide-img"><img src="../assets/img/04_innenausbau-sanierung/bauservice-craig-header-innenausbau-holzlamellen.webp" alt="Innenraum mit neuer Holzlamellenwand während des Ausbaus" width="2400" height="1600" loading="lazy" decoding="async"></span>
           <span class="slide-body"><span class="slide-name">Trockenbau &amp; Innenausbau</span><span class="slide-desc">Wände, Decken, Vorsatzschalen und individuelle Raumlösungen für Neubau und Sanierung.</span><span class="slide-go">Innenausbau entdecken<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span></span></a></li>
-        <li class="slide-card" role="group" aria-roledescription="Leistung" aria-label="11 von 12"><a href="#leistungen">
+        <li class="slide-card" data-group="Sanierung und Rückbau" role="group" aria-roledescription="Leistung" aria-label="11 von 12"><a href="#leistungen">
           <span class="slide-img"><img src="../assets/img/05_fliesen-boden/bauservice-craig-fliesen-wand-innen.webp" alt="Fliesenarbeiten an einer Wand im Bad" width="1600" height="1067" loading="lazy" decoding="async"></span>
           <span class="slide-body"><span class="slide-name">Bäder, Fliesen &amp; Böden</span><span class="slide-desc">Durchdachte Badlösungen und hochwertige Oberflächen, funktional geplant und sauber umgesetzt.</span><span class="slide-go">Bäder entdecken<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span></span></a></li>
-        <li class="slide-card" role="group" aria-roledescription="Leistung" aria-label="12 von 12"><a href="#leistungen">
+        <li class="slide-card" data-group="Sanierung und Rückbau" role="group" aria-roledescription="Leistung" aria-label="12 von 12"><a href="#leistungen">
           <span class="slide-img"><img src="../assets/img/02_garten-landschaftsbau/bauservice-craig-bagger-gartenraeumung.webp" alt="Bagger räumt einen alten Garten" width="1600" height="1066" loading="lazy" decoding="async"></span>
           <span class="slide-body"><span class="slide-name">Rückbau, Abbruch &amp; Entsorgung</span><span class="slide-desc">Kontrollierter Rückbau, fachgerechter Abbruch sowie zuverlässige Beräumung und Entsorgung.</span><span class="slide-go">Rückbau entdecken<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span></span></a></li>
         </ul>
