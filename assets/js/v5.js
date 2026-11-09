@@ -60,6 +60,45 @@
     buildDots(); sync();
   }
 
+  // Vorher/Nachher: Projekt umschalten
+  const fig = document.querySelector('[data-compare]');
+  const tabs = document.querySelectorAll('[data-ba]');
+  const caption = document.querySelector('[data-compare-text]');
+  if (fig && tabs.length) {
+    const before = fig.querySelector('[data-before-img]');
+    const after = fig.querySelector('[data-after-img]');
+    const range = fig.querySelector('.compare-range');
+    tabs.forEach((t) => t.addEventListener('click', () => {
+      if (t.getAttribute('aria-pressed') === 'true') return;
+      tabs.forEach((o) => o.setAttribute('aria-pressed', String(o === t)));
+      const swap = () => {
+        before.src = t.dataset.before; before.alt = t.dataset.altBefore;
+        after.src = t.dataset.after; after.alt = t.dataset.altAfter;
+        if (caption) caption.textContent = t.dataset.text;
+        range.value = 50; fig.style.setProperty('--pos', '50%');
+        fig.classList.remove('is-swapping');
+      };
+      if (reduce.matches) return swap();
+      fig.classList.add('is-swapping');
+      setTimeout(swap, 240);
+    }));
+  }
+
+  // Leiste mit weiteren Projekten: Pfeile blättern um die sichtbare Breite
+  const baRail = document.querySelector('[data-ba-rail]');
+  const baPrev = document.querySelector('[data-ba-prev]');
+  const baNext = document.querySelector('[data-ba-next]');
+  if (baRail && baPrev && baNext) {
+    const goBa = (dir) => baRail.scrollBy({ left: dir * baRail.clientWidth * .8, behavior: reduce.matches ? 'auto' : 'smooth' });
+    baPrev.addEventListener('click', () => goBa(-1));
+    baNext.addEventListener('click', () => goBa(1));
+    const syncBa = () => { baPrev.disabled = baRail.scrollLeft <= 2; baNext.disabled = baRail.scrollLeft >= baRail.scrollWidth - baRail.clientWidth - 2; };
+    let rafBa = 0;
+    baRail.addEventListener('scroll', () => { cancelAnimationFrame(rafBa); rafBa = requestAnimationFrame(syncBa); }, { passive: true });
+    window.addEventListener('resize', syncBa);
+    syncBa();
+  }
+
   // Markierte Headlines: Balken wischt hinter den Text, sobald sie im Bild sind
   const marks = document.querySelectorAll('.mark');
   if (!('IntersectionObserver' in window) || reduce.matches) { marks.forEach((m) => m.classList.add('is-marked')); }
