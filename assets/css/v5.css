@@ -611,3 +611,48 @@ html.menu-open .site-head .head-phone .ic { color: var(--accent); }
 @media (prefers-reduced-motion: reduce) { .ba-slide { transition: none; } }
 .ref-head .rail-nav { display: flex; flex: none; }
 @media (min-width: 761px) { .ba-slide { flex-basis: min(60vw, 780px); } .ba-slide .compare { aspect-ratio: 3 / 2; } }
+
+/* ===== Lightmode: alle Flächen hell, nur der Video-Hero bleibt dunkel ===== */
+:root { --on-dark-mute: var(--mute); }
+
+/* Begleiten / Bewerten */
+.duo-box { background: #fff; color: var(--ink); border: 1px solid var(--line); box-shadow: 0 18px 40px -28px rgb(20 20 20 / .35); }
+.duo-box .ic { color: var(--accent); }
+
+/* Kundenstimmen + Inhaber */
+.dark { background: var(--ground); color: var(--ink); }
+.dark .link-more { border-bottom-color: var(--accent); }
+.dark .link-more .ic { color: var(--accent); }
+.owners { border-top-color: var(--line); }
+.facts { border-top-color: var(--ink); }
+.facts div { border-bottom-color: var(--line); }
+.reviews { border-top-color: var(--line); }
+.reviews-g .ic { color: var(--accent); }
+.review { background: #fff; border-color: var(--line); }
+.review p { color: var(--ink); }
+.review-by { border-top-color: var(--line); }
+.review.is-placeholder { border-color: rgb(182 90 60 / .45); }
+.review.is-placeholder > p:not(.review-by) { color: var(--accent-2); }
+
+/* Kontakt mit Formular */
+.contact { background: var(--ground); color: var(--ink); }
+.contact-pattern { --pc: #e2e4e4; --pg: var(--ground); }
+.contact-list li { border-top-color: var(--line); }
+.contact-list a { color: var(--ink); }
+.contact-list .ic { color: var(--accent); }
+.contact .form { color: var(--ink); }
+.contact .field label { color: var(--ink); }
+.contact .field input, .contact .field select, .contact .field textarea { color: var(--ink); border-color: #8a8f93; background-color: #fff; }
+@media (hover: hover) and (pointer: fine) { .contact .field input:hover, .contact .field select:hover, .contact .field textarea:hover { border-color: var(--ink); } }
+.contact .field input:focus-visible, .contact .field select:focus-visible, .contact .field textarea:focus-visible { outline-color: var(--accent); border-color: var(--accent); }
+.contact .field select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='%23141414'%3E%3Cpath d='M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z'/%3E%3C/svg%3E"); }
+.contact .req { color: var(--accent-2); }
+.contact .field-check label a { color: var(--ink); text-decoration-color: var(--accent); }
+.contact .field-check input { border-color: #8a8f93; background-color: #fff; }
+.contact .field-check input:checked { background-color: var(--accent); border-color: var(--accent); }
+.contact .field-check input:focus-visible { outline-color: var(--accent); }
+.contact .field [aria-invalid="true"] { border-color: #b3261e; box-shadow: inset 0 0 0 1px #b3261e; }
+.contact .field-check input[aria-invalid="true"] { outline-color: #b3261e; }
+.contact .form-status { color: var(--ink); }
+.contact .form-status.is-error { color: #b3261e; }
+.values { background: #fff; border-top: 1px solid var(--line); }
