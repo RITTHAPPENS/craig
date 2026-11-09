@@ -60,43 +60,53 @@
     buildDots(); sync();
   }
 
-  // Vorher/Nachher: Projekt umschalten
-  const fig = document.querySelector('[data-compare]');
-  const tabs = document.querySelectorAll('[data-ba]');
-  const caption = document.querySelector('[data-compare-text]');
-  if (fig && tabs.length) {
-    const before = fig.querySelector('[data-before-img]');
-    const after = fig.querySelector('[data-after-img]');
-    const range = fig.querySelector('.compare-range');
-    tabs.forEach((t) => t.addEventListener('click', () => {
-      if (t.getAttribute('aria-pressed') === 'true') return;
-      tabs.forEach((o) => o.setAttribute('aria-pressed', String(o === t)));
-      const swap = () => {
-        before.src = t.dataset.before; before.alt = t.dataset.altBefore;
-        after.src = t.dataset.after; after.alt = t.dataset.altAfter;
-        if (caption) caption.textContent = t.dataset.text;
-        range.value = 50; fig.style.setProperty('--pos', '50%');
-        fig.classList.remove('is-swapping');
-      };
-      if (reduce.matches) return swap();
-      fig.classList.add('is-swapping');
-      setTimeout(swap, 240);
-    }));
-  }
-
-  // Leiste mit weiteren Projekten: Pfeile blättern um die sichtbare Breite
-  const baRail = document.querySelector('[data-ba-rail]');
-  const baPrev = document.querySelector('[data-ba-prev]');
-  const baNext = document.querySelector('[data-ba-next]');
-  if (baRail && baPrev && baNext) {
-    const goBa = (dir) => baRail.scrollBy({ left: dir * baRail.clientWidth * .8, behavior: reduce.matches ? 'auto' : 'smooth' });
-    baPrev.addEventListener('click', () => goBa(-1));
-    baNext.addEventListener('click', () => goBa(1));
-    const syncBa = () => { baPrev.disabled = baRail.scrollLeft <= 2; baNext.disabled = baRail.scrollLeft >= baRail.scrollWidth - baRail.clientWidth - 2; };
-    let rafBa = 0;
-    baRail.addEventListener('scroll', () => { cancelAnimationFrame(rafBa); rafBa = requestAnimationFrame(syncBa); }, { passive: true });
+  // Vorher/Nachher-Bühne: wischen oder Pfeile für das nächste Projekt, Regler am Griff ziehen
+  const baTrack = document.querySelector('[data-ba-track]');
+  if (baTrack) {
+    const slides = [...baTrack.children];
+    const prevB = document.querySelector('[data-ba-prev]');
+    const nextB = document.querySelector('[data-ba-next]');
+    const dotBox = document.querySelector('[data-ba-dots]');
+    slides.forEach((_, i) => { const d = document.createElement('span'); d.addEventListener('click', () => goTo(i)); dotBox && dotBox.appendChild(d); });
+    const cur = () => Math.round(baTrack.scrollLeft / baTrack.clientWidth);
+    const goTo = (i) => baTrack.scrollTo({ left: Math.max(0, Math.min(slides.length - 1, i)) * baTrack.clientWidth, behavior: reduce.matches ? 'auto' : 'smooth' });
+    const syncBa = () => {
+      const i = cur();
+      if (prevB) prevB.disabled = i <= 0;
+      if (nextB) nextB.disabled = i >= slides.length - 1;
+      dotBox && [...dotBox.children].forEach((d, k) => d.classList.toggle('is-on', k === i));
+    };
+    prevB && prevB.addEventListener('click', () => goTo(cur() - 1));
+    nextB && nextB.addEventListener('click', () => goTo(cur() + 1));
+    baTrack.addEventListener('keydown', (e) => {
+      if (e.target.classList.contains('compare-range')) return;
+      if (e.key === 'ArrowRight') { e.preventDefault(); goTo(cur() + 1); }
+      if (e.key === 'ArrowLeft') { e.preventDefault(); goTo(cur() - 1); }
+    });
+    let rafB = 0;
+    baTrack.addEventListener('scroll', () => { cancelAnimationFrame(rafB); rafB = requestAnimationFrame(syncBa); }, { passive: true });
     window.addEventListener('resize', syncBa);
     syncBa();
+
+    // Ziehen: mit der Maus überall im Bild, per Touch nur am Griff (sonst wird gewischt)
+    slides.forEach((slide) => {
+      const fig = slide.querySelector('[data-compare]');
+      const range = fig.querySelector('.compare-range');
+      const set = (x) => {
+        const r = fig.getBoundingClientRect();
+        range.value = Math.max(0, Math.min(100, ((x - r.left) / r.width) * 100));
+        range.dispatchEvent(new Event('input', { bubbles: true }));
+      };
+      let drag = false;
+      const start = (e) => { drag = true; fig.classList.add('is-dragging'); fig.setPointerCapture(e.pointerId); set(e.clientX); e.preventDefault(); };
+      fig.addEventListener('pointerdown', (e) => {
+        if (e.pointerType === 'mouse' || e.target.closest('[data-handle]')) start(e);
+      });
+      fig.addEventListener('pointermove', (e) => { if (drag) set(e.clientX); });
+      const end = () => { drag = false; fig.classList.remove('is-dragging'); };
+      fig.addEventListener('pointerup', end);
+      fig.addEventListener('pointercancel', end);
+    });
   }
 
   // Markierte Headlines: Balken wischt hinter den Text, sobald sie im Bild sind
