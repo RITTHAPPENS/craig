@@ -60,21 +60,29 @@
     buildDots(); sync();
   }
 
-  // Vorher/Nachher-Bühne: wischen oder Pfeile für das nächste Projekt, Regler am Griff ziehen
+  // Vorher/Nachher-Leiste: aktive Karte links, die nächste schaut rechts ins Bild
   const baTrack = document.querySelector('[data-ba-track]');
   if (baTrack) {
     const slides = [...baTrack.children];
     const prevB = document.querySelector('[data-ba-prev]');
     const nextB = document.querySelector('[data-ba-next]');
     const dotBox = document.querySelector('[data-ba-dots]');
-    slides.forEach((_, i) => { const d = document.createElement('span'); d.addEventListener('click', () => goTo(i)); dotBox && dotBox.appendChild(d); });
-    const cur = () => Math.round(baTrack.scrollLeft / baTrack.clientWidth);
-    const goTo = (i) => baTrack.scrollTo({ left: Math.max(0, Math.min(slides.length - 1, i)) * baTrack.clientWidth, behavior: reduce.matches ? 'auto' : 'smooth' });
+    const countEl = document.querySelector('[data-ba-count]');
+    const step = () => slides[1] ? slides[1].offsetLeft - slides[0].offsetLeft : baTrack.clientWidth;
+    const cur = () => Math.max(0, Math.min(slides.length - 1, Math.round(baTrack.scrollLeft / step())));
+    const goTo = (i) => baTrack.scrollTo({ left: Math.max(0, Math.min(slides.length - 1, i)) * step(), behavior: reduce.matches ? 'auto' : 'smooth' });
+    slides.forEach((s, i) => {
+      if (dotBox) { const d = document.createElement('span'); d.addEventListener('click', () => goTo(i)); dotBox.appendChild(d); }
+      s.addEventListener('click', (e) => { if (!s.classList.contains('is-current')) { e.preventDefault(); goTo(i); } });
+    });
     const syncBa = () => {
-      const i = cur();
+      const max = baTrack.scrollWidth - baTrack.clientWidth - 2;
+      const i = baTrack.scrollLeft >= max ? slides.length - 1 : cur();
       if (prevB) prevB.disabled = i <= 0;
       if (nextB) nextB.disabled = i >= slides.length - 1;
+      slides.forEach((s, k) => s.classList.toggle('is-current', k === i));
       dotBox && [...dotBox.children].forEach((d, k) => d.classList.toggle('is-on', k === i));
+      if (countEl) countEl.textContent = i + 1;
     };
     prevB && prevB.addEventListener('click', () => goTo(cur() - 1));
     nextB && nextB.addEventListener('click', () => goTo(cur() + 1));
@@ -100,6 +108,7 @@
       let drag = false;
       const start = (e) => { drag = true; fig.classList.add('is-dragging'); fig.setPointerCapture(e.pointerId); set(e.clientX); e.preventDefault(); };
       fig.addEventListener('pointerdown', (e) => {
+        if (!slide.classList.contains('is-current')) return;
         if (e.pointerType === 'mouse' || e.target.closest('[data-handle]')) start(e);
       });
       fig.addEventListener('pointermove', (e) => { if (drag) set(e.clientX); });

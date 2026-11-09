@@ -222,19 +222,22 @@
     </div>
   </section>
 
-  <section class="section" id="referenzen" aria-labelledby="h-ref">
-    <div class="wrap ref-grid">
-      <div class="ref-copy">
+  <section class="section ref" id="referenzen" aria-labelledby="h-ref">
+    <div class="wrap ref-head">
+      <div>
         <h2 id="h-ref" class="h2">Vorher. Nachher.</h2>
         <p class="intro">Echte Projekte aus Thüringen. Regler ziehen zum Vergleichen, wischen zum nächsten Projekt.</p>
-        <a class="link-more" href="#referenzen">Alle Referenzen ansehen<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
       </div>
-      <div class="ba-stage">
-        <ul class="ba-track" id="ba-track" data-ba-track aria-label="Vorher und Nachher Projekte" tabindex="0">
-        <li class="ba-slide" role="group" aria-roledescription="Projekt" aria-label="1 von 9">
+      <div class="rail-nav">
+        <button class="rail-btn" type="button" data-ba-prev aria-controls="ba-track" aria-label="Vorheriges Projekt"><svg class="ic" aria-hidden="true"><use href="#i-caret-l"/></svg></button>
+        <button class="rail-btn" type="button" data-ba-next aria-controls="ba-track" aria-label="Nächstes Projekt"><svg class="ic" aria-hidden="true"><use href="#i-caret-r"/></svg></button>
+      </div>
+    </div>
+    <ul class="ba-track" id="ba-track" data-ba-track aria-label="Vorher und Nachher Projekte" tabindex="0">
+        <li class="ba-slide" role="group" aria-roledescription="Projekt" aria-label="1 von 5">
           <div class="compare" data-compare style="--pos:50%">
-            <img class="compare-img" src="../assets/img/08_referenzen/bauservice-craig-garten-erfurt-slider-nachher.webp" alt="Nachher: fertige Terrasse mit Sitzgruppe, Wege und Rasen am Einfamilienhaus in Erfurt" width="1552" height="1067" loading="lazy" decoding="async">
-            <div class="compare-before"><img class="compare-img" src="../assets/img/08_referenzen/bauservice-craig-garten-erfurt-slider-vorher.webp" alt="Vorher: offene Baustelle mit Erdreich, Rüttelplatte und gestapelten Platten in Erfurt" width="1552" height="1067" loading="lazy" decoding="async"></div>
+            <img class="compare-img" src="../assets/img/08_referenzen/vorher-nachher/bauservice-craig-einfamilienhaus-terrasse-nachher.webp" alt="Nachher: neue Terrasse aus großformatigen Platten am Einfamilienhaus" width="1600" height="1200" loading="lazy" decoding="async">
+            <div class="compare-before"><img class="compare-img" src="../assets/img/08_referenzen/vorher-nachher/bauservice-craig-einfamilienhaus-terrasse-vorher.webp" alt="Vorher: Schotterfläche hinter einem neuen Einfamilienhaus" width="1600" height="1200" loading="lazy" decoding="async"></div>
             <span class="compare-tag tag-before" aria-hidden="true">Vorher</span>
             <span class="compare-tag tag-after" aria-hidden="true">Nachher</span>
             <div class="compare-handle" data-handle aria-hidden="true"><svg class="ic" aria-hidden="true"><use href="#i-drag"/></svg></div>
@@ -242,10 +245,10 @@
             <input id="ba-1" class="compare-range" type="range" min="0" max="100" value="50" step="1">
           </div>
         </li>
-        <li class="ba-slide" role="group" aria-roledescription="Projekt" aria-label="2 von 9">
+        <li class="ba-slide" role="group" aria-roledescription="Projekt" aria-label="2 von 5">
           <div class="compare" data-compare style="--pos:50%">
-            <img class="compare-img" src="../assets/img/04_innenausbau-sanierung/bauservice-craig-fassadensanierung-blankenhain-nachher.webp" alt="Nachher: sanierte, dunkel verputzte Fassade in Blankenhain" width="1600" height="1067" loading="lazy" decoding="async">
-            <div class="compare-before"><img class="compare-img" src="../assets/img/08_referenzen/bauservice-craig-vorher-fassade-blankenhain.webp" alt="Vorher: Giebelwand mit freigelegtem Mauerwerk und Gerüst in Blankenhain" width="1600" height="1067" loading="lazy" decoding="async"></div>
+            <img class="compare-img" src="../assets/img/08_referenzen/vorher-nachher/bauservice-craig-garage-einfahrt-nachher.webp" alt="Nachher: gepflasterte Einfahrt mit Entwässerungsrinne vor der Doppelgarage" width="1600" height="1200" loading="lazy" decoding="async">
+            <div class="compare-before"><img class="compare-img" src="../assets/img/08_referenzen/vorher-nachher/bauservice-craig-garage-einfahrt-vorher.webp" alt="Vorher: Baustelle mit Minibagger vor Haus und Doppelgarage" width="1600" height="1200" loading="lazy" decoding="async"></div>
             <span class="compare-tag tag-before" aria-hidden="true">Vorher</span>
             <span class="compare-tag tag-after" aria-hidden="true">Nachher</span>
             <div class="compare-handle" data-handle aria-hidden="true"><svg class="ic" aria-hidden="true"><use href="#i-drag"/></svg></div>
@@ -253,10 +256,10 @@
             <input id="ba-2" class="compare-range" type="range" min="0" max="100" value="50" step="1">
           </div>
         </li>
-        <li class="ba-slide" role="group" aria-roledescription="Projekt" aria-label="3 von 9">
+        <li class="ba-slide" role="group" aria-roledescription="Projekt" aria-label="3 von 5">
           <div class="compare" data-compare style="--pos:50%">
-            <img class="compare-img" src="../assets/img/08_referenzen/vorher-nachher/bauservice-craig-zufahrt-pflaster-nachher.webp" alt="Nachher: gepflasterte Zufahrt am Einfamilienhaus" width="1092" height="558" loading="lazy" decoding="async">
-            <div class="compare-before"><img class="compare-img" src="../assets/img/08_referenzen/vorher-nachher/bauservice-craig-zufahrt-pflaster-vorher.webp" alt="Vorher: Rasenfläche und alter Weg vor dem Haus" width="1092" height="558" loading="lazy" decoding="async"></div>
+            <img class="compare-img" src="../assets/img/08_referenzen/vorher-nachher/bauservice-craig-terrasse-wpc-nachher.webp" alt="Nachher: neue Terrasse mit Dielenbelag, Treppen und Sockelputz" width="1600" height="1200" loading="lazy" decoding="async">
+            <div class="compare-before"><img class="compare-img" src="../assets/img/08_referenzen/vorher-nachher/bauservice-craig-terrasse-wpc-vorher.webp" alt="Vorher: alte Terrassenfläche mit Grillkamin vor gelbem Haus" width="1600" height="1200" loading="lazy" decoding="async"></div>
             <span class="compare-tag tag-before" aria-hidden="true">Vorher</span>
             <span class="compare-tag tag-after" aria-hidden="true">Nachher</span>
             <div class="compare-handle" data-handle aria-hidden="true"><svg class="ic" aria-hidden="true"><use href="#i-drag"/></svg></div>
@@ -264,10 +267,10 @@
             <input id="ba-3" class="compare-range" type="range" min="0" max="100" value="50" step="1">
           </div>
         </li>
-        <li class="ba-slide" role="group" aria-roledescription="Projekt" aria-label="4 von 9">
+        <li class="ba-slide" role="group" aria-roledescription="Projekt" aria-label="4 von 5">
           <div class="compare" data-compare style="--pos:50%">
-            <img class="compare-img" src="../assets/img/08_referenzen/vorher-nachher/bauservice-craig-hofflaeche-pflaster-nachher.webp" alt="Nachher: gepflasterter Hof vor dem Hauseingang" width="1122" height="550" loading="lazy" decoding="async">
-            <div class="compare-before"><img class="compare-img" src="../assets/img/08_referenzen/vorher-nachher/bauservice-craig-hofflaeche-pflaster-vorher.webp" alt="Vorher: Schotterfläche vor dem Hauseingang" width="1122" height="550" loading="lazy" decoding="async"></div>
+            <img class="compare-img" src="../assets/img/08_referenzen/vorher-nachher/bauservice-craig-bungalow-einfahrt-nachher.webp" alt="Nachher: gepflasterte Einfahrt mit L-Steinen am Bungalow" width="1600" height="1200" loading="lazy" decoding="async">
+            <div class="compare-before"><img class="compare-img" src="../assets/img/08_referenzen/vorher-nachher/bauservice-craig-bungalow-einfahrt-vorher.webp" alt="Vorher: unbefestigtes Grundstück am neuen Bungalow" width="1600" height="1200" loading="lazy" decoding="async"></div>
             <span class="compare-tag tag-before" aria-hidden="true">Vorher</span>
             <span class="compare-tag tag-after" aria-hidden="true">Nachher</span>
             <div class="compare-handle" data-handle aria-hidden="true"><svg class="ic" aria-hidden="true"><use href="#i-drag"/></svg></div>
@@ -275,10 +278,10 @@
             <input id="ba-4" class="compare-range" type="range" min="0" max="100" value="50" step="1">
           </div>
         </li>
-        <li class="ba-slide" role="group" aria-roledescription="Projekt" aria-label="5 von 9">
+        <li class="ba-slide" role="group" aria-roledescription="Projekt" aria-label="5 von 5">
           <div class="compare" data-compare style="--pos:50%">
-            <img class="compare-img" src="../assets/img/08_referenzen/vorher-nachher/bauservice-craig-hofeinfahrt-naturstein-nachher.webp" alt="Nachher: neue Hofeinfahrt mit Natursteinpflaster" width="1122" height="547" loading="lazy" decoding="async">
-            <div class="compare-before"><img class="compare-img" src="../assets/img/08_referenzen/vorher-nachher/bauservice-craig-hofeinfahrt-naturstein-vorher.webp" alt="Vorher: Arbeiten am alten Pflaster" width="1122" height="547" loading="lazy" decoding="async"></div>
+            <img class="compare-img" src="../assets/img/08_referenzen/vorher-nachher/bauservice-craig-hofeinfahrt-naturstein-nachher.webp" alt="Nachher: neue Hofeinfahrt aus Natursteinpflaster" width="1600" height="1200" loading="lazy" decoding="async">
+            <div class="compare-before"><img class="compare-img" src="../assets/img/08_referenzen/vorher-nachher/bauservice-craig-hofeinfahrt-naturstein-vorher.webp" alt="Vorher: Rückbau des alten Pflasters vor dem Haus" width="1600" height="1200" loading="lazy" decoding="async"></div>
             <span class="compare-tag tag-before" aria-hidden="true">Vorher</span>
             <span class="compare-tag tag-after" aria-hidden="true">Nachher</span>
             <div class="compare-handle" data-handle aria-hidden="true"><svg class="ic" aria-hidden="true"><use href="#i-drag"/></svg></div>
@@ -286,59 +289,11 @@
             <input id="ba-5" class="compare-range" type="range" min="0" max="100" value="50" step="1">
           </div>
         </li>
-        <li class="ba-slide is-portrait" role="group" aria-roledescription="Projekt" aria-label="6 von 9">
-          <div class="compare" data-compare style="--pos:50%">
-            <img class="compare-img" src="../assets/img/08_referenzen/vorher-nachher/bauservice-craig-rasengitter-zufahrt-nachher.webp" alt="Nachher: befahrbare Zufahrt aus Rasengittersteinen" width="614" height="995" loading="lazy" decoding="async">
-            <div class="compare-before"><img class="compare-img" src="../assets/img/08_referenzen/vorher-nachher/bauservice-craig-rasengitter-zufahrt-vorher.webp" alt="Vorher: Erdaushub neben dem Haus" width="614" height="995" loading="lazy" decoding="async"></div>
-            <span class="compare-tag tag-before" aria-hidden="true">Vorher</span>
-            <span class="compare-tag tag-after" aria-hidden="true">Nachher</span>
-            <div class="compare-handle" data-handle aria-hidden="true"><svg class="ic" aria-hidden="true"><use href="#i-drag"/></svg></div>
-            <label class="sr" for="ba-6">Vorher und Nachher vergleichen, Projekt 6</label>
-            <input id="ba-6" class="compare-range" type="range" min="0" max="100" value="50" step="1">
-          </div>
-        </li>
-        <li class="ba-slide" role="group" aria-roledescription="Projekt" aria-label="7 von 9">
-          <div class="compare" data-compare style="--pos:50%">
-            <img class="compare-img" src="../assets/img/08_referenzen/vorher-nachher/bauservice-craig-terrasse-ueberdachung-nachher.webp" alt="Nachher: neue Terrasse mit Überdachung" width="1122" height="538" loading="lazy" decoding="async">
-            <div class="compare-before"><img class="compare-img" src="../assets/img/08_referenzen/vorher-nachher/bauservice-craig-terrasse-ueberdachung-vorher.webp" alt="Vorher: alte Holzterrasse" width="1122" height="538" loading="lazy" decoding="async"></div>
-            <span class="compare-tag tag-before" aria-hidden="true">Vorher</span>
-            <span class="compare-tag tag-after" aria-hidden="true">Nachher</span>
-            <div class="compare-handle" data-handle aria-hidden="true"><svg class="ic" aria-hidden="true"><use href="#i-drag"/></svg></div>
-            <label class="sr" for="ba-7">Vorher und Nachher vergleichen, Projekt 7</label>
-            <input id="ba-7" class="compare-range" type="range" min="0" max="100" value="50" step="1">
-          </div>
-        </li>
-        <li class="ba-slide" role="group" aria-roledescription="Projekt" aria-label="8 von 9">
-          <div class="compare" data-compare style="--pos:50%">
-            <img class="compare-img" src="../assets/img/08_referenzen/vorher-nachher/bauservice-craig-zaunanlage-gehweg-nachher.webp" alt="Nachher: neue Zaunanlage am Gehweg" width="1122" height="552" loading="lazy" decoding="async">
-            <div class="compare-before"><img class="compare-img" src="../assets/img/08_referenzen/vorher-nachher/bauservice-craig-zaunanlage-gehweg-vorher.webp" alt="Vorher: alter Zaun am Gehweg" width="1122" height="552" loading="lazy" decoding="async"></div>
-            <span class="compare-tag tag-before" aria-hidden="true">Vorher</span>
-            <span class="compare-tag tag-after" aria-hidden="true">Nachher</span>
-            <div class="compare-handle" data-handle aria-hidden="true"><svg class="ic" aria-hidden="true"><use href="#i-drag"/></svg></div>
-            <label class="sr" for="ba-8">Vorher und Nachher vergleichen, Projekt 8</label>
-            <input id="ba-8" class="compare-range" type="range" min="0" max="100" value="50" step="1">
-          </div>
-        </li>
-        <li class="ba-slide" role="group" aria-roledescription="Projekt" aria-label="9 von 9">
-          <div class="compare" data-compare style="--pos:50%">
-            <img class="compare-img" src="../assets/img/08_referenzen/vorher-nachher/bauservice-craig-aussenanlage-neubau-nachher.webp" alt="Nachher: fertige Außenanlage am Neubau" width="1122" height="549" loading="lazy" decoding="async">
-            <div class="compare-before"><img class="compare-img" src="../assets/img/08_referenzen/vorher-nachher/bauservice-craig-aussenanlage-neubau-vorher.webp" alt="Vorher: unbefestigtes Grundstück am Neubau" width="1122" height="549" loading="lazy" decoding="async"></div>
-            <span class="compare-tag tag-before" aria-hidden="true">Vorher</span>
-            <span class="compare-tag tag-after" aria-hidden="true">Nachher</span>
-            <div class="compare-handle" data-handle aria-hidden="true"><svg class="ic" aria-hidden="true"><use href="#i-drag"/></svg></div>
-            <label class="sr" for="ba-9">Vorher und Nachher vergleichen, Projekt 9</label>
-            <input id="ba-9" class="compare-range" type="range" min="0" max="100" value="50" step="1">
-          </div>
-        </li>
-        </ul>
-        <div class="ba-ctrl">
-          <div class="dots" data-ba-dots aria-hidden="true"></div>
-          <div class="rail-nav">
-            <button class="rail-btn" type="button" data-ba-prev aria-controls="ba-track" aria-label="Vorheriges Projekt"><svg class="ic" aria-hidden="true"><use href="#i-caret-l"/></svg></button>
-            <button class="rail-btn" type="button" data-ba-next aria-controls="ba-track" aria-label="Nächstes Projekt"><svg class="ic" aria-hidden="true"><use href="#i-caret-r"/></svg></button>
-          </div>
-        </div>
-      </div>
+    </ul>
+    <div class="wrap ba-foot">
+      <div class="dots" data-ba-dots aria-hidden="true"></div>
+      <p class="ba-count" aria-hidden="true"><span data-ba-count>1</span> / 5</p>
+      <a class="link-more" href="#referenzen">Alle Referenzen ansehen<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
     </div>
   </section>
 
