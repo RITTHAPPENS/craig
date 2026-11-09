@@ -354,10 +354,13 @@ html.menu-open .site-head .head-phone .ic { color: var(--accent); }
 .ba-rail::-webkit-scrollbar { display: none; }
 .ba-card { flex: none; scroll-snap-align: start; }
 .ba-card figure { margin: 0; }
-.ba-card img { height: clamp(380px, 38vw, 540px); width: auto; max-width: none; background: var(--ground); }
+.ba-card .compare { aspect-ratio: var(--ar); width: auto; height: clamp(300px, 30vw, 420px); }
+.compare-sm .compare-handle .ic { width: 44px; height: 44px; padding: 11px; }
+.compare-sm .compare-tag { top: 10px; font-size: .68rem; padding: 5px 8px; }
+.compare-sm .tag-before { left: 10px; } .compare-sm .tag-after { right: 10px; }
 .ba-card figcaption { margin-top: 12px; font-weight: 700; font-size: .98rem; }
 .ba .link-more { margin-top: 24px; }
-@media (max-width: 640px) { .ba-card img { height: min(118vw, 460px); } .ba-bar .rail-nav { display: none; } }
+@media (max-width: 640px) { .ba-card .compare { height: auto; width: min(84vw, 520px); aspect-ratio: 4 / 3; } .ba-bar { align-items: end; } .ba-bar .rail-nav { display: flex; } .ba-bar .rail-nav .rail-btn { width: 44px; height: 44px; } }
 
 /* Dunkler Block: Kundenstimmen und Inhaber */
 .dark { margin-top: var(--sec); padding-bottom: var(--sec); background: var(--light-matter); color: #fff; }
