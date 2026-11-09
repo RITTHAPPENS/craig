@@ -436,7 +436,7 @@ html.menu-open .site-head .head-phone .ic { color: var(--accent); }
 .soon { display: inline-block; margin: 0 0 18px; font-weight: 800; font-size: .8rem; letter-spacing: .12em; text-transform: uppercase; background: var(--ink); color: var(--sand); padding: 8px 12px 7px; }
 .show-copy > p:not(.soon) { color: #3a3631; max-width: 44ch; margin-bottom: 28px; }
 .show-media { position: relative; margin: 0; }
-.show-media img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.show-media img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; object-position: 50% 45%; }
 .show-pattern { position: absolute; right: calc(-1 * clamp(14px, 2.4vw, 36px)); bottom: calc(-1 * clamp(14px, 2.4vw, 36px)); width: clamp(110px, 14vw, 176px); aspect-ratio: 1; --star: clamp(22px, 2.8vw, 35.2px); --pg: var(--sand); }
 @media (max-width: 900px) { .show-grid { grid-template-columns: 1fr; } .show-media { order: -1; } .show-pattern { right: -8px; bottom: -8px; width: 96px; --star: 24px; } }
 @media (max-width: 560px) { .showroom .wrap { padding-inline: 0; } .show-grid { padding: 24px var(--gut) 40px; } }
