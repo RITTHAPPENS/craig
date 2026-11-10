@@ -1,0 +1,56 @@
+/* Bauservice Craig · Startseite v6 · Darkmode
+   Baut auf v5.css auf. Dark Matter als Grund, Light Matter für Flächen,
+   Light Grey als Schrift, Light Terracotta nur für Handlungsaufforderungen, Sandstone für Details. */
+
+:root {
+  --bg: #141414;              /* Dark Matter */
+  --ground: #1a1c1f;          /* Zwischenfläche für Sektionswechsel */
+  --card: #1f2225;            /* Light Matter */
+  --ink: #f1f2f2;             /* Light Grey */
+  --mute: #a9adb1;            /* 8.2:1 auf Dark Matter */
+  --line: rgb(241 242 242 / .12);
+  --on-dark-mute: var(--mute);
+  --err: #ff8f7d;
+  color-scheme: dark;
+}
+html { scrollbar-color: #3a3e42 var(--bg); }
+
+/* Flächen, die in v5 Weiß waren */
+.skip, .ref-tab[aria-pressed="true"] { color: var(--bg) !important; }
+@media (hover: hover) and (pointer: fine) { .btn-line:hover { background: var(--ink); color: var(--bg); } .btn-line:hover .ic { color: var(--bg); } }
+.slide-card a, .duo-box, .review { background: var(--card); }
+.duo-box { border-color: var(--line); box-shadow: 0 24px 48px -28px rgb(0 0 0 / .8); }
+.dots span { background: rgb(241 242 242 / .18); }
+.compare-tag { background: var(--bg); color: var(--ink); }
+.review.is-placeholder { border-color: rgb(219 192 161 / .35); }
+.review.is-placeholder > p:not(.review-by) { color: var(--sand); }
+.values { background: var(--bg); }
+.dark { background: var(--ground); }
+
+/* Header: dunkel statt weiß, helles Logo bleibt */
+.site-head.is-solid, html.menu-open .site-head, .site-head:has(.mega.is-open) { background: rgb(20 20 20 / .96); }
+@supports (backdrop-filter: blur(1px)) { .site-head.is-solid { background: rgb(20 20 20 / .82); } }
+.site-head.is-solid .logo-light, html.menu-open .site-head .logo-light, .site-head:has(.mega.is-open) .logo-light { display: block; }
+.site-head.is-solid .logo-dark, html.menu-open .site-head .logo-dark, .site-head:has(.mega.is-open) .logo-dark { display: none; }
+.nav-backdrop { background: rgb(0 0 0 / .5); }
+.mega, .mega-preview-cap { background: var(--card); }
+@media (max-width: 900px) { .nav { background: var(--card); } }
+.mega { box-shadow: 0 30px 50px -24px rgb(0 0 0 / .7); }
+
+/* Materialien: ruhige Light-Matter-Fläche statt heller Sandstone-Block, Sandstone nur als Etikett */
+.show-grid { background: var(--card); border: 1px solid var(--line); }
+.show-grid .soon { background: var(--sand); color: #141414; }
+.towns .town-home { background: var(--sand); color: #141414 !important; }
+
+/* Kontaktformular auf dunklem Grund */
+.contact .field input, .contact .field select, .contact .field textarea { background-color: transparent; color: var(--ink); border-color: rgb(241 242 242 / .32); }
+@media (hover: hover) and (pointer: fine) { .contact .field input:hover, .contact .field select:hover, .contact .field textarea:hover { border-color: rgb(241 242 242 / .6); } }
+.contact .field select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' fill='%23f1f2f2'%3E%3Cpath d='M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z'/%3E%3C/svg%3E"); }
+.contact .field select option { background: var(--card); color: var(--ink); }
+.contact .field ::placeholder { color: rgb(241 242 242 / .45); }
+.contact .req { color: var(--sand); }
+.contact .field-check input { background-color: transparent; border-color: rgb(241 242 242 / .5); }
+.contact .field [aria-invalid="true"] { border-color: var(--err); box-shadow: inset 0 0 0 1px var(--err); }
+.contact .field-check input[aria-invalid="true"] { outline-color: var(--err); }
+.contact .form-status.is-error, .field-error, .field .err { color: var(--err); }
+.show-copy > p:not(.soon) { color: var(--mute); }
