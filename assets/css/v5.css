@@ -373,7 +373,7 @@ html.menu-open .site-head .head-phone .ic { color: var(--accent); }
 .rating-text { font-size: 1.1rem; }
 .rating-text strong { font-size: 1.6rem; margin-right: 4px; }
 .voices .link-more { margin-top: 18px; }
-.tvids { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(16px, 2vw, 28px); margin-top: clamp(32px, 4vw, 48px); }
+.tvids { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(16px, 2vw, 28px); margin-top: clamp(32px, 4vw, 48px); }
 .tvid { margin: 0; }
 .tvid-play, .tvid video { display: block; position: relative; width: 100%; aspect-ratio: 16 / 9; padding: 0; border: 0; background: #0e0f10; cursor: pointer; overflow: hidden; }
 .tvid-play img { width: 100%; height: 100%; object-fit: cover; transition: transform 700ms var(--ease-out); }
@@ -656,3 +656,15 @@ html.menu-open .site-head .head-phone .ic { color: var(--accent); }
 .contact .form-status { color: var(--ink); }
 .contact .form-status.is-error { color: #b3261e; }
 .values { background: #fff; border-top: 1px solid var(--line); }
+
+/* Reduziert: keine Farbbalken hinter Headlines, kein Sternmuster, Farbe nur für Handlungsaufforderungen */
+.mark span { background: none !important; color: inherit !important; padding: 0; margin: 0; }
+.show-pattern, .contact-pattern { display: none; }
+@media (max-width: 1000px) and (min-width: 761px) { .tvids { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 760px) { .tvids { grid-template-columns: 1fr; } }
+@media (max-width: 560px) {
+  .value-list { flex-wrap: nowrap; justify-content: space-between; width: 100%; gap: 12px; font-size: .68rem; letter-spacing: .08em; }
+  .value-list li { gap: 6px; }
+  .value-list li::before { width: 6px; height: 6px; }
+}
+.towns .town-home { background: var(--ink); color: #fff !important; }
