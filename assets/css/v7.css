@@ -51,9 +51,9 @@
 @media (max-width: 900px) { .v7 .bbb .duo.trio { grid-template-columns: 1fr; gap: 40px; } }
 
 /* ---------- Referenzen ---------- */
-.v7 .ba-cap { display: grid; gap: 2px; margin: 14px 0 0; }
-.v7 .ba-cap strong { font-size: 1.05rem; color: var(--ink); }
-.v7 .ba-cap span { color: var(--mute); font-size: .95rem; }
+.v7 .ba-cap { display: grid; gap: 6px; margin: 16px 0 0; }
+.v7 .ba-cap strong { font-family: var(--display); font-weight: 600; font-feature-settings: "ss02"; letter-spacing: -.015em; font-size: clamp(1.15rem, .5vw + 1rem, 1.35rem); line-height: 1.2; color: var(--ink); }
+.v7 .ba-cap span { color: var(--mute); font-size: .97rem; line-height: 1.6; }
 
 /* ---------- Inhaber ---------- */
 .v7 .owners-grid { align-items: start; }
@@ -149,9 +149,12 @@
 .gl-item::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgb(20 20 20 / 0) 35%, rgb(20 20 20 / .88) 100%); }
 .gl-lead { grid-column: span 2; grid-row: span 2; }
 .gl-body { padding: clamp(18px, 2vw, 28px); max-width: 46ch; }
-.gl-name { font-family: var(--display); font-weight: 600; font-feature-settings: "ss02"; font-size: clamp(1.25rem, .6vw + 1rem, 1.5rem); line-height: 1.15; color: #fff; margin: 0 0 6px; }
-.gl-lead .gl-name { font-size: clamp(1.6rem, 1.4vw + 1rem, 2.4rem); }
-.gl-body p { margin: 0; color: rgb(241 242 242 / .82); font-size: .98rem; line-height: 1.55; }
+/* Ein Titelstil für alle Blöcke der Leistungsseite, wie .slide-name auf der Startseite */
+.gl-name, .process h3, .faq-item summary span { font-family: var(--display); font-weight: 600; font-feature-settings: "ss02"; letter-spacing: -.015em; font-size: clamp(1.15rem, .5vw + 1rem, 1.35rem); line-height: 1.2; }
+.gl-name { color: #fff; margin: 0 0 8px; }
+/* Ein Textstil für alle Blocktexte */
+.gl-body p, .process p, .faq-item p { font-size: .97rem; line-height: 1.6; }
+.gl-body p { margin: 0; color: rgb(241 242 242 / .82); }
 @media (hover: hover) and (pointer: fine) { .gl-item:hover img { transform: scale(1.04); } }
 @media (max-width: 900px) { .gl-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: 260px; } .gl-lead { grid-row: span 1; } }
 @media (max-width: 560px) { .gl-grid { grid-template-columns: 1fr; grid-auto-rows: 280px; } .gl-lead { grid-column: auto; } }
@@ -162,15 +165,21 @@
 .process { list-style: none; counter-reset: p; margin: 8px 0 0; padding: 0; }
 .process li { counter-increment: p; display: grid; grid-template-columns: 64px 1fr; column-gap: 16px; padding: 26px 0; border-top: 1px solid var(--line); }
 .process li::before { content: counter(p, decimal-leading-zero); grid-row: span 2; font-family: var(--display); font-weight: 600; font-feature-settings: "ss02"; font-size: 1.6rem; line-height: 1.1; color: var(--accent); }
-.process h3 { font-family: var(--display); font-weight: 600; font-feature-settings: "ss02"; font-size: 1.3rem; margin: 0 0 6px; color: var(--ink); }
-.process p { margin: 0; color: var(--mute); line-height: 1.7; font-size: var(--body); max-width: 52ch; }
+.process h3 { margin: 0 0 8px; color: var(--ink); }
+.process p { margin: 0; color: var(--mute); max-width: 52ch; }
 @media (max-width: 900px) { .process-grid { grid-template-columns: 1fr; } .process-photo { position: static; } .process-photo img { aspect-ratio: 3 / 2; } }
 
 .faq { border-top: 1px solid var(--line); }
 .faq-item { border-bottom: 1px solid var(--line); }
-.faq-item summary { list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 64px; padding: 18px 0; cursor: pointer; font-weight: 700; font-size: 1.08rem; color: var(--ink); }
+.faq-item summary { list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 64px; padding: 18px 0; cursor: pointer; color: var(--ink); }
 .faq-item summary::-webkit-details-marker { display: none; }
 .faq-item summary .ic { flex: none; width: 20px; height: 20px; color: var(--accent); transition: transform 200ms var(--ease-out); }
 .faq-item[open] summary .ic { transform: rotate(180deg); }
 .faq-item summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
-.faq-item p { margin: 0 0 22px; color: var(--mute); line-height: 1.7; font-size: var(--body); max-width: 62ch; }
+.faq-item p { margin: 0 0 22px; color: var(--mute); max-width: 62ch; }
+
+/* Rhythmus Leistungsseite: Flächen wechseln, Kontaktblock setzt sich ab */
+.gl-page .gl-services, .gl-page .gl-process { background: var(--ground); }
+.gl-page .gl-ref, .gl-page .gl-faq { background: var(--bg); }
+.gl-page .callout { background: var(--ground); }
+.gl-services .intro { margin-top: -8px; max-width: 60ch; }
