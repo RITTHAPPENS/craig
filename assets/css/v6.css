@@ -56,3 +56,8 @@ html { scrollbar-color: #3a3e42 var(--bg); }
 .show-copy > p:not(.soon) { color: var(--mute); }
 .lead-dark:has(+ .vision-copy) { margin-bottom: 0; }
 .vision-copy { margin: 1rem 0 36px; max-width: 60ch; color: var(--mute); font-size: 1.0625rem; line-height: 1.65; }
+.vision-copy p, .team-copy p { margin: 0 0 1em; }
+.vision-copy p:last-child, .team-copy p:last-child { margin-bottom: 0; }
+.team-lead { margin: -8px 0 28px; }
+.team-copy { max-width: 64ch; color: var(--mute); line-height: 1.65; }
+.team-foot:has(.team-copy) { align-items: end; }
