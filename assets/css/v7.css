@@ -64,7 +64,11 @@
 @media (max-width: 900px) { .v7 .owners-photo { position: static; } }
 
 /* ---------- Team ---------- */
-.v7 .team .team-photo { display: none; }
+.v7 .team-split { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: clamp(32px, 5vw, 80px); align-items: start; margin-top: clamp(16px, 2vw, 24px); }
+.v7 .team-split .team-photo { margin: 0; position: sticky; top: calc(var(--head-h) + 32px); }
+.v7 .team-split .team-photo img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; }
+.v7 .team-split .link-more { margin-top: 8px; }
+@media (max-width: 900px) { .v7 .team-split { grid-template-columns: 1fr; } .v7 .team-split .team-photo { position: static; } }
 .v7 .members { list-style: none; margin: clamp(32px, 4vw, 48px) 0 0; padding: 0; display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(40px, 4vw, 56px) clamp(20px, 2.5vw, 36px); }
 .v7 .member-img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 22%; margin-bottom: 18px; background: var(--card); }
@@ -132,3 +136,4 @@
 /* Navigation mit fünf Punkten bleibt einzeilig */
 .v7 .nav-link { white-space: nowrap; }
 @media (max-width: 1220px) and (min-width: 901px) { .v7 .head-phone span { display: none; } .v7 .head-phone { width: 44px; height: 44px; justify-content: center; border: 1px solid var(--line); } }
+.v7 .copy p.sub { font-size: var(--sub); line-height: 1.45; color: var(--ink); margin: 0 0 20px; }
