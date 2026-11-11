@@ -1,7 +1,7 @@
 (() => {
   // Header wird fest, sobald der Hero aus dem Bild ist
   const head = document.querySelector('[data-head]');
-  const hero = document.querySelector('.hero');
+  const hero = document.querySelector('.hero, .page-hero');
   if (head && hero && 'IntersectionObserver' in window) {
     new IntersectionObserver(([en]) => head.classList.toggle('is-solid', !en.isIntersecting), { rootMargin: '-80px 0px 0px 0px' }).observe(hero);
   } else if (head) { head.classList.add('is-solid'); }
