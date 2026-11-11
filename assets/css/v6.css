@@ -111,3 +111,9 @@ html { scrollbar-color: #3a3e42 var(--bg); }
 .profile p:last-child { color: var(--mute); line-height: 1.7; max-width: 60ch; }
 @media (max-width: 900px) { .team-about-grid, .profiles { grid-template-columns: 1fr; } }
 .member-name { font-family: var(--display); font-weight: 600; font-feature-settings: "ss02"; }
+.member-img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 25%; margin-bottom: 18px; background: var(--card); }
+.member { border-top: 0; padding-top: 0; }
+.members { gap: clamp(32px, 4vw, 48px) clamp(20px, 2.5vw, 36px); }
+.profile .member-img { max-width: 320px; }
+@media (max-width: 560px) { .members { grid-template-columns: repeat(2, minmax(0, 1fr)); } .member-line { font-size: .92rem; } }
+@media (max-width: 560px) { .member-role { font-size: .68rem; letter-spacing: .04em; } }
