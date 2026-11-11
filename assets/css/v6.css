@@ -54,3 +54,5 @@ html { scrollbar-color: #3a3e42 var(--bg); }
 .contact .field-check input[aria-invalid="true"] { outline-color: var(--err); }
 .contact .form-status.is-error, .field-error, .field .err { color: var(--err); }
 .show-copy > p:not(.soon) { color: var(--mute); }
+.lead-dark:has(+ .vision-copy) { margin-bottom: 0; }
+.vision-copy { margin: 1rem 0 36px; max-width: 60ch; color: var(--mute); font-size: 1.0625rem; line-height: 1.65; }
