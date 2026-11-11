@@ -180,3 +180,7 @@
 .gl-page .gl-ref, .gl-page .gl-faq { background: var(--bg); }
 .gl-page .callout { background: var(--ground); }
 .gl-services .intro { margin-top: -8px; max-width: 60ch; }
+.gl-page .sv-usp { background: var(--bg); }
+.sv-usp .copy p:last-child { margin-bottom: 0; }
+.page-hero .display { hyphens: auto; overflow-wrap: break-word; }
+@media (max-width: 560px) { .page-hero .display { font-size: clamp(2rem, 8.4vw, 2.6rem); } }
