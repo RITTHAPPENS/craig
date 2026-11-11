@@ -182,5 +182,12 @@
 .gl-services .intro { margin-top: -8px; max-width: 60ch; }
 .gl-page .sv-usp { background: var(--bg); }
 .sv-usp .copy p:last-child { margin-bottom: 0; }
-.page-hero .display { hyphens: auto; overflow-wrap: break-word; }
-@media (max-width: 560px) { .page-hero .display { font-size: clamp(2rem, 8.4vw, 2.6rem); } }
+.page-hero .display { text-wrap: balance; }
+@media (max-width: 560px) { .page-hero .display { font-size: clamp(2rem, 8.4vw, 2.6rem); hyphens: auto; overflow-wrap: break-word; } }
+.gl-page .sn-ba { background: var(--bg); }
+.gl-page .sn-ba ~ .sv-usp { background: var(--ground); }
+.gl-page .sn-ba ~ .gl-process { background: var(--bg); }
+.gl-page .sn-ba ~ .gl-faq { background: var(--ground); }
+.gl-page .sn-ba ~ .callout { background: var(--bg); }
+.sn-compare { margin-top: clamp(32px, 4vw, 48px); max-width: 1100px; }
+.sn-ba .intro { margin-top: -8px; }
