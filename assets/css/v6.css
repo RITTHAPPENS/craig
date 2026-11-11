@@ -61,3 +61,53 @@ html { scrollbar-color: #3a3e42 var(--bg); }
 .team-lead { margin: -8px 0 28px; }
 .team-copy { max-width: 64ch; color: var(--mute); line-height: 1.65; }
 .team-foot:has(.team-copy) { align-items: end; }
+
+/* v7: Inhaber-Text Startseite und Unterseite Unsere Geschichte */
+.owners-sub, .person-sub { color: var(--ink); font-size: clamp(1.05rem, .4vw + 1rem, 1.25rem); line-height: 1.5; margin: 12px 0 24px; max-width: 52ch; }
+.owners-quote, .person-quote { margin: 28px 0; padding-left: 20px; border-left: 2px solid var(--accent); }
+.owners-quote p, .person-quote p { font-size: clamp(1.15rem, .8vw + 1rem, 1.5rem); line-height: 1.35; margin: 0; }
+.owners-copy .link-more { margin: 4px 0 8px; }
+.story { padding-top: 88px; }
+.story-intro { padding-bottom: 0; }
+.story-back { margin: 0 0 24px; }
+.story-back .link-more .ic { transform: rotate(180deg); order: -1; }
+.person-grid { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: clamp(32px, 6vw, 96px); align-items: start; }
+.person-photo { margin: 0; position: sticky; top: 112px; }
+.person-photo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+.person-alt .person-photo { order: 2; }
+.person-alt { background: var(--ground); }
+.person-copy > p:not(.person-sub) { color: var(--mute); max-width: 62ch; line-height: 1.7; }
+.person-copy .h3 { max-width: 28ch; }
+.story-cta .wrap { display: flex; justify-content: center; }
+@media (max-width: 900px) { .person-grid { grid-template-columns: 1fr; } .person-photo { position: static; } .person-alt .person-photo { order: 0; } .person-photo img { aspect-ratio: 4 / 3; } }
+.owners-h { font-size: clamp(1.8rem, 2.2vw + 1rem, 2.8rem); max-width: 18ch; margin-bottom: 0; }
+
+/* v7: Struktur nach Konzept (Vision vorn, Leistungen, Bauen/Begleiten/Bewerten als Trio) */
+.hero + .vision { margin-top: 0; }
+.bbb .duo.trio { grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: clamp(32px, 4vw, 56px); }
+.bbb .duo.trio .duo-card:nth-child(2) { margin-top: clamp(0px, 4vw, 56px); }
+.bbb .duo.trio .duo-card:nth-child(3) { margin-top: clamp(0px, 8vw, 112px); }
+.bbb .duo-box { width: auto; margin: -48px 16px 0; }
+.duo-go { color: var(--accent); font-weight: 600; font-size: .95rem; margin-top: 4px; }
+@media (max-width: 900px) { .bbb .duo.trio { grid-template-columns: 1fr; } .bbb .duo.trio .duo-card { margin-top: 0 !important; } }
+.owners { margin-top: 0; border-top: 0; }
+.voices { background: var(--ground); }
+.svc-h { margin: 0 0 10px; } .svc-title { display: grid; }
+.svc { padding-top: 0; } .svc .svc-build { margin-top: 0; }
+.show-grid > * { min-width: 0; } #h-show { hyphens: auto; overflow-wrap: break-word; }
+.members { list-style: none; margin: 32px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 clamp(24px, 3vw, 48px); }
+.member { padding: 22px 0; border-top: 1px solid var(--line); }
+.member-name { font-size: 1.35rem; margin: 0; }
+.member-role { color: var(--sand); font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; font-weight: 600; margin: 6px 0 10px; }
+.member-line { color: var(--mute); margin: 0; line-height: 1.6; }
+.team .team-foot { margin-top: 40px; }
+@media (max-width: 900px) { .members { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .members { grid-template-columns: 1fr; } }
+.team-about-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: clamp(32px, 5vw, 80px); align-items: center; }
+.team-about-grid .team-photo { margin: 0; } .team-about-grid img { width: 100%; height: auto; }
+.profiles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(32px, 4vw, 56px) clamp(32px, 5vw, 80px); margin-top: 40px; }
+.profile { border-top: 1px solid var(--line); padding-top: 22px; }
+.profile .h3 { margin: 0; }
+.profile p:last-child { color: var(--mute); line-height: 1.7; max-width: 60ch; }
+@media (max-width: 900px) { .team-about-grid, .profiles { grid-template-columns: 1fr; } }
+.member-name { font-family: var(--display); font-weight: 600; font-feature-settings: "ss02"; }

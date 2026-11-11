@@ -84,10 +84,10 @@
         </li>
         <li class="nav-item"><a class="nav-link" href="#referenzen">Referenzen</a></li>
         <li class="nav-item"><a class="nav-link" href="#ueber-uns">Über uns</a></li>
-        <li class="nav-item"><a class="nav-link" href="#kontakt">Kontakt</a></li>
+        <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
       </ul>
       <div class="nav-contact">
-        <a class="btn btn-accent" href="#kontakt">Projekt anfragen<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-accent" href="kontakt.html">Projekt anfragen<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
         <div class="nav-contact-row">
           <a href="tel:+491607625394" aria-label="Anrufen: 0160 7625394"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>Anrufen</a>
           <a href="https://wa.me/491607625394" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-whatsapp"/></svg>WhatsApp</a>
@@ -98,7 +98,7 @@
     </nav>
     <div class="head-actions">
       <a class="head-phone" href="tel:+491607625394"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg><span>0160 7625394</span></a>
-      <a class="btn btn-accent btn-sm" href="#kontakt">Projekt anfragen</a>
+      <a class="btn btn-accent btn-sm" href="kontakt.html">Projekt anfragen</a>
       <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav" data-menu>
         <span class="sr">Menü öffnen</span>
         <svg class="ic ic-open" aria-hidden="true"><use href="#i-menu"/></svg>
@@ -128,7 +128,7 @@
         <h1 id="h1" class="display">Bauunternehmen aus Bad Berka für ganz Thüringen</h1>
         <p class="lead">Außenanlagen, Sanierung, Bauleitung und Bauschadenbewertung aus einer Hand. Inhabergeführt von Marvin und Carissa Craig.</p>
         <div class="cta-row">
-          <a class="btn btn-accent" href="#kontakt">Projekt anfragen<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn-accent" href="kontakt.html">Projekt anfragen<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
           <a class="btn btn-glass" href="tel:+491607625394"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>0160 7625394</a>
         </div>
       </div>
@@ -136,16 +136,32 @@
     <button class="video-toggle" type="button" data-video-toggle aria-pressed="false" hidden>Video anhalten</button>
   </section>
 
-  <section class="section svc" id="leistungen" aria-labelledby="h-leistungen">
-    <div class="wrap">
-      <h2 id="h-leistungen" class="h2">Bauen. Begleiten. Bewerten.</h2>
-      <p class="intro">Drei Kompetenzen, ein Ansprechpartner. Wer selbst baut, erkennt auch, wo am Bau etwas nicht stimmt.</p>
+  <section class="section vision" aria-labelledby="h-vision">
+    <div class="wrap vision-grid">
+      <h2 id="h-vision" class="h2">Ihre Vision. Unsere Mission.</h2>
+      <div>
+        <p class="lead-dark">Wir bauen nicht einfach nur. Wir schaffen Lebensqualität.</p>
+        <div class="vision-copy">
+          <p>Hinter jedem Bauvorhaben steht eine persönliche Geschichte. Ein Wunsch, der vielleicht schon lange besteht. Eine Idee, die endlich Wirklichkeit werden soll. Oder die Entscheidung, Bestehendes zu verändern und Raum für etwas Neues zu schaffen.</p>
+          <p>Für uns beginnt gute Bauarbeit deshalb nicht erst auf der Baustelle, sondern mit dem Verständnis dafür, was Ihnen wirklich wichtig ist.</p>
+          <p>Wir hören zu, denken voraus und entwickeln Lösungen, die handwerklich überzeugen und langfristig Bestand haben. Denn ob eine Terrasse zum neuen Lieblingsplatz wird, ein Garten zum Mittelpunkt des Familienlebens oder aus bestehenden Räumen ein neues Zuhause entsteht – am Ende zählt nicht nur, was wir bauen, sondern was wir damit für Sie möglich machen.</p>
+          <p>Ihre Vision ist für uns mehr als ein Bauvorhaben. Sie ist das Vertrauen, das Sie in uns setzen – und unser Antrieb, daraus etwas Besonderes zu schaffen.</p>
+        </div>
+        <ul class="vals">
+          <li><strong>Qualität</strong><span>Sauber, präzise und detailgenau ausgeführt.</span></li>
+          <li><strong>Kompetenz</strong><span>Über zehn Jahre am Bau, DEKRA-Qualifikation in der Bauschadenbewertung.</span></li>
+          <li><strong>Zuverlässigkeit</strong><span>Ein fester Ansprechpartner vom ersten Gespräch bis zur Abnahme.</span></li>
+        </ul>
+      </div>
     </div>
+  </section>
+
+  <section class="section svc" id="leistungen" aria-labelledby="h-leistungen">
 
     <div class="svc-build">
       <div class="wrap">
         <div class="svc-bar">
-          <div class="svc-title"><span class="tag">Bauen</span><h3 class="svc-name" data-rail-title aria-live="polite">Unsere Schwerpunkte</h3></div>
+          <div class="svc-title"><h2 id="h-leistungen" class="h2 svc-h">Unsere Leistungen</h2><h3 class="svc-name" data-rail-title aria-live="polite">Unsere Schwerpunkte</h3></div>
           <div class="rail-nav">
             <button class="rail-btn" type="button" data-rail-prev aria-controls="rail" aria-label="Vorherige Leistungen"><svg class="ic" aria-hidden="true"><use href="#i-caret-l"/></svg></button>
             <button class="rail-btn" type="button" data-rail-next aria-controls="rail" aria-label="Nächste Leistungen"><svg class="ic" aria-hidden="true"><use href="#i-caret-r"/></svg></button>
@@ -192,40 +208,28 @@
         <div class="svc-foot">
           <div class="dots" data-dots aria-hidden="true"></div>
           <p class="swipe-hint" aria-hidden="true"><svg class="ic"><use href="#i-hand"/></svg>Wischen für weitere Leistungen</p>
-          <a class="btn btn-line" href="#leistungen">Gesamtes Leistungsspektrum ansehen<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn-line" href="#leistungen">Alle Leistungen entdecken<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
         </div>
       </div>
     </div>
 
-    <div class="wrap">
-      <ul class="duo">
-        <li class="duo-card"><a href="#leistungen">
-          <span class="duo-img"><img src="../assets/img/06_bauleitung/bauservice-craig-bauleitung-handschlag-baustelle.webp" alt="Marvin Craig gibt dem Bauherren auf der Baustelle in Weimar die Hand" width="1600" height="1067" loading="lazy" decoding="async"></span>
-          <span class="duo-box"><span class="tag">Begleiten</span><span class="duo-name">Bauleitung &amp; Baubegleitung</span><span class="duo-desc">Für private Bauherren bei Neubau und Sanierung: Gewerke koordinieren, Bauabschnitte prüfen, Mängel früh erkennen.</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li>
-        <li class="duo-card"><a href="#leistungen">
-          <span class="duo-img"><img src="../assets/img/07_bausachverstaendiger/bauservice-craig-begutachtung-innenraum.webp" alt="Bausachverständiger begutachtet mit dem Eigentümer eine Wand im Innenraum" width="1600" height="1067" loading="lazy" decoding="async"></span>
-          <span class="duo-box"><span class="tag">Bewerten</span><span class="duo-name">Bausachverständiger &amp; Gutachten</span><span class="duo-desc">Bauschäden, Baumängel, Feuchte- und Wasserschäden: vor Ort begutachtet, dokumentiert und fachlich bewertet.</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li>
-      </ul>
-    </div>
   </section>
 
-  <section class="section vision" aria-labelledby="h-vision">
-    <div class="wrap vision-grid">
-      <h2 id="h-vision" class="h2">Ihre Vision. Unsere Mission.</h2>
-      <div>
-        <p class="lead-dark">Wir bauen nicht einfach nur. Wir schaffen Lebensqualität.</p>
-        <div class="vision-copy">
-          <p>Hinter jedem Bauvorhaben steht eine persönliche Geschichte. Ein Wunsch, der vielleicht schon lange besteht. Eine Idee, die endlich Wirklichkeit werden soll. Oder die Entscheidung, Bestehendes zu verändern und Raum für etwas Neues zu schaffen.</p>
-          <p>Für uns beginnt gute Bauarbeit deshalb nicht erst auf der Baustelle, sondern mit dem Verständnis dafür, was Ihnen wirklich wichtig ist.</p>
-          <p>Wir hören zu, denken voraus und entwickeln Lösungen, die handwerklich überzeugen und langfristig Bestand haben. Denn ob eine Terrasse zum neuen Lieblingsplatz wird, ein Garten zum Mittelpunkt des Familienlebens oder aus bestehenden Räumen ein neues Zuhause entsteht – am Ende zählt nicht nur, was wir bauen, sondern was wir damit für Sie möglich machen.</p>
-          <p>Ihre Vision ist für uns mehr als ein Bauvorhaben. Sie ist das Vertrauen, das Sie in uns setzen – und unser Antrieb, daraus etwas Besonderes zu schaffen.</p>
-        </div>
-        <ul class="vals">
-          <li><strong>Qualität</strong><span>Sauber, präzise und detailgenau ausgeführt.</span></li>
-          <li><strong>Kompetenz</strong><span>Über zehn Jahre am Bau, DEKRA-Qualifikation in der Bauschadenbewertung.</span></li>
-          <li><strong>Zuverlässigkeit</strong><span>Ein fester Ansprechpartner vom ersten Gespräch bis zur Abnahme.</span></li>
-        </ul>
-      </div>
+  <section class="section bbb" aria-labelledby="h-bbb">
+    <div class="wrap">
+      <h2 id="h-bbb" class="h2">Bauen. Begleiten. Bewerten.</h2>
+      <p class="intro">Drei Kompetenzen, ein Ansprechpartner. Wer selbst baut, erkennt auch, wo am Bau etwas nicht stimmt.</p>
+      <ul class="duo trio">
+        <li class="duo-card"><a href="#leistungen">
+          <span class="duo-img"><img src="../assets/img/02_garten-landschaftsbau/bauservice-craig-bodenplatte-betonieren.webp" alt="Team betoniert eine Bodenplatte zwischen Betonwänden" width="1600" height="1067" loading="lazy" decoding="async"></span>
+          <span class="duo-box"><span class="tag">Bauen</span><span class="duo-name">Bauausführung</span><span class="duo-desc">Außenanlagen, Poolbau, Innenausbau und Sanierung: mit eigenem Team fachgerecht und sauber ausgeführt.</span><span class="duo-go">Bauen entdecken</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li>
+        <li class="duo-card"><a href="#leistungen">
+          <span class="duo-img"><img src="../assets/img/06_bauleitung/bauservice-craig-bauleitung-handschlag-baustelle.webp" alt="Marvin Craig gibt dem Bauherren auf der Baustelle in Weimar die Hand" width="1600" height="1067" loading="lazy" decoding="async"></span>
+          <span class="duo-box"><span class="tag">Begleiten</span><span class="duo-name">Bauleitung &amp; Baubegleitung</span><span class="duo-desc">Für private Bauherren bei Neubau und Sanierung: Gewerke koordinieren, Bauabschnitte prüfen, Mängel früh erkennen.</span><span class="duo-go">Begleiten entdecken</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li>
+        <li class="duo-card"><a href="#leistungen">
+          <span class="duo-img"><img src="../assets/img/07_bausachverstaendiger/bauservice-craig-begutachtung-innenraum.webp" alt="Bausachverständiger begutachtet mit dem Eigentümer eine Wand im Innenraum" width="1600" height="1067" loading="lazy" decoding="async"></span>
+          <span class="duo-box"><span class="tag">Bewerten</span><span class="duo-name">Bausachverständiger &amp; Gutachten</span><span class="duo-desc">Bauschäden, Baumängel, Feuchte- und Wasserschäden: vor Ort begutachtet, dokumentiert und fachlich bewertet.</span><span class="duo-go">Bewerten entdecken</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li>
+      </ul>
     </div>
   </section>
 
@@ -344,77 +348,33 @@
     <div class="wrap ba-foot">
       <div class="dots" data-ba-dots aria-hidden="true"></div>
       <p class="ba-count" aria-hidden="true"><span data-ba-count>1</span> / 9</p>
-      <a class="link-more" href="#referenzen">Alle Referenzen ansehen<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a class="link-more" href="#referenzen">Alle Projekte ansehen<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
     </div>
   </section>
 
-  <div class="dark">
-    <section class="section voices" aria-labelledby="h-voices">
-      <div class="wrap">
-        <h2 id="h-voices" class="h2">Was Kunden sagen</h2>
-        <p class="rating"><span class="stars" role="img" aria-label="5,0 von 5 Sternen"><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg></span><span class="rating-text"><strong>5,0</strong> bei Google</span></p>
-        <a class="link-more" href="https://share.google/66IVEvPEa0Q0w0RpF" target="_blank" rel="noopener">Alle Bewertungen auf Google<svg class="ic" aria-hidden="true"><use href="#i-arrow-ur"/></svg></a>
-        <div class="tvids">
-          <figure class="tvid" data-tvid data-src="../assets/video/testimonials/bauservice-craig-kundenstimme-erfurt.mp4">
-            <button class="tvid-play" type="button" aria-label="Kundenstimme aus Erfurt abspielen, Dauer 1:49 Minuten">
-              <img src="../assets/video/testimonials/bauservice-craig-kundenstimme-erfurt-poster.webp" alt="" width="960" height="540" loading="lazy" decoding="async">
-              <span class="tvid-btn" aria-hidden="true"><svg class="ic"><use href="#i-play"/></svg></span>
-              <span class="tvid-dur" aria-hidden="true">1:49</span>
-            </button>
-            <figcaption><strong>Einfamilienhaus in Erfurt</strong><span>Terrasse und Außenanlage</span></figcaption>
-          </figure>
-          <figure class="tvid" data-tvid data-src="../assets/video/testimonials/bauservice-craig-kundenstimme-weimar.mp4">
-            <button class="tvid-play" type="button" aria-label="Kundenstimme aus Weimar abspielen, Dauer 1:53 Minuten">
-              <img src="../assets/video/testimonials/bauservice-craig-kundenstimme-weimar-poster.webp" alt="" width="960" height="540" loading="lazy" decoding="async">
-              <span class="tvid-btn" aria-hidden="true"><svg class="ic"><use href="#i-play"/></svg></span>
-              <span class="tvid-dur" aria-hidden="true">1:53</span>
-            </button>
-            <figcaption><strong>Hanggrundstück in Weimar</strong><span>Außenanlage am Hang</span></figcaption>
-          </figure>
-          <figure class="tvid" data-tvid data-src="../assets/video/testimonials/bauservice-craig-kundenstimme-bad-berka.mp4">
-            <button class="tvid-play" type="button" aria-label="Kundenstimme aus Bad Berka abspielen, Dauer 2:08 Minuten">
-              <img src="../assets/video/testimonials/bauservice-craig-kundenstimme-bad-berka-poster.webp" alt="" width="960" height="540" loading="lazy" decoding="async">
-              <span class="tvid-btn" aria-hidden="true"><svg class="ic"><use href="#i-play"/></svg></span>
-              <span class="tvid-dur" aria-hidden="true">2:08</span>
-            </button>
-            <figcaption><strong>Grundstück in Bad Berka</strong><span>Außenanlage und Garten</span></figcaption>
-          </figure>
-        </div>
-        <!-- Google-Bewertungen: im Prototyp Platzhalter. In WordPress per Plugin live aus dem Google-Profil (z. B. Trustindex), Texte nicht von Hand einpflegen -->
-        <div class="reviews">
-          <div class="reviews-head">
-            <p class="reviews-g"><svg class="ic" aria-hidden="true"><use href="#i-google"/></svg>Google Bewertungen</p>
-            <p class="reviews-score"><strong>5,0</strong><span class="stars" role="img" aria-label="5,0 von 5 Sternen"><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg></span></p>
-          </div>
-          <ul class="review-list">
-            <li class="review is-placeholder"><span class="stars" aria-hidden="true"><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg></span><p>Platzhalter für eine echte Google-Bewertung. Der Text kommt live aus dem Google-Profil.</p><p class="review-by"><strong>Name</strong><span>Datum</span></p></li>
-            <li class="review is-placeholder"><span class="stars" aria-hidden="true"><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg></span><p>Platzhalter für eine echte Google-Bewertung. Der Text kommt live aus dem Google-Profil.</p><p class="review-by"><strong>Name</strong><span>Datum</span></p></li>
-            <li class="review is-placeholder"><span class="stars" aria-hidden="true"><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg></span><p>Platzhalter für eine echte Google-Bewertung. Der Text kommt live aus dem Google-Profil.</p><p class="review-by"><strong>Name</strong><span>Datum</span></p></li>
-          </ul>
-        </div>
+  <section class="section owners" id="ueber-uns" aria-labelledby="h-owners">
+    <div class="wrap owners-grid">
+      <figure class="owners-photo">
+        <img src="../assets/img/09_ueber-uns/bauservice-craig-marvin-carissa-craig.webp" alt="Marvin und Carissa Craig, Inhaber von Bauservice Craig, auf einer Baustelle" width="1086" height="1448" loading="lazy" decoding="async">
+      </figure>
+      <div class="owners-copy">
+        <h2 id="h-owners" class="h2 owners-h">Hinter jedem starken Unternehmen stehen Menschen mit Haltung.</h2>
+        <p class="owners-sub">Marvin &amp; Carissa Craig – zwei Perspektiven, eine gemeinsame Leidenschaft.</p>
+        <p>Marvin bringt über ein Jahrzehnt praktische Bauerfahrung, technisches Verständnis und den Anspruch an präzise handwerkliche Ausführung mit. Carissa ergänzt diese Kompetenz durch langjährige Erfahrung in Führung, Organisation und strategischer Unternehmensentwicklung.</p>
+        <p>Gemeinsam verfolgen wir eine klare Vision: ein Bauunternehmen zu gestalten, das nicht nur durch die Qualität seiner Arbeit überzeugt, sondern auch durch die Art, wie es mit Menschen umgeht.</p>
+        <p>Wir möchten zuhören, verstehen, mitdenken und Verantwortung übernehmen. Herausforderungen nicht einfach verwalten, sondern Lösungen entwickeln. Und aus den Vorstellungen unserer Kunden Ergebnisse schaffen, die langfristig Freude bereiten.</p>
+        <blockquote class="quote owners-quote"><p>Denn für uns zählt nicht nur, was wir bauen. Sondern auch, wie wir es tun – und was wir damit für Menschen möglich machen.</p></blockquote>
+        <a class="link-more" href="unsere-geschichte.html">Unsere Geschichte kennenlernen<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <dl class="facts">
+          <div><dt>Seit 2016</dt><dd>am Bau</dd></div>
+          <div><dt>6 Mitarbeiter</dt><dd>im eingespielten Team</dd></div>
+          <div><dt>DEKRA</dt><dd>Qualifikation Bauschadenbewertung</dd></div>
+          <div><dt>HWK Erfurt</dt><dd>Mitgliedsbetrieb</dd></div>
+        </dl>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="section owners" id="ueber-uns" aria-labelledby="h-owners">
-      <div class="wrap owners-grid">
-        <figure class="owners-photo">
-          <img src="../assets/img/09_ueber-uns/bauservice-craig-marvin-carissa-craig.webp" alt="Marvin und Carissa Craig, Inhaber von Bauservice Craig, auf einer Baustelle" width="1086" height="1448" loading="lazy" decoding="async">
-        </figure>
-        <div class="owners-copy">
-          <blockquote class="quote"><p>Für uns gibt es keine Grenzen, nur Möglichkeiten.</p></blockquote>
-          <h2 id="h-owners" class="h3">Marvin und Carissa Craig</h2>
-          <p>Angefangen hat alles 2016, damals noch unter dem Namen Bauservice Wegener. Heute steht Bauservice Craig für den Anspruch, nicht nur handwerklich sauber zu bauen, sondern jedes Projekt professionell zu organisieren, transparent zu kommunizieren und Sie vom ersten Kontakt bis zur Fertigstellung verlässlich zu begleiten.</p>
-          <p>Marvin leitet Beratung, Planung, Bauleitung und Ausführung. Carissa führt Angebote, Projektorganisation und Kundenbetreuung. Sie haben einen Ansprechpartner, der zuhört, mitdenkt und Verantwortung übernimmt.</p>
-          <dl class="facts">
-            <div><dt>Seit 2016</dt><dd>am Bau</dd></div>
-            <div><dt>6 Mitarbeiter</dt><dd>im eingespielten Team</dd></div>
-            <div><dt>DEKRA</dt><dd>Qualifikation Bauschadenbewertung</dd></div>
-            <div><dt>HWK Erfurt</dt><dd>Mitgliedsbetrieb</dd></div>
-          </dl>
-        </div>
-      </div>
-    </section>
-  </div>
 
   <section class="section team" aria-labelledby="h-team">
     <div class="wrap">
@@ -423,6 +383,14 @@
       <figure class="team-photo">
         <img src="../assets/img/01_startseite/bauservice-craig-team-baustelle-banner.webp" alt="Das Team von Bauservice Craig vor einer Baustelle mit Bagger und Firmenbanner" width="2400" height="1600" loading="lazy" decoding="async">
       </figure>
+      <ul class="members" aria-label="Unser Team">
+        <li class="member"><!-- Porträt folgt, Zuordnung offen --><h3 class="member-name">Hakim</h3><p class="member-role">Vorarbeiter | Pflaster- und Galabau</p><p class="member-line">Mit seiner starken Persönlichkeit und seiner ansteckend guten Laune ist Hakim eine tragende Säule unseres Teams.</p></li>
+        <li class="member"><!-- Porträt folgt, Zuordnung offen --><h3 class="member-name">Stepan</h3><p class="member-role">Trockenbau | Putz- und Sanierungsarbeiten</p><p class="member-line">Mit seiner ruhigen, offenen und herzlichen Art ist er die gute Seele unseres Teams und wird von allen für seine liebenswerte Persönlichkeit geschätzt.</p></li>
+        <li class="member"><!-- Porträt folgt, Zuordnung offen --><h3 class="member-name">Thomas</h3><p class="member-role">Einbau genormter Fertigbauteile</p><p class="member-line">Als unsere &bdquo;Ordnungsfee&ldquo; achtet er darauf, dass alles seinen Platz hat und jede Baustelle sauber und ordentlich verlassen wird.</p></li>
+        <li class="member"><!-- Porträt folgt, Zuordnung offen --><h3 class="member-name">Tom</h3><p class="member-role">Dachdecker- und Zimmererarbeiten</p><p class="member-line">Mit seiner enormen Tatkraft, seinem Ehrgeiz, seinem Fleiß und seiner Freude an der Arbeit ist Tom ein echtes Kraftpaket und ein wichtiger Bestandteil unseres Teams.</p></li>
+        <li class="member"><!-- Porträt folgt, Zuordnung offen --><h3 class="member-name">Micha</h3><p class="member-role">Materialtransport | Baustellenlogistik</p><p class="member-line">Mit seiner ruhigen, herzlichen und fröhlichen Art ist er unser ruhender Pol - und ein Stück weit der &bdquo;Baustellen-Papa&ldquo;, den im Team einfach jeder gernhat.</p></li>
+        <li class="member"><!-- Porträt folgt, Zuordnung offen --><h3 class="member-name">Ali</h3><p class="member-role">Aufstrebender Allrounder</p><p class="member-line">Mit seiner offenen und humorvollen Art bringt er frische Energie, Abwechslung und gute Stimmung ins Team.</p></li>
+      </ul>
       <div class="team-foot">
         <div class="team-copy">
           <p>Was Bauservice Craig ausmacht, sind nicht allein unsere Leistungen, unsere Maschinen oder die Projekte, die wir verwirklichen. Es sind vor allem die Menschen dahinter, die jeden Tag mit ihrem handwerklichen Können, ihrem Engagement und ihrer Persönlichkeit dazu beitragen, dass aus den Vorstellungen unserer Kunden etwas Besonderes entsteht.</p>
@@ -430,39 +398,8 @@
           <p>Denn wir sind überzeugt: Echte Qualität entsteht nicht allein durch handwerkliches Können, sondern auch durch die Menschen, die mit Leidenschaft, Sorgfalt und gegenseitigem Vertrauen zusammenarbeiten.</p>
           <p>Lernen Sie die Menschen kennen, die Bauservice Craig jeden Tag mit Leben füllen.</p>
         </div>
-        <a class="link-more" href="#ueber-uns">Unser Team kennenlernen<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="link-more" href="team.html">Unser Team kennenlernen<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
       </div>
-    </div>
-  </section>
-
-  <section class="section" aria-labelledby="h-ablauf">
-    <div class="wrap">
-      <h2 id="h-ablauf" class="h2">So läuft Ihr Projekt</h2>
-      <ol class="steps" data-steps>
-        <li><span class="step-n">1</span><h3>Anfrage</h3><p>Sie schildern Ihr Vorhaben per Formular, Telefon oder Termin.</p></li>
-        <li><span class="step-n">2</span><h3>Vor Ort</h3><p>Wir sehen uns Bestand, Wünsche und technische Rahmenbedingungen an.</p></li>
-        <li><span class="step-n">3</span><h3>Angebot</h3><p>Transparent und detailliert, mit klar beschriebenem Leistungsumfang.</p></li>
-        <li><span class="step-n">4</span><h3>Ausführung</h3><p>Geplanter Ablauf, laufende Abstimmung, ein fester Ansprechpartner.</p></li>
-        <li><span class="step-n">5</span><h3>Abnahme</h3><p>Gemeinsame Abnahme und sauberer Projektabschluss.</p></li>
-      </ol>
-    </div>
-  </section>
-
-  <section class="section area" aria-labelledby="h-area">
-    <div class="wrap area-grid">
-      <div>
-        <h2 id="h-area" class="h2">Zuhause in Bad Berka. Unterwegs in Thüringen.</h2>
-        <p class="area-text">Unser Kerngebiet liegt zwischen Erfurt, Weimar, Apolda und Jena. Größere Projekte übernehmen wir in ganz Thüringen.</p>
-        <p class="addr"><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>Zum Erfurter Tal 6, 99438 Bad Berka</p>
-      </div>
-      <ul class="towns" aria-label="Einsatzgebiet">
-        <li><span>Bad Berka</span><span class="town-home">Firmensitz</span></li>
-        <li><span>Weimar</span></li>
-        <li><span>Erfurt</span></li>
-        <li><span>Jena</span></li>
-        <li><span>Apolda</span></li>
-        <li><span>Ganz Thüringen</span><span>bei größeren Projekten</span></li>
-      </ul>
     </div>
   </section>
 
@@ -470,10 +407,9 @@
     <div class="wrap">
       <div class="show-grid">
         <div class="show-copy">
-          <p class="soon">Coming Soon</p>
-          <h2 id="h-show" class="h2">Materialien anfassen statt nur ansehen</h2>
-          <p>Ab Frühjahr 2027 erweitern wir unseren Standort in Bad Berka um eine Ausstellung. Pflaster, Steine, Oberflächen, Verlegearten und Muster vergleichen Sie dann direkt vor Ort.</p>
-          <a class="btn btn-accent" href="#kontakt">Projekt anfragen<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <p class="soon">Coming soon</p>
+          <h2 id="h-show" class="h2">Unser Unternehmensstandort</h2>
+          <p>In Bad Berka entsteht unser neuer Unternehmensstandort mit Büro, Kundenbereich, einer geplanten Musterausstellung und einem Showroom. Hier sollen Sie künftig Materialien, Oberflächen und Verlegearten direkt vor Ort vergleichen können. Der Standort befindet sich derzeit im Aufbau.</p>
         </div>
         <figure class="show-media">
           <img src="../assets/img/standort/bauservice-craig-standort-lager-luftbild.webp" alt="Luftaufnahme des Firmengeländes in Bad Berka mit Halle, Lagerfläche und Materialien" width="1600" height="899" loading="lazy" decoding="async">
@@ -482,13 +418,49 @@
     </div>
   </section>
 
+  <section class="section voices" aria-labelledby="h-voices">
+    <div class="wrap">
+      <h2 id="h-voices" class="h2">Das sagen unsere Kunden</h2>
+      <p class="rating"><span class="stars" role="img" aria-label="5,0 von 5 Sternen"><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg><svg class="ic"><use href="#i-star"/></svg></span><span class="rating-text"><strong>5,0</strong> bei Google</span></p>
+      <a class="link-more" href="https://share.google/66IVEvPEa0Q0w0RpF" target="_blank" rel="noopener">Alle Bewertungen ansehen<svg class="ic" aria-hidden="true"><use href="#i-arrow-ur"/></svg></a>
+      <div class="tvids">
+        <figure class="tvid" data-tvid data-src="../assets/video/testimonials/bauservice-craig-kundenstimme-erfurt.mp4">
+          <button class="tvid-play" type="button" aria-label="Kundenstimme aus Erfurt abspielen, Dauer 1:49 Minuten">
+            <img src="../assets/video/testimonials/bauservice-craig-kundenstimme-erfurt-poster.webp" alt="" width="960" height="540" loading="lazy" decoding="async">
+            <span class="tvid-btn" aria-hidden="true"><svg class="ic"><use href="#i-play"/></svg></span>
+            <span class="tvid-dur" aria-hidden="true">1:49</span>
+          </button>
+          <figcaption><strong>Einfamilienhaus in Erfurt</strong><span>Terrasse und Außenanlage</span></figcaption>
+        </figure>
+        <figure class="tvid" data-tvid data-src="../assets/video/testimonials/bauservice-craig-kundenstimme-weimar.mp4">
+          <button class="tvid-play" type="button" aria-label="Kundenstimme aus Weimar abspielen, Dauer 1:53 Minuten">
+            <img src="../assets/video/testimonials/bauservice-craig-kundenstimme-weimar-poster.webp" alt="" width="960" height="540" loading="lazy" decoding="async">
+            <span class="tvid-btn" aria-hidden="true"><svg class="ic"><use href="#i-play"/></svg></span>
+            <span class="tvid-dur" aria-hidden="true">1:53</span>
+          </button>
+          <figcaption><strong>Hanggrundstück in Weimar</strong><span>Außenanlage am Hang</span></figcaption>
+        </figure>
+        <figure class="tvid" data-tvid data-src="../assets/video/testimonials/bauservice-craig-kundenstimme-bad-berka.mp4">
+          <button class="tvid-play" type="button" aria-label="Kundenstimme aus Bad Berka abspielen, Dauer 2:08 Minuten">
+            <img src="../assets/video/testimonials/bauservice-craig-kundenstimme-bad-berka-poster.webp" alt="" width="960" height="540" loading="lazy" decoding="async">
+            <span class="tvid-btn" aria-hidden="true"><svg class="ic"><use href="#i-play"/></svg></span>
+            <span class="tvid-dur" aria-hidden="true">2:08</span>
+          </button>
+          <figcaption><strong>Grundstück in Bad Berka</strong><span>Außenanlage und Garten</span></figcaption>
+        </figure>
+      </div>
+      <!-- Echte Google-Rezensionen: in WordPress per Plugin live aus dem Google-Profil, keine Platzhalter -->
+    </div>
+  </section>
+
+
   <section class="section insta" aria-labelledby="h-insta">
     <div class="wrap insta-grid">
       <div class="insta-copy">
-        <h2 id="h-insta" class="h2">Mehr Einblicke auf Instagram</h2>
-        <p>Baustellen, Zwischenstände und fertige Projekte aus Thüringen. Direkt aus dem Alltag unseres Teams.</p>
-        <!-- TODO: Instagram-Profil des Kunden eintragen -->
-        <a class="btn btn-line" href="#" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-insta"/></svg>Zu Instagram</a>
+        <h2 id="h-insta" class="h2">Bauservice Craig auf Social Media</h2>
+        <p>Einblicke in Projekte, Baustellenalltag, Team und Unternehmensentwicklung.</p>
+        <!-- TODO: offizielles Instagram-Profil eintragen, Button erst dann live schalten -->
+        <a class="btn btn-line" href="#" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-insta"/></svg>Auf Instagram folgen</a>
       </div>
       <ul class="insta-tiles">
         <li><img src="../assets/img/04_innenausbau-sanierung/bauservice-craig-innenausbau-holzlamellen-hochformat.webp" alt="Innenausbau mit Holzlamellenwand und neuer Tür" width="1067" height="1600" loading="lazy" decoding="async"></li>
@@ -501,11 +473,11 @@
   <section class="callout" aria-labelledby="h-callout">
     <div class="wrap callout-grid">
       <div>
-        <h2 id="h-callout" class="h2">Erzählen Sie uns von Ihrem Vorhaben</h2>
+        <h2 id="h-callout" class="h2">Gemeinsam verwirklichen wir Ihr Projekt</h2>
         <p class="lead">Wir melden uns persönlich bei Ihnen.</p>
         <div class="cta-row">
-          <a class="btn btn-accent" href="#kontakt">Projekt anfragen<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
-          <a class="btn btn-line" href="https://calendly.com/bauservice-craig-termin/45min" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-calendar"/></svg>Termin buchen</a>
+          <a class="btn btn-accent" href="kontakt.html">Projekt anfragen<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn-line" href="https://calendly.com/bauservice-craig-termin/45min" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-calendar"/></svg>Beratungstermin vereinbaren</a>
         </div>
       </div>
       <div class="callout-big">
@@ -513,37 +485,6 @@
         <p>Mo bis Fr, 08:00 bis 18:00 Uhr</p>
         <p class="callout-links"><a href="https://wa.me/491607625394" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-whatsapp"/></svg>WhatsApp</a><a href="mailto:info@bauservice-craig.de"><svg class="ic" aria-hidden="true"><use href="#i-mail"/></svg>info@bauservice-craig.de</a></p>
       </div>
-    </div>
-  </section>
-
-  <section class="contact" id="kontakt" aria-labelledby="h-contact">
-    <div class="wrap contact-grid">
-      <div class="contact-side">
-        <h2 id="h-contact" class="h2">Projekt anfragen</h2>
-        <p>Erzählen Sie uns von Ihrem Vorhaben. Wir melden uns persönlich bei Ihnen.</p>
-        <ul class="contact-list">
-          <li><a href="tel:+491607625394"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>0160 7625394</a><span>Mo bis Fr, 08:00 bis 18:00 Uhr</span></li>
-          <li><a href="https://wa.me/491607625394" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-whatsapp"/></svg>WhatsApp</a></li>
-          <li><a href="https://calendly.com/bauservice-craig-termin/45min" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-calendar"/></svg>Termin online buchen</a></li>
-          <li><a href="mailto:info@bauservice-craig.de"><svg class="ic" aria-hidden="true"><use href="#i-mail"/></svg>info@bauservice-craig.de</a></li>
-        </ul>
-      </div>
-      <form class="form" action="#" method="post" data-form novalidate>
-        <p class="form-note field-full">Alle Felder mit <span class="req" aria-hidden="true">*</span> sind Pflichtfelder.</p>
-        <div class="field"><label for="f-name">Name<span class="req" aria-hidden="true">*</span></label><input id="f-name" name="name" autocomplete="name" required></div>
-        <div class="field"><label for="f-tel">Telefon<span class="req" aria-hidden="true">*</span></label><input id="f-tel" name="telefon" type="tel" autocomplete="tel" required></div>
-        <div class="field"><label for="f-mail">E-Mail<span class="req" aria-hidden="true">*</span></label><input id="f-mail" name="email" type="email" autocomplete="email" required></div>
-        <div class="field"><label for="f-ort">Ort oder PLZ des Bauvorhabens<span class="req" aria-hidden="true">*</span></label><input id="f-ort" name="ort" autocomplete="postal-code" required></div>
-        <div class="field field-full"><label for="f-lst">Leistungsbereich<span class="req" aria-hidden="true">*</span></label>
-          <select id="f-lst" name="leistung" required><option value="">Bitte wählen</option><option>Garten- &amp; Landschaftsbau</option><option>Poolbau</option><option>Innenausbau &amp; Sanierung</option><option>Fliesen- &amp; Bodenarbeiten</option><option>Badsanierung</option><option>Bauleitung &amp; Baubegleitung</option><option>Bausachverständiger / Gutachten</option></select></div>
-        <div class="field"><label for="f-budget">Budgetrahmen<span class="req" aria-hidden="true">*</span></label>
-          <select id="f-budget" name="budget" required><option value="">Bitte wählen</option><option>bis 10.000 €</option><option>10.000 bis 25.000 €</option><option>25.000 bis 50.000 €</option><option>50.000 bis 100.000 €</option><option>über 100.000 €</option><option>Noch offen</option></select></div>
-        <div class="field"><label for="f-zeit">Wunschzeitraum<span class="req" aria-hidden="true">*</span></label>
-          <select id="f-zeit" name="zeitraum" required><option value="">Bitte wählen</option><option>So bald wie möglich</option><option>In 1 bis 3 Monaten</option><option>In 3 bis 6 Monaten</option><option>In mehr als 6 Monaten</option><option>Noch offen</option></select></div>
-        <div class="field field-full"><label for="f-msg">Ihr Vorhaben<span class="req" aria-hidden="true">*</span></label><textarea id="f-msg" name="nachricht" rows="5" required></textarea><p class="hint">Fotos können Sie uns danach gern per WhatsApp senden.</p></div>
-        <div class="field field-full field-check"><input id="f-ds" type="checkbox" name="datenschutz" required><label for="f-ds">Ich habe die <a href="#" target="_blank" rel="noopener">Datenschutzerklärung</a> gelesen und bin einverstanden, dass meine Angaben zur Bearbeitung der Anfrage verarbeitet werden.<span class="req" aria-hidden="true">*</span></label></div>
-        <div class="field-full form-foot"><button class="btn btn-accent" type="submit">Anfrage senden<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></button><p class="form-status" role="status" aria-live="polite"></p></div>
-      </form>
     </div>
   </section>
 
