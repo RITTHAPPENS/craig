@@ -1,0 +1,117 @@
+/* Bauservice Craig · v7
+   Baut auf v5.css + v6.css (Darkmode) auf. Struktur nach Konzept-PDF.
+   Ein Typo-System: Überschrift (h2/h3), Unterzeile (.sub), Fließtext (eine Größe), Hervorhebung (.copy-em).
+   Ein Rhythmus: jede Sektion gleicher Innenabstand, Flächen wechseln Grund/Fläche. */
+
+.v7 { --body: 1.0625rem; --sub: clamp(1.15rem, .45vw + 1rem, 1.35rem); }
+
+/* ---------- Rhythmus ---------- */
+.v7 main > .section { padding-block: var(--sec); margin: 0; border: 0; }
+.v7 main > .section + .section { padding-top: var(--sec); }
+.v7 .vision, .v7 .bbb, .v7 .owners, .v7 .showroom, .v7 .insta { background: var(--ground); }
+.v7 .svc, .v7 .ref, .v7 .team, .v7 .voices, .v7 .callout { background: var(--bg); }
+.v7 .callout { padding-block: var(--sec); }
+.v7 .svc-build { margin: 0; padding: 0; background: none; }
+
+/* ---------- Typo ---------- */
+.v7 .h2 { margin: 0 0 24px; }
+.v7 .h2 + .sub, .v7 .h3 + .sub { margin-top: -8px; }
+.v7 .sub { font-size: var(--sub); line-height: 1.45; color: var(--ink); max-width: 46ch; margin: 0 0 28px; }
+.v7 .copy p, .v7 .owners-copy > p:not(.sub):not(.copy-em), .v7 .person-copy > p:not(.sub):not(.copy-em),
+.v7 .profile p, .v7 .member-line, .v7 .show-copy > p, .v7 .insta-copy p, .v7 .intro, .v7 .ref-head p,
+.v7 .callout .lead, .v7 .contact-side > p, .v7 .area-text {
+  font-size: var(--body); line-height: 1.7; color: var(--mute); max-width: 62ch;
+}
+.v7 .copy p, .v7 .owners-copy > p, .v7 .person-copy > p, .v7 .profile p { margin: 0 0 1.1em; }
+.v7 .intro { margin: 0; }
+.v7 .copy-em { font-family: var(--display); font-weight: 600; font-feature-settings: "ss02"; letter-spacing: -.01em;
+  font-size: clamp(1.3rem, .8vw + 1rem, 1.6rem); line-height: 1.3; color: var(--ink); max-width: 34ch; margin: 32px 0; text-wrap: balance; }
+.v7 .copy-h { margin-top: 40px; }
+
+/* ---------- Hero ---------- */
+.v7 .hero .lead { max-width: 46ch; }
+
+/* ---------- Vision ---------- */
+.v7 .vision-grid { grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); align-items: start; }
+.v7 .vision .h2 { max-width: 14ch; margin: 0; }
+.v7 .vision .copy p:last-child { margin-bottom: 0; }
+
+/* ---------- Leistungen ---------- */
+.v7 .svc-title { display: block; }
+.v7 .svc-title .h2 { margin-bottom: 8px; }
+.v7 .svc-name { color: var(--mute); font-size: clamp(1.1rem, .5vw + 1rem, 1.3rem); }
+.v7 .svc-bar { align-items: end; margin-bottom: clamp(24px, 3vw, 36px); }
+
+/* ---------- Bauen. Begleiten. Bewerten. ---------- */
+.v7 .bbb .duo.trio { grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: clamp(40px, 5vw, 64px); }
+.v7 .bbb .duo-card:nth-child(n) { margin-top: 0; }
+.v7 .bbb .duo-card a { height: 100%; grid-template-rows: auto 1fr; }
+.v7 .bbb .duo-box { width: auto; margin: -48px 16px 0; align-content: start; background: var(--card); }
+.v7 .duo-go { color: var(--accent); font-weight: 700; font-size: .95rem; margin-top: 6px; }
+@media (max-width: 900px) { .v7 .bbb .duo.trio { grid-template-columns: 1fr; gap: 40px; } }
+
+/* ---------- Referenzen ---------- */
+.v7 .ba-cap { display: grid; gap: 2px; margin: 14px 0 0; }
+.v7 .ba-cap strong { font-size: 1.05rem; color: var(--ink); }
+.v7 .ba-cap span { color: var(--mute); font-size: .95rem; }
+
+/* ---------- Inhaber ---------- */
+.v7 .owners-grid { align-items: start; }
+.v7 .owners-h { font-size: clamp(2rem, 2.4vw + 1rem, 3.5rem); max-width: 16ch; }
+.v7 .owners-photo { position: sticky; top: calc(var(--head-h) + 32px); }
+.v7 .owners-copy .link-more { margin-top: 4px; }
+.v7 .facts { margin-top: 40px; }
+@media (max-width: 900px) { .v7 .owners-photo { position: static; } }
+
+/* ---------- Team ---------- */
+.v7 .team .team-photo { display: none; }
+.v7 .members { list-style: none; margin: clamp(32px, 4vw, 48px) 0 0; padding: 0; display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(40px, 4vw, 56px) clamp(20px, 2.5vw, 36px); }
+.v7 .member-img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 22%; margin-bottom: 18px; background: var(--card); }
+.v7 .member-name { font-family: var(--display); font-weight: 600; font-feature-settings: "ss02"; font-size: 1.4rem; line-height: 1.15; margin: 0; }
+.v7 .member-role { color: var(--sand); font-size: .9rem; font-weight: 600; margin: 6px 0 10px; }
+.v7 .member-line { margin: 0; }
+.v7 .team-foot { margin-top: clamp(40px, 5vw, 56px); justify-content: flex-start; }
+.v7 .team-foot .link-more { margin: 0; }
+@media (max-width: 900px) { .v7 .members { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .v7 .member-name { font-size: 1.2rem; } .v7 .member-role { font-size: .82rem; } .v7 .member-line { font-size: .95rem; } }
+
+/* ---------- Standort ---------- */
+.v7 .show-grid { background: none; border: 0; padding: 0; }
+.v7 .show-grid > * { min-width: 0; }
+.v7 #h-show { hyphens: manual; overflow-wrap: break-word; font-size: clamp(1.9rem, 1.9vw + 1rem, 3rem); }
+.v7 .show-copy > p { margin-bottom: 0; }
+@media (max-width: 560px) { .v7 .showroom .wrap { padding-inline: var(--gut); } .v7 .show-grid { padding: 0; } }
+
+/* ---------- Unterseiten ---------- */
+.sub-page main { padding-top: var(--head-h); }
+.sub-page main > .section:first-child { padding-top: clamp(56px, 7vw, 96px); padding-bottom: 0; }
+.story-back { margin: 0 0 28px; }
+.story-back .link-more { margin: 0; }
+.story-back .link-more .ic { transform: rotate(180deg); order: -1; }
+.v7 .person-alt, .v7 .team-about { background: var(--ground); }
+.person-grid { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: clamp(32px, 6vw, 96px); align-items: start; }
+.person-photo { margin: 0; position: sticky; top: calc(var(--head-h) + 32px); }
+.person-photo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+.person-alt .person-photo { order: 2; }
+.person-copy .h3 { font-family: var(--display); font-weight: 600; font-feature-settings: "ss02"; font-size: clamp(1.6rem, 1.4vw + 1rem, 2.4rem); line-height: 1.12; max-width: 22ch; margin-bottom: 16px; }
+.team-about-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(32px, 5vw, 80px); align-items: start; }
+.team-about-grid .team-photo { margin: 0; position: sticky; top: calc(var(--head-h) + 32px); }
+.team-about-grid img { width: 100%; height: auto; }
+.team-about .h3 { font-family: var(--display); font-weight: 600; font-feature-settings: "ss02"; font-size: clamp(1.6rem, 1.4vw + 1rem, 2.4rem); line-height: 1.12; }
+.profiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(40px, 4vw, 56px) clamp(20px, 2.5vw, 36px); margin-top: clamp(32px, 4vw, 48px); }
+.profile .h3 { font-family: var(--display); font-weight: 600; font-feature-settings: "ss02"; font-size: 1.4rem; margin: 0; }
+.profile .member-img { max-width: none; }
+.story-cta { padding-block: var(--sec) !important; }
+.story-cta .wrap { display: flex; justify-content: center; }
+@media (max-width: 900px) {
+  .person-grid, .team-about-grid { grid-template-columns: 1fr; }
+  .person-photo, .team-about-grid .team-photo { position: static; }
+  .person-alt .person-photo { order: 0; }
+  .person-photo img { aspect-ratio: 4 / 3; object-position: center 25%; }
+  .profiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 560px) { .profiles { grid-template-columns: 1fr; } }
+.sub-page .contact { padding-top: clamp(56px, 7vw, 96px); }
+.sub-page main > .section:nth-child(2) { padding-top: clamp(56px, 6vw, 88px); }
+@media (max-width: 900px) { .v7 .vision-grid { grid-template-columns: 1fr; gap: 24px; } .v7 .vision .h2 { max-width: 18ch; } }
