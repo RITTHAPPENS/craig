@@ -8,7 +8,7 @@
 /* ---------- Rhythmus ---------- */
 .v7 main > .section { padding-block: var(--sec); margin: 0; border: 0; }
 .v7 main > .section + .section { padding-top: var(--sec); }
-.v7 .vision, .v7 .bbb, .v7 .owners, .v7 .showroom, .v7 .insta { background: var(--ground); }
+.v7 .vision, .v7 .bbb, .v7 .owners, .v7 .insta { background: var(--ground); }
 .v7 .svc, .v7 .ref, .v7 .team, .v7 .voices, .v7 .callout { background: var(--bg); }
 .v7 .callout { padding-block: var(--sec); }
 .v7 .svc-build { margin: 0; padding: 0; background: none; }
@@ -18,7 +18,7 @@
 .v7 .h2 + .sub, .v7 .h3 + .sub { margin-top: -8px; }
 .v7 .sub { font-size: var(--sub); line-height: 1.45; color: var(--ink); max-width: 46ch; margin: 0 0 28px; }
 .v7 .copy p, .v7 .owners-copy > p:not(.sub):not(.copy-em), .v7 .person-copy > p:not(.sub):not(.copy-em),
-.v7 .profile p, .v7 .member-line, .v7 .show-copy > p, .v7 .insta-copy p, .v7 .intro, .v7 .ref-head p,
+.v7 .profile p, .v7 .member-line, .v7 .show-copy > p:not(.soon), .v7 .insta-copy p, .v7 .intro, .v7 .ref-head p,
 .v7 .callout .lead, .v7 .contact-side > p, .v7 .area-text {
   font-size: var(--body); line-height: 1.7; color: var(--mute); max-width: 62ch;
 }
@@ -77,11 +77,9 @@
 @media (max-width: 560px) { .v7 .member-name { font-size: 1.2rem; } .v7 .member-role { font-size: .82rem; } .v7 .member-line { font-size: .95rem; } }
 
 /* ---------- Standort ---------- */
-.v7 .show-grid { background: none; border: 0; padding: 0; }
 .v7 .show-grid > * { min-width: 0; }
-.v7 #h-show { hyphens: manual; overflow-wrap: break-word; font-size: clamp(1.9rem, 1.9vw + 1rem, 3rem); }
-.v7 .show-copy > p { margin-bottom: 0; }
-@media (max-width: 560px) { .v7 .showroom .wrap { padding-inline: var(--gut); } .v7 .show-grid { padding: 0; } }
+.v7 #h-show { hyphens: auto; overflow-wrap: break-word; }
+.v7 .show-copy > p:not(.soon) { margin-bottom: 0; }
 
 /* ---------- Unterseiten ---------- */
 .sub-page main { padding-top: var(--head-h); }
