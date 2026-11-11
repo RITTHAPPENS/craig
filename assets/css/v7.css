@@ -137,3 +137,4 @@
 .v7 .nav-link { white-space: nowrap; }
 @media (max-width: 1220px) and (min-width: 901px) { .v7 .head-phone span { display: none; } .v7 .head-phone { width: 44px; height: 44px; justify-content: center; border: 1px solid var(--line); } }
 .v7 .copy p.sub { font-size: var(--sub); line-height: 1.45; color: var(--ink); margin: 0 0 20px; }
+.foot-social { display: inline-flex; align-items: center; gap: 8px; color: var(--ink); } .foot-social .ic { width: 18px; height: 18px; color: var(--accent); }
