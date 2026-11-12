@@ -196,3 +196,5 @@
 @media (max-width: 900px) { .page-hero-owners .page-hero-media img { object-position: 62% 30% !important; } }
 .person-alt .person-grid { grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr); }
 @media (max-width: 900px) { .person-alt .person-grid { grid-template-columns: 1fr; } }
+/* Hervorhebungen im Fließtext: gleiche Schrift wie die Unterzeile, keine Display-Schrift mehr */
+.v7 .copy-em, .v7 .copy p.copy-em, .v7 .person-copy > p.copy-em { font-family: var(--body-font, "Red Hat Display"), system-ui, sans-serif; font-weight: 400; font-feature-settings: normal; letter-spacing: 0; font-size: var(--sub); line-height: 1.45; color: var(--ink); max-width: 46ch; margin: 28px 0; }
