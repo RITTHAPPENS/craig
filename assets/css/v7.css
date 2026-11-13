@@ -308,3 +308,4 @@
 .pl-steps .ba-cap strong::before { counter-increment: pl; content: counter(pl, decimal-leading-zero); color: var(--accent); margin-right: 10px; font-variant-numeric: tabular-nums; }
 @media (max-width: 900px) { .pl-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 36px; } }
 @media (max-width: 480px) { .pl-steps { grid-template-columns: 1fr; } .pl-steps img { aspect-ratio: 4 / 3; } }
+.gl-body .link-more { margin-top: 14px; }
