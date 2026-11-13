@@ -215,3 +215,18 @@
 .v7 .reviews { border-top: 0; padding-top: 0; }
 .v7 #h-show { hyphens: manual; text-wrap: balance; }
 .v7 .tvid-btn .ic { margin-left: 0; }
+/* Footer: klare Spalten mit Überschrift, Rechtliches in eigener Fußzeile */
+.v7 .site-foot { padding-block: clamp(56px, 6vw, 80px) 0; }
+.v7 .foot-grid { grid-template-columns: 1.3fr 1fr 1fr .8fr; gap: 40px 32px; }
+.v7 .foot-brand p { max-width: 30ch; }
+.v7 .foot-col p { margin: 0 0 16px; }
+.v7 .foot-h { font-family: var(--display); font-weight: 600; font-feature-settings: "ss02"; font-size: 1.05rem; color: var(--ink); margin: 0 0 14px !important; }
+.v7 .site-foot nav.foot-col { gap: 10px; }
+.v7 .foot-bottom { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 24px; margin-top: clamp(40px, 5vw, 56px); padding-block: 24px 32px; border-top: 1px solid var(--line); font-size: .88rem; }
+.v7 .foot-bottom p { margin: 0; }
+.v7 .foot-bottom nav { display: flex; gap: 24px; }
+@media (max-width: 900px) { .v7 .foot-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { .v7 .foot-grid { grid-template-columns: 1fr; } }
+.v7 .gl-services .intro, .v7 .sn-ba .intro { max-width: none; }
+.v7 .foot-bottom { border-top: 0; position: relative; }
+.v7 .foot-bottom::before { content: ""; position: absolute; top: 0; left: var(--gut); right: var(--gut); border-top: 1px solid var(--line); }
