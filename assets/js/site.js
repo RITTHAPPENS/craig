@@ -75,7 +75,7 @@
   if (video && toggle) {
     const tall = window.matchMedia('(max-aspect-ratio: 4/5)');
     const pick = () => tall.matches ? video.dataset.srcTall
-      : (window.innerWidth * (window.devicePixelRatio || 1) > 2000 ? video.dataset.srcXl : video.dataset.srcWide);
+      : (window.innerWidth * (window.devicePixelRatio || 1) > 1100 ? video.dataset.srcXl : video.dataset.srcWide);
     const load = () => {
       const src = pick();
       if (video.getAttribute('src') === src) return;
