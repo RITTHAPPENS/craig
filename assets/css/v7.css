@@ -291,3 +291,11 @@
   .rf-filter::-webkit-scrollbar { display: none; }
   .rf-chip { flex: none; }
 }
+
+/* Badsanierung: Vorher/Nachher als Paar im Ablauf */
+.process-photo.bd-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.bd-pair figure { position: relative; margin: 0; }
+.process-photo.bd-pair img { aspect-ratio: 2 / 3; }
+.bd-pair .compare-tag { left: 12px; }
+.bd-pair .bd-cap { grid-column: 1 / -1; color: var(--mute); font-size: .97rem; line-height: 1.6; margin-top: 6px; }
+@media (max-width: 900px) { .process-photo.bd-pair img { aspect-ratio: 3 / 4; } }
