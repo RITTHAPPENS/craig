@@ -3,7 +3,12 @@
   const head = document.querySelector('[data-head]');
   const hero = document.querySelector('.hero, .page-hero');
   if (head && hero && 'IntersectionObserver' in window) {
-    new IntersectionObserver(([en]) => head.classList.toggle('is-solid', !en.isIntersecting), { rootMargin: '-80px 0px 0px 0px' }).observe(hero);
+    // Header wird solide, sobald 24px gescrollt sind, damit er nie über Headlines liegt
+    const sentinel = document.createElement('div');
+    sentinel.setAttribute('aria-hidden', 'true');
+    sentinel.style.cssText = 'position:absolute;top:0;left:0;width:1px;height:24px;pointer-events:none;';
+    document.body.prepend(sentinel);
+    new IntersectionObserver(([en]) => head.classList.toggle('is-solid', !en.isIntersecting)).observe(sentinel);
   } else if (head) { head.classList.add('is-solid'); }
 
   // Abschnitte blenden beim Erreichen ein

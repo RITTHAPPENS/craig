@@ -198,3 +198,13 @@
 @media (max-width: 900px) { .person-alt .person-grid { grid-template-columns: 1fr; } }
 /* Hervorhebungen im Fließtext: gleiche Schrift wie die Unterzeile, keine Display-Schrift mehr */
 .v7 .copy-em, .v7 .copy p.copy-em, .v7 .person-copy > p.copy-em { font-family: var(--body-font, "Red Hat Display"), system-ui, sans-serif; font-weight: 400; font-feature-settings: normal; letter-spacing: 0; font-size: var(--sub); line-height: 1.45; color: var(--ink); max-width: 46ch; margin: 28px 0; }
+/* Mega-Menü: Kategorien als weiße Schrift auf Terrakotta, ohne Buchstaben */
+.mega-key .key-tag { display: inline-block; background: var(--accent); color: #fff; font-weight: 800; font-size: .74rem; letter-spacing: .1em; text-transform: uppercase; line-height: 1; padding: 7px 10px 6px; }
+.v7 .vision .h2 { max-width: none; }
+.nowrap { white-space: nowrap; }
+.v7 .bbb .intro { max-width: none; }
+@media (min-width: 1024px) { .v7 .bbb .intro { white-space: nowrap; } }
+/* Alle Trennlinien gleich: 1px, gleiche Transparenz */
+.v7 .facts, .v7 .steps, .v7 .towns { border-top: 1px solid var(--line); }
+.v7 .facts div { border-bottom: 1px solid var(--line); }
+.v7 .owners .sub { max-width: none; }
