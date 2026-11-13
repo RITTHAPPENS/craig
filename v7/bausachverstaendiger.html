@@ -9,9 +9,9 @@
 <meta name="theme-color" content="#141414">
 <link rel="preload" href="../assets/fonts/hagrid-display-var.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../assets/fonts/redhat-display-var.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="../assets/css/v5.css?v=202611131120">
-<link rel="stylesheet" href="../assets/css/v6.css?v=202611131120">
-<link rel="stylesheet" href="../assets/css/v7.css?v=202611131120">
+<link rel="stylesheet" href="../assets/css/v5.css?v=202611131145">
+<link rel="stylesheet" href="../assets/css/v6.css?v=202611131145">
+<link rel="stylesheet" href="../assets/css/v7.css?v=202611131145">
 <script>document.documentElement.classList.add("js")</script>
 <script type="application/ld+json">
 {
@@ -94,7 +94,7 @@
         <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
       </ul>
       <div class="nav-contact">
-        <a class="btn btn-accent" href="kontakt.html">Projekt anfragen<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-accent" href="#anfrage">Projekt anfragen<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
         <div class="nav-contact-row">
           <a href="tel:+491607625394" aria-label="Anrufen: 0160 7625394"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>Anrufen</a>
           <a href="https://wa.me/491607625394" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-whatsapp"/></svg>WhatsApp</a>
@@ -105,7 +105,7 @@
     </nav>
     <div class="head-actions">
       <a class="head-phone" href="tel:+491607625394"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg><span>0160 7625394</span></a>
-      <a class="btn btn-accent btn-sm" href="kontakt.html">Projekt anfragen</a>
+      <a class="btn btn-accent btn-sm" href="#anfrage">Projekt anfragen</a>
       <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav" data-menu>
         <span class="sr">Menü öffnen</span>
         <svg class="ic ic-open" aria-hidden="true"><use href="#i-menu"/></svg>
@@ -123,7 +123,7 @@
       <h1 id="h1" class="display">Bausachverständiger für Bauschäden in Thüringen</h1>
       <p class="lead">Bauschäden, Baumängel und Feuchteschäden vor Ort begutachtet und verständlich bewertet. Von Marvin Craig, DEKRA-zertifiziert.</p>
       <div class="cta-row">
-        <a class="btn btn-accent" href="kontakt.html">Begutachtung anfragen<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-accent" href="#anfrage">Begutachtung anfragen<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
         <a class="btn btn-glass" href="tel:+491607625394"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>0160 7625394</a>
       </div>
     </div>
@@ -203,21 +203,33 @@
       </div>
     </div>
   </section>
-  <section class="callout" aria-labelledby="h-callout">
-    <div class="wrap callout-grid">
-      <div>
-        <h2 id="h-callout" class="h2">Schaden entdeckt? Wir sehen ihn uns an.</h2>
-        <p class="lead">Schildern Sie uns kurz den Schaden, gern mit Fotos. Wir melden uns persönlich bei Ihnen.</p>
-        <div class="cta-row">
-          <a class="btn btn-accent" href="kontakt.html">Begutachtung anfragen<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
-          <a class="btn btn-line" href="https://calendly.com/bauservice-craig-termin/45min" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-calendar"/></svg>Beratungstermin vereinbaren</a>
-        </div>
+  <section class="contact contact-inline" id="anfrage" aria-labelledby="h-anfrage">
+    <div class="wrap contact-grid">
+      <div class="contact-side">
+        <h2 id="h-anfrage" class="h2">Schaden entdeckt? Wir sehen ihn uns an.</h2>
+        <p>Schildern Sie uns kurz den Schaden, gern mit Fotos. Wir melden uns persönlich bei Ihnen.</p>
+        <ul class="contact-list">
+          <li><a href="tel:+491607625394"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>0160 7625394</a><span>Mo bis Fr, 08:00 bis 18:00 Uhr</span></li>
+          <li><a href="https://wa.me/491607625394" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-whatsapp"/></svg>WhatsApp</a></li>
+          <li><a href="https://calendly.com/bauservice-craig-termin/45min" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-calendar"/></svg>Termin online buchen</a></li>
+          <li><a href="mailto:info@bauservice-craig.de"><svg class="ic" aria-hidden="true"><use href="#i-mail"/></svg>info@bauservice-craig.de</a></li>
+        </ul>
       </div>
-      <div class="callout-big">
-        <a class="big-phone" href="tel:+491607625394">0160 7625394</a>
-        <p>Mo bis Fr, 08:00 bis 18:00 Uhr</p>
-        <p class="callout-links"><a href="https://wa.me/491607625394" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-whatsapp"/></svg>WhatsApp</a><a href="mailto:info@bauservice-craig.de"><svg class="ic" aria-hidden="true"><use href="#i-mail"/></svg>info@bauservice-craig.de</a></p>
-      </div>
+      <form class="form" action="#" method="post" data-form novalidate>
+        <div class="field"><label for="f-name">Name<span class="req" aria-hidden="true">*</span></label><input id="f-name" name="name" autocomplete="name" required></div>
+        <div class="field"><label for="f-tel">Telefon<span class="req" aria-hidden="true">*</span></label><input id="f-tel" name="telefon" type="tel" autocomplete="tel" required></div>
+        <div class="field"><label for="f-mail">E-Mail<span class="req" aria-hidden="true">*</span></label><input id="f-mail" name="email" type="email" autocomplete="email" required></div>
+        <div class="field"><label for="f-ort">Ort oder PLZ des Bauvorhabens<span class="req" aria-hidden="true">*</span></label><input id="f-ort" name="ort" autocomplete="postal-code" required></div>
+        <div class="field field-full"><label for="f-lst">Leistungsbereich<span class="req" aria-hidden="true">*</span></label>
+          <select id="f-lst" name="leistung" required><option value="">Bitte wählen</option><option>Garten- &amp; Landschaftsbau</option><option>Poolbau</option><option>Innenausbau &amp; Sanierung</option><option>Fliesen- &amp; Bodenarbeiten</option><option>Badsanierung</option><option>Bauleitung &amp; Baubegleitung</option><option selected>Bausachverständiger / Gutachten</option></select></div>
+        <div class="field"><label for="f-budget">Budgetrahmen<span class="req" aria-hidden="true">*</span></label>
+          <select id="f-budget" name="budget" required><option value="">Bitte wählen</option><option>bis 10.000 €</option><option>10.000 bis 25.000 €</option><option>25.000 bis 50.000 €</option><option>50.000 bis 100.000 €</option><option>über 100.000 €</option><option>Noch offen</option></select></div>
+        <div class="field"><label for="f-zeit">Wunschzeitraum<span class="req" aria-hidden="true">*</span></label>
+          <select id="f-zeit" name="zeitraum" required><option value="">Bitte wählen</option><option>So bald wie möglich</option><option>In 1 bis 3 Monaten</option><option>In 3 bis 6 Monaten</option><option>In mehr als 6 Monaten</option><option>Noch offen</option></select></div>
+        <div class="field field-full"><label for="f-msg">Ihr Vorhaben<span class="req" aria-hidden="true">*</span></label><textarea id="f-msg" name="nachricht" rows="5" required></textarea><p class="hint hint-req">Alle Felder mit <span class="req" aria-hidden="true">*</span> sind Pflichtfelder.</p><p class="hint">Fotos können Sie uns danach gern per WhatsApp senden.</p></div>
+        <div class="field field-full field-check"><input id="f-ds" type="checkbox" name="datenschutz" required><label for="f-ds">Ich habe die <a href="#" target="_blank" rel="noopener">Datenschutzerklärung</a> gelesen und bin einverstanden, dass meine Angaben zur Bearbeitung der Anfrage verarbeitet werden.<span class="req" aria-hidden="true">*</span></label></div>
+        <div class="field-full form-foot"><button class="btn btn-accent" type="submit">Anfrage senden<svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></button><p class="form-status" role="status" aria-live="polite"></p></div>
+      </form>
     </div>
   </section>
 </main>
@@ -260,8 +272,8 @@
   </div>
 </footer>
 
-<script src="../assets/js/site.js?v=202611131120" defer></script>
-<script src="../assets/js/v3.js?v=202611131120" defer></script>
-<script src="../assets/js/v5.js?v=202611131120" defer></script>
+<script src="../assets/js/site.js?v=202611131145" defer></script>
+<script src="../assets/js/v3.js?v=202611131145" defer></script>
+<script src="../assets/js/v5.js?v=202611131145" defer></script>
 </body>
 </html>

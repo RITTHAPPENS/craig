@@ -256,3 +256,8 @@
 .v7 .contact-list li:first-child { border-top: 0; padding-top: 0; }
 .v7 .hint-req { margin-bottom: 2px; }
 .v7 .hint-req + .hint { margin-top: 4px; }
+/* Anfrageformular am Ende jeder Seite (ersetzt den Kontaktblock) */
+.v7 main > .contact-inline { background: var(--bg); padding-block: var(--sec); }
+.v7 .contact-inline .contact-side > p { color: var(--mute); max-width: 40ch; margin: 0; }
+.v7 .contact-inline .contact-side .h2 { margin-bottom: 16px; }
+.v7 #anfrage { scroll-margin-top: var(--head-h); }
