@@ -208,3 +208,10 @@
 .v7 .facts, .v7 .steps, .v7 .towns { border-top: 1px solid var(--line); }
 .v7 .facts div { border-bottom: 1px solid var(--line); }
 .v7 .owners .sub { max-width: none; }
+/* Standort: volle Breite mit Flächenfarbe statt Box */
+.v7 .showroom { background: var(--card); }
+.v7 .show-grid { background: none; border: 0; padding: 0; }
+@media (max-width: 560px) { .v7 .showroom .wrap { padding-inline: var(--gut); } .v7 .show-grid { padding: 0; } }
+.v7 .reviews { border-top: 0; padding-top: 0; }
+.v7 #h-show { hyphens: manual; text-wrap: balance; }
+.v7 .tvid-btn .ic { margin-left: 0; }
