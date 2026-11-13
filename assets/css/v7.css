@@ -245,3 +245,9 @@
 .sub-page main > .contact + .section { background: var(--ground); }
 .sub-page main > .section.area { background: var(--bg); }
 .page-hero .lead { max-width: 60ch; }
+/* Keine einzelnen Wörter in der letzten Zeile */
+.v7 p { text-wrap: pretty; }
+.v7 .sub, .v7 .copy-em, .v7 .person-role, .v7 .lead { text-wrap: balance; }
+/* Unsere Geschichte: Marvin und Carissa auf derselben Fläche */
+.sub-page main > .section.person { background: var(--ground); }
+.sub-page main > .section.person + .section.person { padding-top: 0; }
