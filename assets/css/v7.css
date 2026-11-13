@@ -309,3 +309,24 @@
 @media (max-width: 900px) { .pl-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 36px; } }
 @media (max-width: 480px) { .pl-steps { grid-template-columns: 1fr; } .pl-steps img { aspect-ratio: 4 / 3; } }
 .gl-body .link-more { margin-top: 14px; }
+
+/* Bauen: Übersicht der Leistungsbereiche */
+.sub-page.bn-page main > .section.bn-areas { background: var(--bg); }
+.sub-page.bn-page main > .section.bn-ref { background: var(--ground); }
+.bn-list { list-style: none; margin: clamp(28px, 3vw, 44px) 0 0; padding: 0; }
+.bn-area { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(24px, 4vw, 64px); align-items: start; padding-block: clamp(32px, 4vw, 56px); border-top: 1px solid var(--line); scroll-margin-top: var(--head-h); }
+.bn-area:last-child { border-bottom: 1px solid var(--line); }
+.bn-area figure { margin: 0; }
+.bn-area img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
+.bn-area h2 { margin: 0; }
+.bn-short { margin: 10px 0 0; color: var(--accent); font-weight: 600; font-size: .97rem; }
+.bn-area .bn-text { margin: 18px 0 0; max-width: 62ch; }
+.bn-subs { list-style: none; margin: 24px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.bn-subs li { margin: 0; }
+.bn-subs a, .bn-subs span { display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 0 14px; border: 1px solid var(--line); color: var(--ink); text-decoration: none; font-size: .93rem; font-weight: 600; }
+.bn-subs span { color: var(--mute); font-weight: 500; }
+.bn-subs a .ic { width: 14px; height: 14px; color: var(--accent); transition: transform 200ms var(--ease-out); }
+@media (hover: hover) and (pointer: fine) { .bn-subs a:hover { border-color: var(--ink); } .bn-subs a:hover .ic { transform: translateX(3px); } }
+.bn-subs a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+@media (max-width: 900px) { .bn-area { grid-template-columns: 1fr; } .bn-area img { aspect-ratio: 3 / 2; } }
+.mega-key a.key-tag { text-decoration: none; }
