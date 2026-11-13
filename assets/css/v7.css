@@ -254,3 +254,5 @@
 .v7 .sub.sub-wide { max-width: none; text-wrap: wrap; }
 @media (max-width: 900px) { .br-desk { display: none; } }
 .v7 .contact-list li:first-child { border-top: 0; padding-top: 0; }
+.v7 .hint-req { margin-bottom: 2px; }
+.v7 .hint-req + .hint { margin-top: 4px; }
