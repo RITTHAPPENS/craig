@@ -299,3 +299,12 @@
 .bd-pair .compare-tag { left: 12px; }
 .bd-pair .bd-cap { grid-column: 1 / -1; color: var(--mute); font-size: .97rem; line-height: 1.6; margin-top: 6px; }
 @media (max-width: 900px) { .process-photo.bd-pair img { aspect-ratio: 3 / 4; } }
+
+/* Poolbau: Bauablauf als Bildfolge */
+.pl-steps { list-style: none; margin: clamp(28px, 3vw, 44px) 0 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(16px, 2vw, 28px); counter-reset: pl; }
+.pl-steps li { margin: 0; }
+.pl-steps img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; display: block; }
+.pl-steps .ba-cap { margin-top: 14px; }
+.pl-steps .ba-cap strong::before { counter-increment: pl; content: counter(pl, decimal-leading-zero); color: var(--accent); margin-right: 10px; font-variant-numeric: tabular-nums; }
+@media (max-width: 900px) { .pl-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 36px; } }
+@media (max-width: 480px) { .pl-steps { grid-template-columns: 1fr; } .pl-steps img { aspect-ratio: 4 / 3; } }
