@@ -117,6 +117,24 @@
     apply();
   });
 
+  // Referenzen: Projekte filtern, bei ungerader Anzahl das erste Projekt breit
+  const rfFilter = document.querySelector('[data-rf-filter]');
+  const rfGrid = document.querySelector('[data-rf-grid]');
+  if (rfFilter && rfGrid) {
+    const items = [...rfGrid.querySelectorAll('.rf-item')];
+    const show = (cat, animate) => {
+      const vis = items.filter((it) => cat === 'alle' || it.dataset.cat === cat);
+      items.forEach((it) => { it.hidden = !vis.includes(it); it.classList.remove('is-wide', 'is-in'); });
+      if (vis.length % 2 === 1) vis[0].classList.add('is-wide');
+      if (animate) { void rfGrid.offsetWidth; vis.forEach((it, i) => { it.style.setProperty('--i', Math.min(i, 8)); it.classList.add('is-in'); }); }
+    };
+    rfFilter.querySelectorAll('.rf-chip').forEach((chip) => chip.addEventListener('click', () => {
+      rfFilter.querySelectorAll('.rf-chip').forEach((c) => c.setAttribute('aria-pressed', String(c === chip)));
+      show(chip.dataset.cat, true);
+    }));
+    show('alle', false);
+  }
+
   // Maßkette im Ablauf zeichnet sich beim Erreichen
   const steps = document.querySelector('[data-steps]');
   if (steps) {
