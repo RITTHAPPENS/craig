@@ -230,3 +230,18 @@
 .v7 .gl-services .intro, .v7 .sn-ba .intro { max-width: none; }
 .v7 .foot-bottom { border-top: 0; position: relative; }
 .v7 .foot-bottom::before { content: ""; position: absolute; top: 0; left: var(--gut); right: var(--gut); border-top: 1px solid var(--line); }
+/* Rhythmus Unterseiten: Kontaktblock dunkel (Grund), Footer Fläche, wie Startseite */
+.sub-page.gl-page main > .section.gl-services { background: var(--bg); }
+.sub-page.gl-page main > .section.gl-ref, .sub-page.gl-page main > .section.sv-usp { background: var(--ground); }
+.sub-page.gl-page main > .section.gl-process { background: var(--bg); }
+.sub-page.gl-page main > .section.gl-faq { background: var(--ground); }
+.sub-page main > .callout, .sub-page.gl-page main > .callout { background: var(--bg); }
+.sub-page.gl-page main:has(.sn-ba) > .section.gl-services { background: var(--ground); }
+.sub-page.gl-page main:has(.sn-ba) > .section.sn-ba { background: var(--bg); }
+.sub-page.gl-page main:has(.sn-ba) > .section.sv-usp { background: var(--ground); }
+.sub-page.gl-page main:has(.sn-ba) > .section.gl-process { background: var(--bg); }
+.sub-page.gl-page main:has(.sn-ba) > .section.gl-faq { background: var(--ground); }
+.sub-page main > .contact { background: var(--bg); }
+.sub-page main > .contact + .section { background: var(--ground); }
+.sub-page main > .section.area { background: var(--bg); }
+.page-hero .lead { max-width: 60ch; }
