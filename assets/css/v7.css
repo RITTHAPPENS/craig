@@ -251,3 +251,6 @@
 /* Unsere Geschichte: Marvin und Carissa auf derselben Fläche */
 .sub-page main > .section.person { background: var(--ground); }
 .sub-page main > .section.person + .section.person { padding-top: 0; }
+.v7 .sub.sub-wide { max-width: none; text-wrap: wrap; }
+@media (max-width: 900px) { .br-desk { display: none; } }
+.v7 .contact-list li:first-child { border-top: 0; padding-top: 0; }
