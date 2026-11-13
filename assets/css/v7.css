@@ -330,3 +330,6 @@
 .bn-subs a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 @media (max-width: 900px) { .bn-area { grid-template-columns: 1fr; } .bn-area img { aspect-ratio: 3 / 2; } }
 .mega-key a.key-tag { text-decoration: none; }
+.bn-subs li { padding: 6px 12px; border: 1px solid var(--line); color: var(--mute); font-size: .9rem; }
+.bn-links { display: flex; flex-wrap: wrap; gap: 6px 28px; margin: 22px 0 0; }
+.bn-links .link-more { margin-top: 0; }
