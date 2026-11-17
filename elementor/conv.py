@@ -170,7 +170,7 @@ class Conv:
                          'email': {'to': ['info@bauservice-craig.de'],
                                    'subject': 'Neue Projektanfrage über bauservice-craig.de',
                                    'message': '[all-fields]', 'send-as': 'html',
-                                   'from-name': 'Website Bauservice Craig'}}
+                                   'from-name': 'Website Bauservice Craig', 'from': 'noreply@bauservice-craig.de'}}
         self.cls[fid] = self.classes(f)
         parts = []
         for ch in f.children:
