@@ -1,0 +1,834 @@
+{
+"5bab328e": {
+"a": {
+"aria-labelledby": "h1"
+}
+},
+"4b352779": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"17fbdd3a": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"2e76063d": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"2204c98a": {
+"a": {
+"aria-labelledby": "h-projekte"
+}
+},
+"73ca544e": {
+"a": {
+"role": "group",
+"aria-label": "Projekte filtern",
+"data-rf-filter": ""
+}
+},
+"55b02aa5": {
+"a": {
+"type": "button",
+"data-cat": "alle",
+"aria-pressed": "true"
+}
+},
+"7b76745d": {
+"a": {
+"type": "button",
+"data-cat": "garten",
+"aria-pressed": "false"
+}
+},
+"6ffcd83f": {
+"a": {
+"type": "button",
+"data-cat": "hof",
+"aria-pressed": "false"
+}
+},
+"17eaedd8": {
+"a": {
+"type": "button",
+"data-cat": "fz",
+"aria-pressed": "false"
+}
+},
+"7ef694b6": {
+"a": {
+"data-rf-grid": ""
+}
+},
+"58bcd85f": {
+"a": {
+"data-cat": "garten"
+}
+},
+"76a0d902": {
+"a": {
+"data-compare": "",
+"style": "--pos:50%"
+}
+},
+"19b5d3fa": {
+"a": {
+"loading": "lazy"
+}
+},
+"585a37ba": {
+"a": {
+"loading": "lazy"
+}
+},
+"33a0058f": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"76c6e45b": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"7d36a3a7": {
+"a": {
+"data-handle": "",
+"aria-hidden": "true"
+}
+},
+"7a55f0af": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"1ff46c2f": {
+"a": {
+"for": "rf-1"
+}
+},
+"1675ecc0": {
+"r": "<input class=\"compare-range\" id=\"rf-1\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
+},
+"7306b035": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"1ad99c81": {
+"a": {
+"data-cat": "hof"
+}
+},
+"50b07bec": {
+"a": {
+"data-compare": "",
+"style": "--pos:50%"
+}
+},
+"392e657b": {
+"a": {
+"loading": "lazy"
+}
+},
+"2152a7eb": {
+"a": {
+"loading": "lazy"
+}
+},
+"929a9c3": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"464cec87": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"4fe97d0d": {
+"a": {
+"data-handle": "",
+"aria-hidden": "true"
+}
+},
+"5704047f": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"644e4ee6": {
+"a": {
+"for": "rf-2"
+}
+},
+"232c8d3d": {
+"r": "<input class=\"compare-range\" id=\"rf-2\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
+},
+"24fb4327": {
+"a": {
+"data-cat": "garten"
+}
+},
+"5ddbc22d": {
+"a": {
+"data-compare": "",
+"style": "--pos:50%"
+}
+},
+"2cb34aea": {
+"a": {
+"loading": "lazy"
+}
+},
+"54097be8": {
+"a": {
+"loading": "lazy"
+}
+},
+"306725c7": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"391bd828": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"5383cc41": {
+"a": {
+"data-handle": "",
+"aria-hidden": "true"
+}
+},
+"7b8a68c2": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"398b9cbf": {
+"a": {
+"for": "rf-3"
+}
+},
+"8e27fa1": {
+"r": "<input class=\"compare-range\" id=\"rf-3\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
+},
+"3f9f2226": {
+"a": {
+"data-cat": "fz"
+}
+},
+"4db37d04": {
+"a": {
+"data-compare": "",
+"style": "--pos:50%"
+}
+},
+"3cc3cec8": {
+"a": {
+"loading": "lazy"
+}
+},
+"29a9d6d8": {
+"a": {
+"loading": "lazy"
+}
+},
+"11ab4a60": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"5a5a060d": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"1ff8133f": {
+"a": {
+"data-handle": "",
+"aria-hidden": "true"
+}
+},
+"1b9c388f": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"2b56c768": {
+"a": {
+"for": "rf-4"
+}
+},
+"6f2cf35f": {
+"r": "<input class=\"compare-range\" id=\"rf-4\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
+},
+"708a881f": {
+"a": {
+"data-cat": "garten"
+}
+},
+"5d82568e": {
+"a": {
+"data-compare": "",
+"style": "--pos:50%"
+}
+},
+"1b03236e": {
+"a": {
+"loading": "lazy"
+}
+},
+"66d2c219": {
+"a": {
+"loading": "lazy"
+}
+},
+"1249f6ed": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"4f06981e": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"1bba7f48": {
+"a": {
+"data-handle": "",
+"aria-hidden": "true"
+}
+},
+"50cd430b": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"73da696c": {
+"a": {
+"for": "rf-6"
+}
+},
+"5791b2e0": {
+"r": "<input class=\"compare-range\" id=\"rf-6\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
+},
+"40a7cdd3": {
+"a": {
+"data-cat": "hof"
+}
+},
+"58fed526": {
+"a": {
+"data-compare": "",
+"style": "--pos:50%"
+}
+},
+"5402cad4": {
+"a": {
+"loading": "lazy"
+}
+},
+"75998e23": {
+"a": {
+"loading": "lazy"
+}
+},
+"1890c334": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"149d5110": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"4d06860": {
+"a": {
+"data-handle": "",
+"aria-hidden": "true"
+}
+},
+"61acddca": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"c88520a": {
+"a": {
+"for": "rf-7"
+}
+},
+"6f702b22": {
+"r": "<input class=\"compare-range\" id=\"rf-7\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
+},
+"7a65eb55": {
+"a": {
+"data-cat": "garten"
+}
+},
+"7ead60f2": {
+"a": {
+"data-compare": "",
+"style": "--pos:50%"
+}
+},
+"7fc1b16f": {
+"a": {
+"loading": "lazy"
+}
+},
+"4cab2114": {
+"a": {
+"loading": "lazy"
+}
+},
+"7a43d12": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"17926637": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"628cbcf7": {
+"a": {
+"data-handle": "",
+"aria-hidden": "true"
+}
+},
+"29f4f8c1": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"163746f7": {
+"a": {
+"for": "rf-8"
+}
+},
+"42bdd0bf": {
+"r": "<input class=\"compare-range\" id=\"rf-8\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
+},
+"7be4d720": {
+"a": {
+"data-cat": "hof"
+}
+},
+"2c52909c": {
+"a": {
+"data-compare": "",
+"style": "--pos:50%"
+}
+},
+"6aa81f2b": {
+"a": {
+"loading": "lazy"
+}
+},
+"447e21be": {
+"a": {
+"loading": "lazy"
+}
+},
+"1aa2bdf4": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"7b4d30e5": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"6e1c6b0c": {
+"a": {
+"data-handle": "",
+"aria-hidden": "true"
+}
+},
+"75fb07be": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"5d3d08c0": {
+"a": {
+"for": "rf-9"
+}
+},
+"22b0af8a": {
+"r": "<input class=\"compare-range\" id=\"rf-9\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
+},
+"55dcb4a0": {
+"a": {
+"data-cat": "fz"
+}
+},
+"1269c122": {
+"a": {
+"data-compare": "",
+"style": "--pos:50%"
+}
+},
+"13c13b11": {
+"a": {
+"loading": "lazy"
+}
+},
+"1d8d0b8f": {
+"a": {
+"loading": "lazy"
+}
+},
+"4f792932": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"51989af1": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"2157fb19": {
+"a": {
+"data-handle": "",
+"aria-hidden": "true"
+}
+},
+"2cdd67df": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"6da34be": {
+"a": {
+"for": "rf-10"
+}
+},
+"f8d31f7": {
+"r": "<input class=\"compare-range\" id=\"rf-10\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
+},
+"751ffa8a": {
+"a": {
+"data-cat": "hof"
+}
+},
+"788c06b9": {
+"a": {
+"data-compare": "",
+"style": "--pos:50%"
+}
+},
+"5c543463": {
+"a": {
+"loading": "lazy"
+}
+},
+"2712243e": {
+"a": {
+"loading": "lazy"
+}
+},
+"78c7b1ff": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"2d6f9010": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"593aef6b": {
+"a": {
+"data-handle": "",
+"aria-hidden": "true"
+}
+},
+"27b9bb4": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"1de07482": {
+"a": {
+"for": "rf-11"
+}
+},
+"2147335c": {
+"r": "<input class=\"compare-range\" id=\"rf-11\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
+},
+"46263072": {
+"a": {
+"data-cat": "garten"
+}
+},
+"41e9a65d": {
+"a": {
+"data-compare": "",
+"style": "--pos:50%"
+}
+},
+"7d972f1a": {
+"a": {
+"loading": "lazy"
+}
+},
+"a5eedb0": {
+"a": {
+"loading": "lazy"
+}
+},
+"51dd95a1": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"59d1d994": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"7e64cbda": {
+"a": {
+"data-handle": "",
+"aria-hidden": "true"
+}
+},
+"20526347": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"7c5b08dd": {
+"a": {
+"for": "rf-12"
+}
+},
+"44a37e21": {
+"r": "<input class=\"compare-range\" id=\"rf-12\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
+},
+"4826fc85": {
+"a": {
+"data-cat": "hof"
+}
+},
+"2c957cf6": {
+"a": {
+"data-compare": "",
+"style": "--pos:50%"
+}
+},
+"72894daf": {
+"a": {
+"loading": "lazy"
+}
+},
+"2487770a": {
+"a": {
+"loading": "lazy"
+}
+},
+"67e7c199": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"56041716": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"e3d7d6f": {
+"a": {
+"data-handle": "",
+"aria-hidden": "true"
+}
+},
+"176fd315": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"7a2d852": {
+"a": {
+"for": "rf-13"
+}
+},
+"49433599": {
+"r": "<input class=\"compare-range\" id=\"rf-13\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
+},
+"fd0a25b": {
+"a": {
+"aria-labelledby": "h-voices"
+}
+},
+"5c11b6fe": {
+"a": {
+"role": "img",
+"aria-label": "5,0 von 5 Sternen"
+}
+},
+"1104340e": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"5cf25071": {
+"a": {
+"data-tvid": "",
+"data-src": "/wp-content/uploads/2026/11/bauservice-craig-kundenstimme-erfurt.mp4"
+}
+},
+"85a8669": {
+"a": {
+"type": "button",
+"aria-label": "Kundenstimme aus Erfurt abspielen, Dauer 1:49 Minuten"
+}
+},
+"99d7422": {
+"a": {
+"loading": "lazy"
+}
+},
+"17c8ec88": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"336757bb": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"e607328": {
+"a": {
+"data-tvid": "",
+"data-src": "/wp-content/uploads/2026/11/bauservice-craig-kundenstimme-weimar.mp4"
+}
+},
+"6f1bef6": {
+"a": {
+"type": "button",
+"aria-label": "Kundenstimme aus Weimar abspielen, Dauer 1:53 Minuten"
+}
+},
+"16dbf870": {
+"a": {
+"loading": "lazy"
+}
+},
+"8c8f4a8": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"11a3ded9": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"38b3a87e": {
+"a": {
+"data-tvid": "",
+"data-src": "/wp-content/uploads/2026/11/bauservice-craig-kundenstimme-bad-berka.mp4"
+}
+},
+"6daaf00e": {
+"a": {
+"type": "button",
+"aria-label": "Kundenstimme aus Bad Berka abspielen, Dauer 2:08 Minuten"
+}
+},
+"718f014c": {
+"a": {
+"loading": "lazy"
+}
+},
+"43f153cf": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"31bc3328": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"66c87090": {
+"a": {
+"aria-labelledby": "h-anfrage"
+}
+},
+"73691eec": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"6f3a5256": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"2f60c797": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"52b16202": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"4ba4484f": {
+"a": {
+"autocomplete": "name"
+}
+},
+"36f49076": {
+"a": {
+"autocomplete": "tel"
+}
+},
+"79ee6f7": {
+"a": {
+"autocomplete": "email"
+}
+},
+"6b81f630": {
+"a": {
+"autocomplete": "postal-code"
+}
+},
+"6d1a103f": {
+"a": {
+"id": "f-lst"
+}
+},
+"3aff77da": {
+"a": {
+"id": "f-budget"
+}
+},
+"23a409a2": {
+"a": {
+"id": "f-zeit"
+}
+},
+"35835495": {
+"a": {
+"id": "f-ds"
+}
+}
+}

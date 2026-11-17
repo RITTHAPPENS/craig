@@ -1,0 +1,167 @@
+{
+"6735b079": {
+"a": {
+"aria-labelledby": "h1"
+}
+},
+"4e3d9b73": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"723d8974": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"63fe325d": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"39381110": {
+"a": {
+"aria-labelledby": "h-gl"
+}
+},
+"7a0ec746": {
+"a": {
+"loading": "lazy"
+}
+},
+"4d4db5f1": {
+"a": {
+"loading": "lazy"
+}
+},
+"39e4200": {
+"a": {
+"loading": "lazy"
+}
+},
+"56ec6a5a": {
+"a": {
+"loading": "lazy"
+}
+},
+"383955f6": {
+"a": {
+"loading": "lazy"
+}
+},
+"1b28d1a4": {
+"a": {
+"loading": "lazy"
+}
+},
+"2121a6c7": {
+"a": {
+"aria-labelledby": "h-usp"
+}
+},
+"34520d91": {
+"a": {
+"aria-labelledby": "h-process"
+}
+},
+"5d145227": {
+"a": {
+"loading": "lazy"
+}
+},
+"1304ef62": {
+"a": {
+"aria-labelledby": "h-faq"
+}
+},
+"2942ecc9": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"7d69e6ff": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"7b501ed6": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"ab31a3d": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"3e7bef54": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"754379ed": {
+"a": {
+"aria-labelledby": "h-anfrage"
+}
+},
+"30f00b2e": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"22b1b5de": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"7df1c4a5": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"7d9cc09c": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"4cd06d16": {
+"a": {
+"autocomplete": "name"
+}
+},
+"f3eb3e3": {
+"a": {
+"autocomplete": "tel"
+}
+},
+"381c14a5": {
+"a": {
+"autocomplete": "email"
+}
+},
+"2ef5faeb": {
+"a": {
+"autocomplete": "postal-code"
+}
+},
+"3414e92": {
+"a": {
+"id": "f-lst"
+}
+},
+"a995d96": {
+"a": {
+"id": "f-budget"
+}
+},
+"5591c468": {
+"a": {
+"id": "f-zeit"
+}
+},
+"6fc6d333": {
+"a": {
+"id": "f-ds"
+}
+}
+}

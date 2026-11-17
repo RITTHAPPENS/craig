@@ -1,0 +1,1071 @@
+{
+"66e711a1": {
+"a": {
+"aria-labelledby": "h1"
+}
+},
+"6b56ae37": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"2ffbb114": {
+"r": "<video autoplay=\"\" class=\"hero-video\" data-src-tall=\"/wp-content/uploads/2026/11/bauservice-craig-hero-hoch.mp4\" data-src-wide=\"/wp-content/uploads/2026/11/bauservice-craig-hero-quer-1280.mp4\" data-src-xl=\"/wp-content/uploads/2026/11/bauservice-craig-hero-quer.mp4\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"auto\"></video>"
+},
+"fc9abdb": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"5d8989b9": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"ec394d4": {
+"a": {
+"type": "button",
+"data-video-toggle": "",
+"aria-pressed": "false",
+"hidden": ""
+}
+},
+"607c02c1": {
+"a": {
+"aria-labelledby": "h-vision"
+}
+},
+"66e275df": {
+"a": {
+"aria-labelledby": "h-leistungen"
+}
+},
+"38035c6f": {
+"a": {
+"type": "button",
+"data-rail-prev": "",
+"aria-controls": "rail",
+"aria-label": "Vorherige Leistungen"
+}
+},
+"3cfa0e85": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"37f28170": {
+"a": {
+"type": "button",
+"data-rail-next": "",
+"aria-controls": "rail",
+"aria-label": "Nächste Leistungen"
+}
+},
+"707f023": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"54d784b7": {
+"a": {
+"data-rail": "",
+"aria-label": "Leistungen im Bereich Bauen",
+"tabindex": "0"
+}
+},
+"2543dafb": {
+"a": {
+"role": "group",
+"aria-roledescription": "Leistung",
+"aria-label": "1 von 13"
+}
+},
+"434842cb": {
+"a": {
+"loading": "lazy"
+}
+},
+"63f4aee": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"3e414e07": {
+"a": {
+"role": "group",
+"aria-roledescription": "Leistung",
+"aria-label": "2 von 13"
+}
+},
+"7524f33b": {
+"a": {
+"loading": "lazy"
+}
+},
+"4638b05a": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"7a1d22fd": {
+"a": {
+"role": "group",
+"aria-roledescription": "Leistung",
+"aria-label": "3 von 13"
+}
+},
+"5edcae23": {
+"a": {
+"loading": "lazy"
+}
+},
+"20935f10": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"4ea47545": {
+"a": {
+"role": "group",
+"aria-roledescription": "Leistung",
+"aria-label": "4 von 13"
+}
+},
+"1a4ede6e": {
+"a": {
+"loading": "lazy"
+}
+},
+"72f5a167": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"1c464595": {
+"a": {
+"role": "group",
+"aria-roledescription": "Leistung",
+"aria-label": "5 von 13"
+}
+},
+"1cde7531": {
+"a": {
+"loading": "lazy"
+}
+},
+"19fe005b": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"e822b90": {
+"a": {
+"role": "group",
+"aria-roledescription": "Leistung",
+"aria-label": "6 von 13"
+}
+},
+"5712d848": {
+"a": {
+"loading": "lazy"
+}
+},
+"1a07a779": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"6ce47b2d": {
+"a": {
+"role": "group",
+"aria-roledescription": "Leistung",
+"aria-label": "7 von 13"
+}
+},
+"5d584b4a": {
+"a": {
+"loading": "lazy"
+}
+},
+"3ac0aaba": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"5bbe204a": {
+"a": {
+"role": "group",
+"aria-roledescription": "Leistung",
+"aria-label": "8 von 13"
+}
+},
+"d84e5c4": {
+"a": {
+"loading": "lazy"
+}
+},
+"945a08b": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"772f9402": {
+"a": {
+"role": "group",
+"aria-roledescription": "Leistung",
+"aria-label": "9 von 13"
+}
+},
+"40701e4f": {
+"a": {
+"loading": "lazy"
+}
+},
+"516b43d2": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"d6e88cd": {
+"a": {
+"role": "group",
+"aria-roledescription": "Leistung",
+"aria-label": "10 von 13"
+}
+},
+"cc3d7da": {
+"a": {
+"loading": "lazy"
+}
+},
+"13df9e48": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"4dc5193d": {
+"a": {
+"role": "group",
+"aria-roledescription": "Leistung",
+"aria-label": "11 von 13"
+}
+},
+"3ca0788e": {
+"a": {
+"loading": "lazy"
+}
+},
+"dc3e936": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"1334155d": {
+"a": {
+"role": "group",
+"aria-roledescription": "Leistung",
+"aria-label": "12 von 13"
+}
+},
+"7508ad1b": {
+"a": {
+"loading": "lazy"
+}
+},
+"302fedc1": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"7a9212c6": {
+"a": {
+"role": "group",
+"aria-roledescription": "Leistung",
+"aria-label": "13 von 13"
+}
+},
+"7f7f8cec": {
+"a": {
+"loading": "lazy"
+}
+},
+"12827417": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"2b13ee71": {
+"a": {
+"data-dots": "",
+"aria-hidden": "true"
+}
+},
+"69c6f05b": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"66218065": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"3bd42c9": {
+"a": {
+"aria-labelledby": "h-bbb"
+}
+},
+"1f196c60": {
+"a": {
+"loading": "lazy"
+}
+},
+"5554085b": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"56661026": {
+"a": {
+"loading": "lazy"
+}
+},
+"2e878b4c": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"3bda3d76": {
+"a": {
+"loading": "lazy"
+}
+},
+"6e595854": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"1ea9e58c": {
+"a": {
+"aria-labelledby": "h-ref"
+}
+},
+"46d288ff": {
+"a": {
+"type": "button",
+"data-ba-prev": "",
+"aria-controls": "ba-track",
+"aria-label": "Vorheriges Projekt"
+}
+},
+"743fe33b": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"6437e82d": {
+"a": {
+"type": "button",
+"data-ba-next": "",
+"aria-controls": "ba-track",
+"aria-label": "Nächstes Projekt"
+}
+},
+"9251ed9": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"28ee5a5b": {
+"a": {
+"data-ba-track": "",
+"aria-label": "Vorher und Nachher Projekte",
+"tabindex": "0"
+}
+},
+"6397e151": {
+"a": {
+"role": "group",
+"aria-roledescription": "Projekt",
+"aria-label": "1 von 8"
+}
+},
+"3cf2e82b": {
+"a": {
+"data-compare": "",
+"style": "--pos:50%"
+}
+},
+"1fff49e": {
+"a": {
+"loading": "lazy"
+}
+},
+"7ec08e40": {
+"a": {
+"loading": "lazy"
+}
+},
+"19ccf02e": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"73d1c62a": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"34a2ffb4": {
+"a": {
+"data-handle": "",
+"aria-hidden": "true"
+}
+},
+"1927e81c": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"6b42a078": {
+"a": {
+"for": "ba-1"
+}
+},
+"7bb15d7b": {
+"r": "<input class=\"compare-range\" id=\"ba-1\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
+},
+"17d4c27b": {
+"a": {
+"role": "group",
+"aria-roledescription": "Projekt",
+"aria-label": "2 von 8"
+}
+},
+"554df39f": {
+"a": {
+"data-compare": "",
+"style": "--pos:50%"
+}
+},
+"19dd018": {
+"a": {
+"loading": "lazy"
+}
+},
+"6502dff7": {
+"a": {
+"loading": "lazy"
+}
+},
+"1113cd3e": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"382a6ddc": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"1d40bef9": {
+"a": {
+"data-handle": "",
+"aria-hidden": "true"
+}
+},
+"3922abd1": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"b455230": {
+"a": {
+"for": "ba-2"
+}
+},
+"16a5c20a": {
+"r": "<input class=\"compare-range\" id=\"ba-2\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
+},
+"697d3538": {
+"a": {
+"role": "group",
+"aria-roledescription": "Projekt",
+"aria-label": "3 von 8"
+}
+},
+"7f787784": {
+"a": {
+"data-compare": "",
+"style": "--pos:50%"
+}
+},
+"2cb7b7ee": {
+"a": {
+"loading": "lazy"
+}
+},
+"593698f8": {
+"a": {
+"loading": "lazy"
+}
+},
+"5bd2e614": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"7fe12b88": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"1e4188cb": {
+"a": {
+"data-handle": "",
+"aria-hidden": "true"
+}
+},
+"f87e6f2": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"72ff4cbb": {
+"a": {
+"for": "ba-3"
+}
+},
+"20404f65": {
+"r": "<input class=\"compare-range\" id=\"ba-3\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
+},
+"697e421f": {
+"a": {
+"role": "group",
+"aria-roledescription": "Projekt",
+"aria-label": "4 von 8"
+}
+},
+"434a714f": {
+"a": {
+"data-compare": "",
+"style": "--pos:50%"
+}
+},
+"3f55cec6": {
+"a": {
+"loading": "lazy"
+}
+},
+"3b6ceec": {
+"a": {
+"loading": "lazy"
+}
+},
+"179b0536": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"c45c6e4": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"18334c1f": {
+"a": {
+"data-handle": "",
+"aria-hidden": "true"
+}
+},
+"445be3e4": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"6348369e": {
+"a": {
+"for": "ba-4"
+}
+},
+"34f37c3a": {
+"r": "<input class=\"compare-range\" id=\"ba-4\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
+},
+"57d71de2": {
+"a": {
+"role": "group",
+"aria-roledescription": "Projekt",
+"aria-label": "5 von 8"
+}
+},
+"387a6e4e": {
+"a": {
+"data-compare": "",
+"style": "--pos:50%"
+}
+},
+"2533fafd": {
+"a": {
+"loading": "lazy"
+}
+},
+"2a5a09f": {
+"a": {
+"loading": "lazy"
+}
+},
+"3a564b8b": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"1c8aee99": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"3322df86": {
+"a": {
+"data-handle": "",
+"aria-hidden": "true"
+}
+},
+"4847dad5": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"61f58601": {
+"a": {
+"for": "ba-5"
+}
+},
+"15821914": {
+"r": "<input class=\"compare-range\" id=\"ba-5\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
+},
+"6bdda17b": {
+"a": {
+"role": "group",
+"aria-roledescription": "Projekt",
+"aria-label": "6 von 8"
+}
+},
+"79a65717": {
+"a": {
+"data-compare": "",
+"style": "--pos:50%"
+}
+},
+"4a4dcf8b": {
+"a": {
+"loading": "lazy"
+}
+},
+"5fd280d0": {
+"a": {
+"loading": "lazy"
+}
+},
+"3c4d17f0": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"5e8514ea": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"1d240c88": {
+"a": {
+"data-handle": "",
+"aria-hidden": "true"
+}
+},
+"fbab523": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"7bedfa4a": {
+"a": {
+"for": "ba-7"
+}
+},
+"5911b6f1": {
+"r": "<input class=\"compare-range\" id=\"ba-7\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
+},
+"a5a1e14": {
+"a": {
+"role": "group",
+"aria-roledescription": "Projekt",
+"aria-label": "7 von 8"
+}
+},
+"74ea1aeb": {
+"a": {
+"data-compare": "",
+"style": "--pos:50%"
+}
+},
+"fccef9b": {
+"a": {
+"loading": "lazy"
+}
+},
+"58f00fc": {
+"a": {
+"loading": "lazy"
+}
+},
+"23330ca1": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"7d5eab03": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"1e15a1f3": {
+"a": {
+"data-handle": "",
+"aria-hidden": "true"
+}
+},
+"57903f2c": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"2a9ba820": {
+"a": {
+"for": "ba-8"
+}
+},
+"69a27f55": {
+"r": "<input class=\"compare-range\" id=\"ba-8\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
+},
+"f75179b": {
+"a": {
+"role": "group",
+"aria-roledescription": "Projekt",
+"aria-label": "8 von 8"
+}
+},
+"983facd": {
+"a": {
+"data-compare": "",
+"style": "--pos:50%"
+}
+},
+"8a6e2b8": {
+"a": {
+"loading": "lazy"
+}
+},
+"58de194a": {
+"a": {
+"loading": "lazy"
+}
+},
+"1c8e608e": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"55a3e496": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"528a6501": {
+"a": {
+"data-handle": "",
+"aria-hidden": "true"
+}
+},
+"2919a326": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"5a77bea0": {
+"a": {
+"for": "ba-9"
+}
+},
+"703314dc": {
+"r": "<input class=\"compare-range\" id=\"ba-9\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
+},
+"d97605": {
+"a": {
+"data-ba-dots": "",
+"aria-hidden": "true"
+}
+},
+"1a9d4e94": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"33f2dc94": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"79253dc": {
+"a": {
+"aria-labelledby": "h-owners"
+}
+},
+"2f731d96": {
+"a": {
+"loading": "lazy"
+}
+},
+"7e9ff4df": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"4efb6288": {
+"a": {
+"aria-labelledby": "h-team"
+}
+},
+"576b8990": {
+"a": {
+"loading": "lazy"
+}
+},
+"41f73d21": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"5dec9a8d": {
+"a": {
+"aria-labelledby": "h-show"
+}
+},
+"6135b14c": {
+"a": {
+"loading": "lazy"
+}
+},
+"14e956c9": {
+"a": {
+"aria-labelledby": "h-voices"
+}
+},
+"35e5b368": {
+"a": {
+"role": "img",
+"aria-label": "5,0 von 5 Sternen"
+}
+},
+"5d23c0d4": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"36f6d110": {
+"a": {
+"data-tvid": "",
+"data-src": "/wp-content/uploads/2026/11/bauservice-craig-kundenstimme-erfurt.mp4"
+}
+},
+"1871502": {
+"a": {
+"type": "button",
+"aria-label": "Kundenstimme aus Erfurt abspielen, Dauer 1:49 Minuten"
+}
+},
+"5c7513e9": {
+"a": {
+"loading": "lazy"
+}
+},
+"3a5fd58c": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"72363308": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"5fb09b6a": {
+"a": {
+"data-tvid": "",
+"data-src": "/wp-content/uploads/2026/11/bauservice-craig-kundenstimme-weimar.mp4"
+}
+},
+"5eb8174d": {
+"a": {
+"type": "button",
+"aria-label": "Kundenstimme aus Weimar abspielen, Dauer 1:53 Minuten"
+}
+},
+"69d696de": {
+"a": {
+"loading": "lazy"
+}
+},
+"254411b": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"6ec4914d": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"aab22d7": {
+"a": {
+"data-tvid": "",
+"data-src": "/wp-content/uploads/2026/11/bauservice-craig-kundenstimme-bad-berka.mp4"
+}
+},
+"2b4b6e05": {
+"a": {
+"type": "button",
+"aria-label": "Kundenstimme aus Bad Berka abspielen, Dauer 2:08 Minuten"
+}
+},
+"727a3400": {
+"a": {
+"loading": "lazy"
+}
+},
+"58a33897": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"4e34a7a5": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"7717acda": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"148eea1c": {
+"a": {
+"role": "img",
+"aria-label": "5,0 von 5 Sternen"
+}
+},
+"3d57cd46": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"5f971e36": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"631e0aa": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"498b54ff": {
+"a": {
+"aria-labelledby": "h-insta"
+}
+},
+"371635aa": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"4ea7b60b": {
+"a": {
+"loading": "lazy"
+}
+},
+"78bac706": {
+"a": {
+"loading": "lazy"
+}
+},
+"757ca22a": {
+"a": {
+"loading": "lazy"
+}
+},
+"77078b11": {
+"a": {
+"aria-labelledby": "h-anfrage"
+}
+},
+"54d50e97": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"9edfe8d": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"4a137c59": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"5a480ee8": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"1b19d920": {
+"a": {
+"autocomplete": "name"
+}
+},
+"6045c32f": {
+"a": {
+"autocomplete": "tel"
+}
+},
+"5ea1793b": {
+"a": {
+"autocomplete": "email"
+}
+},
+"3772ce48": {
+"a": {
+"autocomplete": "postal-code"
+}
+},
+"41f493e": {
+"a": {
+"id": "f-lst"
+}
+},
+"568d43d0": {
+"a": {
+"id": "f-budget"
+}
+},
+"7d7d7dc9": {
+"a": {
+"id": "f-zeit"
+}
+},
+"7abb0564": {
+"a": {
+"id": "f-ds"
+}
+}
+}

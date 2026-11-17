@@ -1,0 +1,25 @@
+/* Elementor atomic -> native element behaviour (rolls back to browser defaults; prototype rules win) */
+.elementor [data-e-type][data-id]{all:revert}
+.elementor [data-e-type][data-id]::before,.elementor [data-e-type][data-id]::after{all:revert}
+.elementor [data-e-type][data-id].tg-li{display:list-item}
+.elementor [data-e-type][data-id].tg-ul,.elementor [data-e-type][data-id].tg-ol{display:block;margin-block:1em;padding-inline-start:40px}
+.elementor [data-e-type][data-id].tg-ul{list-style-type:disc}
+.elementor [data-e-type][data-id].tg-ol{list-style-type:decimal}
+.elementor [data-e-type][data-id].tg-figure,.elementor [data-e-type][data-id].tg-blockquote{display:block;margin:1em 40px}
+.elementor [data-e-type][data-id].tg-dl{display:block;margin-block:1em}
+.elementor [data-e-type][data-id].tg-dd{display:block;margin-inline-start:40px}
+.elementor [data-e-type][data-id].tg-p{display:block;margin-block:1em}
+.elementor [data-e-type][data-id].tg-summary{display:list-item;cursor:pointer}
+.elementor [data-e-type][data-id]:is(.tg-span,.tg-label,.tg-small,.tg-strong,.tg-em,.tg-b,.tg-i,.tg-time,.tg-picture){display:inline}
+.elementor [data-e-type][data-id]:is(.tg-strong,.tg-b){font-weight:bolder}
+.elementor [data-e-type][data-id]:is(.tg-em,.tg-i){font-style:italic}
+.elementor [data-e-type][data-id].tg-small{font-size:smaller}
+.elementor [data-e-type][data-id].tg-svg{display:inline-block;background-color:currentColor;-webkit-mask:var(--ic) center/contain no-repeat;mask:var(--ic) center/contain no-repeat}
+.elementor [data-e-type][data-id].x-hidden{display:none!important}
+html .elementor .tg-details:not([open])>:not(.tg-summary){display:none!important}
+.elementor .x-ph{display:none}
+.elementor [data-e-type][data-id][class*="after-i-"]::after{content:"";display:block;width:1.15em;height:1.15em;flex:none;background-color:currentColor;-webkit-mask:var(--ic) center/contain no-repeat;mask:var(--ic) center/contain no-repeat;transition:transform 200ms cubic-bezier(.23,1,.32,1)}
+.elementor [data-e-type][data-id].form-msg{display:none;margin:0;font-size:.95rem;font-weight:600;color:#fff;width:100%}
+.elementor [data-e-type][data-id].form-err{color:#ff8f7d}
+.elementor .form-state-success [data-e-type][data-id].form-ok,.elementor .form-state-error [data-e-type][data-id].form-err{display:block}
+@media (hover:hover) and (pointer:fine){.elementor .btn[class*="after-i-"]:hover::after{transform:translateX(3px)}}

@@ -1,0 +1,107 @@
+{
+"72384f26": {
+"a": {
+"aria-labelledby": "h1"
+}
+},
+"7b59be45": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"4d69d499": {
+"a": {
+"aria-labelledby": "h-haltung"
+}
+},
+"5a16b656": {
+"a": {
+"aria-labelledby": "h-vision"
+}
+},
+"63e1f3ca": {
+"a": {
+"aria-labelledby": "h-marvin"
+}
+},
+"3c747ccc": {
+"a": {
+"loading": "lazy"
+}
+},
+"301e8da0": {
+"a": {
+"aria-labelledby": "h-carissa"
+}
+},
+"76d33a8c": {
+"a": {
+"loading": "lazy"
+}
+},
+"7d9416bb": {
+"a": {
+"aria-labelledby": "h-anfrage"
+}
+},
+"20a2a616": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"12eee1c5": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"775fe0f2": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"154d5251": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"ca25570": {
+"a": {
+"autocomplete": "name"
+}
+},
+"352a2408": {
+"a": {
+"autocomplete": "tel"
+}
+},
+"1ae732d": {
+"a": {
+"autocomplete": "email"
+}
+},
+"3be6760a": {
+"a": {
+"autocomplete": "postal-code"
+}
+},
+"43d9a962": {
+"a": {
+"id": "f-lst"
+}
+},
+"246df0e0": {
+"a": {
+"id": "f-budget"
+}
+},
+"44b74229": {
+"a": {
+"id": "f-zeit"
+}
+},
+"4e662e6f": {
+"a": {
+"id": "f-ds"
+}
+}
+}

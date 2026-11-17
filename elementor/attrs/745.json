@@ -1,0 +1,408 @@
+{
+"5b5c083b": {
+"a": {
+"aria-labelledby": "h1"
+}
+},
+"2fdbcfc": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"3511b7f2": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"2d60753": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"1e37b80c": {
+"a": {
+"aria-labelledby": "h-gl"
+}
+},
+"30e48810": {
+"a": {
+"loading": "lazy"
+}
+},
+"15baadb2": {
+"a": {
+"loading": "lazy"
+}
+},
+"2f4483b2": {
+"a": {
+"loading": "lazy"
+}
+},
+"4159bafc": {
+"a": {
+"loading": "lazy"
+}
+},
+"476fedf7": {
+"a": {
+"loading": "lazy"
+}
+},
+"e3ed1d3": {
+"a": {
+"loading": "lazy"
+}
+},
+"325e7f71": {
+"a": {
+"aria-labelledby": "h-ref"
+}
+},
+"361954c1": {
+"a": {
+"type": "button",
+"data-ba-prev": "",
+"aria-controls": "ba-track",
+"aria-label": "Vorheriges Projekt"
+}
+},
+"44575988": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"48d563f": {
+"a": {
+"type": "button",
+"data-ba-next": "",
+"aria-controls": "ba-track",
+"aria-label": "Nächstes Projekt"
+}
+},
+"17d79b5f": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"1cfd7d99": {
+"a": {
+"data-ba-track": "",
+"aria-label": "Vorher und Nachher Projekte",
+"tabindex": "0"
+}
+},
+"26a52b73": {
+"a": {
+"role": "group",
+"aria-roledescription": "Projekt",
+"aria-label": "1 von 4"
+}
+},
+"581ad16f": {
+"a": {
+"data-compare": "",
+"style": "--pos:50%"
+}
+},
+"39e967df": {
+"a": {
+"loading": "lazy"
+}
+},
+"36fd3c23": {
+"a": {
+"loading": "lazy"
+}
+},
+"188d4553": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"77423a62": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"48934cd7": {
+"a": {
+"data-handle": "",
+"aria-hidden": "true"
+}
+},
+"74360dc4": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"118db893": {
+"a": {
+"for": "ba-1"
+}
+},
+"41eb4926": {
+"r": "<input class=\"compare-range\" id=\"ba-1\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
+},
+"6292a111": {
+"a": {
+"role": "group",
+"aria-roledescription": "Projekt",
+"aria-label": "2 von 4"
+}
+},
+"32846242": {
+"a": {
+"data-compare": "",
+"style": "--pos:50%"
+}
+},
+"2fd56692": {
+"a": {
+"loading": "lazy"
+}
+},
+"46e08a59": {
+"a": {
+"loading": "lazy"
+}
+},
+"60d4973f": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"522bcbcf": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"6f387f82": {
+"a": {
+"data-handle": "",
+"aria-hidden": "true"
+}
+},
+"5cd39265": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"72a41fb9": {
+"a": {
+"for": "ba-2"
+}
+},
+"3d40ccbb": {
+"r": "<input class=\"compare-range\" id=\"ba-2\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
+},
+"4cf81a6a": {
+"a": {
+"role": "group",
+"aria-roledescription": "Projekt",
+"aria-label": "3 von 4"
+}
+},
+"40dfacfc": {
+"a": {
+"data-compare": "",
+"style": "--pos:50%"
+}
+},
+"4338f324": {
+"a": {
+"loading": "lazy"
+}
+},
+"c1d7bc8": {
+"a": {
+"loading": "lazy"
+}
+},
+"68b6cfed": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"2f77607": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"6359c958": {
+"a": {
+"data-handle": "",
+"aria-hidden": "true"
+}
+},
+"796b7002": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"5ad211ae": {
+"a": {
+"for": "ba-3"
+}
+},
+"763c744e": {
+"r": "<input class=\"compare-range\" id=\"ba-3\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
+},
+"8a10dc3": {
+"a": {
+"role": "group",
+"aria-roledescription": "Projekt",
+"aria-label": "4 von 4"
+}
+},
+"7be0acdb": {
+"a": {
+"data-compare": "",
+"style": "--pos:50%"
+}
+},
+"62fac8e5": {
+"a": {
+"loading": "lazy"
+}
+},
+"e247132": {
+"a": {
+"loading": "lazy"
+}
+},
+"3db57a79": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"2da6dc60": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"3286a3f2": {
+"a": {
+"data-handle": "",
+"aria-hidden": "true"
+}
+},
+"3821b6d9": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"26f4facb": {
+"a": {
+"for": "ba-4"
+}
+},
+"38fa1108": {
+"r": "<input class=\"compare-range\" id=\"ba-4\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
+},
+"40a3c76c": {
+"a": {
+"aria-labelledby": "h-process"
+}
+},
+"161bc6df": {
+"a": {
+"loading": "lazy"
+}
+},
+"1107ebf3": {
+"a": {
+"aria-labelledby": "h-faq"
+}
+},
+"429d682f": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"4e98bd4b": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"66e6002d": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"5b84c82d": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"7546be4": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"3aa188e3": {
+"a": {
+"aria-labelledby": "h-anfrage"
+}
+},
+"1fe84c5e": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"5de69f1c": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"44aeaf9a": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"eff8ae0": {
+"a": {
+"aria-hidden": "true"
+}
+},
+"35983e09": {
+"a": {
+"autocomplete": "name"
+}
+},
+"6e3d1a79": {
+"a": {
+"autocomplete": "tel"
+}
+},
+"66f1ba38": {
+"a": {
+"autocomplete": "email"
+}
+},
+"52478d47": {
+"a": {
+"autocomplete": "postal-code"
+}
+},
+"3515ca55": {
+"a": {
+"id": "f-lst"
+}
+},
+"62597628": {
+"a": {
+"id": "f-budget"
+}
+},
+"e947b44": {
+"a": {
+"id": "f-zeit"
+}
+},
+"2c72fc37": {
+"a": {
+"id": "f-ds"
+}
+}
+}
