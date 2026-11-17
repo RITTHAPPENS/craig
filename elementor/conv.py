@@ -352,6 +352,11 @@ class Conv:
 
         if name == 'form':
             return self.form(n)
+        if n.get('data-shortcode'):
+            cid = self.cid(n, 'sc')
+            self.cfg[cid] = {}
+            self.cls[cid] = self.classes(n, ['x-ti'])
+            return f'<e-div-block configuration-id="{cid}"></e-div-block>'
 
         # containers
         if name == 'a':

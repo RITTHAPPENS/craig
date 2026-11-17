@@ -22,6 +22,14 @@
     s.addEventListener('click',tog);
     s.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){e.preventDefault();tog();} });
   });
+  // CCM19: footer link opens the consent settings (floating icon is hidden via CSS)
+  document.querySelectorAll('.ccm-open').forEach(function(a){ a.addEventListener('click',function(e){ e.preventDefault(); if(window.CCM&&typeof CCM.openWidget==='function') CCM.openWidget(); }); });
+  // Google-Bewertungen (Trustindex): Widget wird aus einer versteckten WP-Seite geladen, da Elementor V4 keine Shortcodes rendert
+  var ti=document.querySelector('.x-ti');
+  if(ti){ fetch('/wp-json/wp/v2/pages/956?_fields=content').then(function(r){return r.json()}).then(function(d){
+    ti.innerHTML=d.content.rendered;
+    ti.querySelectorAll('script').forEach(function(o){ var n=document.createElement('script'); for(var i=0;i<o.attributes.length;i++) n.setAttribute(o.attributes[i].name,o.attributes[i].value); n.text=o.textContent; o.replaceWith(n); });
+  }).catch(function(){}); }
   // buttons outside forms never submit
   document.querySelectorAll('button.x-btn:not([type])').forEach(function(b){ b.type='button'; });
 })();

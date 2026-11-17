@@ -1,65 +1,65 @@
 {
-"5b5c083b": {
+"2571ee68": {
 "a": {
 "aria-labelledby": "h1"
 }
 },
-"2fdbcfc": {
+"55a55e08": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"3511b7f2": {
+"5460ef4b": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"2d60753": {
+"1ce38fc9": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"1e37b80c": {
+"27cbc587": {
 "a": {
 "aria-labelledby": "h-gl"
 }
 },
-"30e48810": {
+"c796590": {
 "a": {
 "loading": "lazy"
 }
 },
-"15baadb2": {
+"6a101b2f": {
 "a": {
 "loading": "lazy"
 }
 },
-"2f4483b2": {
+"2730505c": {
 "a": {
 "loading": "lazy"
 }
 },
-"4159bafc": {
+"aff5f64": {
 "a": {
 "loading": "lazy"
 }
 },
-"476fedf7": {
+"3b726532": {
 "a": {
 "loading": "lazy"
 }
 },
-"e3ed1d3": {
+"43a584f8": {
 "a": {
 "loading": "lazy"
 }
 },
-"325e7f71": {
+"1edf99b5": {
 "a": {
 "aria-labelledby": "h-ref"
 }
 },
-"361954c1": {
+"20b4f503": {
 "a": {
 "type": "button",
 "data-ba-prev": "",
@@ -67,12 +67,12 @@
 "aria-label": "Vorheriges Projekt"
 }
 },
-"44575988": {
+"6c79805b": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"48d563f": {
+"2f76fa8e": {
 "a": {
 "type": "button",
 "data-ba-next": "",
@@ -80,327 +80,327 @@
 "aria-label": "Nächstes Projekt"
 }
 },
-"17d79b5f": {
+"4b3b91e5": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"1cfd7d99": {
+"187d150d": {
 "a": {
 "data-ba-track": "",
 "aria-label": "Vorher und Nachher Projekte",
 "tabindex": "0"
 }
 },
-"26a52b73": {
+"1662d50a": {
 "a": {
 "role": "group",
 "aria-roledescription": "Projekt",
 "aria-label": "1 von 4"
 }
 },
-"581ad16f": {
+"12ff2443": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"39e967df": {
+"5343f0bc": {
 "a": {
 "loading": "lazy"
 }
 },
-"36fd3c23": {
+"195c5c3d": {
 "a": {
 "loading": "lazy"
 }
 },
-"188d4553": {
+"65509c60": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"77423a62": {
+"3c348ba0": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"48934cd7": {
+"70b7f8fc": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"74360dc4": {
+"7a6c3125": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"118db893": {
+"5a092f00": {
 "a": {
 "for": "ba-1"
 }
 },
-"41eb4926": {
+"326574c8": {
 "r": "<input class=\"compare-range\" id=\"ba-1\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"6292a111": {
+"54046588": {
 "a": {
 "role": "group",
 "aria-roledescription": "Projekt",
 "aria-label": "2 von 4"
 }
 },
-"32846242": {
+"1ed3cc9c": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"2fd56692": {
+"7627b487": {
 "a": {
 "loading": "lazy"
 }
 },
-"46e08a59": {
+"f2df26d": {
 "a": {
 "loading": "lazy"
 }
 },
-"60d4973f": {
+"59e40b86": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"522bcbcf": {
+"7794b08a": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"6f387f82": {
+"66c17620": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"5cd39265": {
+"34ae8ae0": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"72a41fb9": {
+"7c7a48b3": {
 "a": {
 "for": "ba-2"
 }
 },
-"3d40ccbb": {
+"7f8c528c": {
 "r": "<input class=\"compare-range\" id=\"ba-2\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"4cf81a6a": {
+"29a5ed87": {
 "a": {
 "role": "group",
 "aria-roledescription": "Projekt",
 "aria-label": "3 von 4"
 }
 },
-"40dfacfc": {
+"968adc6": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"4338f324": {
+"4a098016": {
 "a": {
 "loading": "lazy"
 }
 },
-"c1d7bc8": {
+"4e0d29a8": {
 "a": {
 "loading": "lazy"
 }
 },
-"68b6cfed": {
+"44b79883": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"2f77607": {
+"49447e13": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"6359c958": {
+"7fcbeda2": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"796b7002": {
+"2bf3093c": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"5ad211ae": {
+"1b87a996": {
 "a": {
 "for": "ba-3"
 }
 },
-"763c744e": {
+"3fe08bac": {
 "r": "<input class=\"compare-range\" id=\"ba-3\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"8a10dc3": {
+"e87a3b7": {
 "a": {
 "role": "group",
 "aria-roledescription": "Projekt",
 "aria-label": "4 von 4"
 }
 },
-"7be0acdb": {
+"10c71018": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"62fac8e5": {
+"7cf6d5bb": {
 "a": {
 "loading": "lazy"
 }
 },
-"e247132": {
+"5d71246b": {
 "a": {
 "loading": "lazy"
 }
 },
-"3db57a79": {
+"44323367": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"2da6dc60": {
+"5c56cded": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"3286a3f2": {
+"104dfe7a": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"3821b6d9": {
+"5d9adc13": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"26f4facb": {
+"53d72352": {
 "a": {
 "for": "ba-4"
 }
 },
-"38fa1108": {
+"1d8f45a7": {
 "r": "<input class=\"compare-range\" id=\"ba-4\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"40a3c76c": {
+"1610672c": {
 "a": {
 "aria-labelledby": "h-process"
 }
 },
-"161bc6df": {
+"7003daf8": {
 "a": {
 "loading": "lazy"
 }
 },
-"1107ebf3": {
+"769f092": {
 "a": {
 "aria-labelledby": "h-faq"
 }
 },
-"429d682f": {
+"703fb35b": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"4e98bd4b": {
+"4892ebed": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"66e6002d": {
+"17e3580b": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"5b84c82d": {
+"37ef5ffc": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"7546be4": {
+"5de55de8": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"3aa188e3": {
+"5c0c72ba": {
 "a": {
 "aria-labelledby": "h-anfrage"
 }
 },
-"1fe84c5e": {
+"2b0a823b": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"5de69f1c": {
+"762796c6": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"44aeaf9a": {
+"2c400cf1": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"eff8ae0": {
+"7046f0dd": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"35983e09": {
+"113a6b67": {
 "a": {
 "autocomplete": "name"
 }
 },
-"6e3d1a79": {
+"61d6a9b1": {
 "a": {
 "autocomplete": "tel"
 }
 },
-"66f1ba38": {
+"4f8a7752": {
 "a": {
 "autocomplete": "email"
 }
 },
-"52478d47": {
+"715c5ed6": {
 "a": {
 "autocomplete": "postal-code"
 }
 },
-"3515ca55": {
+"6cc07fd8": {
 "a": {
 "id": "f-lst"
 }
 },
-"62597628": {
+"b3e63ea": {
 "a": {
 "id": "f-budget"
 }
 },
-"e947b44": {
+"387155b9": {
 "a": {
 "id": "f-zeit"
 }
 },
-"2c72fc37": {
+"180cf51b": {
 "a": {
 "id": "f-ds"
 }

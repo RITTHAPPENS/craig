@@ -1,85 +1,85 @@
 {
-"5fd2b1ee": {
+"518b685c": {
 "a": {
 "aria-labelledby": "h1"
 }
 },
-"7ffda809": {
+"337f51d0": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"761df74": {
+"178c8295": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"7ef310ed": {
+"290b09f1": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"2851f2f3": {
+"735134cd": {
 "a": {
 "aria-label": "Leistungsbereiche Bauen"
 }
 },
-"7a072cfe": {
+"1f42adc1": {
 "a": {
 "loading": "lazy"
 }
 },
-"4a9a81c9": {
+"260e7676": {
 "a": {
 "aria-label": "Leistungen im Bereich Poolbau"
 }
 },
-"62e6c2be": {
+"26da8ff2": {
 "a": {
 "loading": "lazy"
 }
 },
-"25c55e21": {
+"5efe7a4": {
 "a": {
 "aria-label": "Leistungen im Bereich Garten- und Landschaftsbau & Außenanlagen"
 }
 },
-"441cc900": {
+"16b1a653": {
 "a": {
 "loading": "lazy"
 }
 },
-"552eafdf": {
+"62d191c1": {
 "a": {
 "aria-label": "Leistungen im Bereich Sanierung und Modernisierung"
 }
 },
-"5dbada7b": {
+"2bc798d8": {
 "a": {
 "loading": "lazy"
 }
 },
-"22d5ba94": {
+"667d7270": {
 "a": {
 "aria-label": "Leistungen im Bereich Tiefbau"
 }
 },
-"63a693f1": {
+"21654cd0": {
 "a": {
 "loading": "lazy"
 }
 },
-"48c4b1e5": {
+"3a369c1f": {
 "a": {
 "aria-label": "Leistungen im Bereich Hochbau"
 }
 },
-"77389916": {
+"3d5e623b": {
 "a": {
 "aria-labelledby": "h-ref"
 }
 },
-"6810c149": {
+"43446153": {
 "a": {
 "type": "button",
 "data-ba-prev": "",
@@ -87,12 +87,12 @@
 "aria-label": "Vorheriges Projekt"
 }
 },
-"64e86caf": {
+"7c1f1e3e": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"3666783b": {
+"4967b20": {
 "a": {
 "type": "button",
 "data-ba-next": "",
@@ -100,511 +100,511 @@
 "aria-label": "Nächstes Projekt"
 }
 },
-"287baabf": {
+"484c3361": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"2ab167e5": {
+"5bf2bf08": {
 "a": {
 "data-ba-track": "",
 "aria-label": "Vorher und Nachher Projekte",
 "tabindex": "0"
 }
 },
-"1560c9cb": {
+"65d0c7e6": {
 "a": {
 "role": "group",
 "aria-roledescription": "Projekt",
 "aria-label": "1 von 8"
 }
 },
-"2b12cf29": {
+"4255101b": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"5730b65a": {
+"5d5d14f8": {
 "a": {
 "loading": "lazy"
 }
 },
-"65a0f13a": {
+"756de8c": {
 "a": {
 "loading": "lazy"
 }
 },
-"6f047a82": {
+"20036963": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"791a5653": {
+"6ef3470b": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"4b6d3f2b": {
+"7a47daf7": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"376e75dd": {
+"3d079758": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"7bae5e40": {
+"3ff1dd42": {
 "a": {
 "for": "ba-1"
 }
 },
-"442f10d5": {
+"1c22a2d0": {
 "r": "<input class=\"compare-range\" id=\"ba-1\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"3090a0b3": {
+"58ed24ec": {
 "a": {
 "role": "group",
 "aria-roledescription": "Projekt",
 "aria-label": "2 von 8"
 }
 },
-"7fd6ad4e": {
+"73bcd2b0": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"26b357c5": {
+"287d9698": {
 "a": {
 "loading": "lazy"
 }
 },
-"46082eae": {
+"2979c5a5": {
 "a": {
 "loading": "lazy"
 }
 },
-"762162f9": {
+"3d0ca6e4": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"19dcd4c6": {
+"39aa2f8a": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"488cf693": {
+"27da6902": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"4a18ce24": {
+"15775fa3": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"5c9b6668": {
+"63c2ba00": {
 "a": {
 "for": "ba-2"
 }
 },
-"385fe91a": {
+"506573d7": {
 "r": "<input class=\"compare-range\" id=\"ba-2\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"558dcfce": {
+"3c7388b9": {
 "a": {
 "role": "group",
 "aria-roledescription": "Projekt",
 "aria-label": "3 von 8"
 }
 },
-"7c68378c": {
+"32dacd07": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"497946a5": {
+"58c0b76c": {
 "a": {
 "loading": "lazy"
 }
 },
-"443a667c": {
+"62287d87": {
 "a": {
 "loading": "lazy"
 }
 },
-"37b2abcb": {
+"691e14dc": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"2113562c": {
+"285568df": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"24c96a85": {
+"7738de32": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"688c2a30": {
+"5b5b6da6": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"7f364dfc": {
+"21655499": {
 "a": {
 "for": "ba-3"
 }
 },
-"798a728e": {
+"a034fff": {
 "r": "<input class=\"compare-range\" id=\"ba-3\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"e05e99f": {
+"1e8153ee": {
 "a": {
 "role": "group",
 "aria-roledescription": "Projekt",
 "aria-label": "4 von 8"
 }
 },
-"39dca575": {
+"34f7bcaa": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"758bc75e": {
+"6286eceb": {
 "a": {
 "loading": "lazy"
 }
 },
-"447617f2": {
+"29522c72": {
 "a": {
 "loading": "lazy"
 }
 },
-"79fb210": {
+"6f05c107": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"128f4090": {
+"2cddede3": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"38962ea2": {
+"70a0fb7e": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"7a96158c": {
+"77e62818": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"127f3b47": {
+"418a2493": {
 "a": {
 "for": "ba-4"
 }
 },
-"30089b0a": {
+"79449ede": {
 "r": "<input class=\"compare-range\" id=\"ba-4\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"544107cf": {
+"c43f820": {
 "a": {
 "role": "group",
 "aria-roledescription": "Projekt",
 "aria-label": "5 von 8"
 }
 },
-"1aa2b410": {
+"360fa0e0": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"4beb96e5": {
+"46c5d1fd": {
 "a": {
 "loading": "lazy"
 }
 },
-"3b9a19a8": {
+"a549307": {
 "a": {
 "loading": "lazy"
 }
 },
-"15d0304a": {
+"214834ef": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"445d2e6b": {
+"7f50d1d3": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"64480c00": {
+"67421ab6": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"71c38c95": {
+"420e319d": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"2248c117": {
+"6ec03ee7": {
 "a": {
 "for": "ba-5"
 }
 },
-"445dfd09": {
+"37f765d4": {
 "r": "<input class=\"compare-range\" id=\"ba-5\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"3cdd3ded": {
+"6e89c0da": {
 "a": {
 "role": "group",
 "aria-roledescription": "Projekt",
 "aria-label": "6 von 8"
 }
 },
-"48fab04a": {
+"a195655": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"7ede3fa8": {
+"5397250b": {
 "a": {
 "loading": "lazy"
 }
 },
-"1f273099": {
+"7a90ef8e": {
 "a": {
 "loading": "lazy"
 }
 },
-"5df3b4de": {
+"7a2617ec": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"66a450be": {
+"7fb7dd35": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"4a26f172": {
+"638cc46a": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"b32c3e3": {
+"447ea016": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"6dd4ebd5": {
+"d50b195": {
 "a": {
 "for": "ba-7"
 }
 },
-"3699b888": {
+"2b7a13ca": {
 "r": "<input class=\"compare-range\" id=\"ba-7\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"7da5ac0": {
+"52251de5": {
 "a": {
 "role": "group",
 "aria-roledescription": "Projekt",
 "aria-label": "7 von 8"
 }
 },
-"31eec5d8": {
+"d9e212d": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"7fd04166": {
+"49566336": {
 "a": {
 "loading": "lazy"
 }
 },
-"2386e7de": {
+"f0dd988": {
 "a": {
 "loading": "lazy"
 }
 },
-"79ee621e": {
+"34c73ed9": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"50004836": {
+"3f6aa2cd": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"32266ea5": {
+"19ceb2ce": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"3e58accf": {
+"415cf84f": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"75e804e7": {
+"457c42a8": {
 "a": {
 "for": "ba-8"
 }
 },
-"68c46aca": {
+"42a2d9d3": {
 "r": "<input class=\"compare-range\" id=\"ba-8\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"5e37af11": {
+"344d83f6": {
 "a": {
 "role": "group",
 "aria-roledescription": "Projekt",
 "aria-label": "8 von 8"
 }
 },
-"26f7842c": {
+"459abd65": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"f95d9c3": {
+"255edbde": {
 "a": {
 "loading": "lazy"
 }
 },
-"1db0cc26": {
+"c2bdca1": {
 "a": {
 "loading": "lazy"
 }
 },
-"12a41f40": {
+"5ba44fe8": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"5a67ba4a": {
+"5d4c65a9": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"25614b86": {
+"2f67681a": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"a4124ac": {
+"66c7f69a": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"2ab35746": {
+"e7fdc24": {
 "a": {
 "for": "ba-9"
 }
 },
-"74d3a2e4": {
+"7d0f38e6": {
 "r": "<input class=\"compare-range\" id=\"ba-9\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"3a144fe0": {
+"70a5b65a": {
 "a": {
 "data-ba-dots": "",
 "aria-hidden": "true"
 }
 },
-"74d4e4d2": {
+"7f8bbe16": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"11a1d89": {
+"1d237cc8": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"3a241263": {
+"43a6394": {
 "a": {
 "aria-labelledby": "h-anfrage"
 }
 },
-"5ab0909d": {
+"6774d0e4": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"5c1aa02e": {
+"17207f5f": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"4e0e0a4": {
+"2b618113": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"282aeece": {
+"31bf3242": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"3471e4ae": {
+"78fb5ad9": {
 "a": {
 "autocomplete": "name"
 }
 },
-"2a5f0c47": {
+"452f6ce7": {
 "a": {
 "autocomplete": "tel"
 }
 },
-"4f6013d0": {
+"62acc537": {
 "a": {
 "autocomplete": "email"
 }
 },
-"2d4135": {
+"6b2cb0de": {
 "a": {
 "autocomplete": "postal-code"
 }
 },
-"7da2a72b": {
+"180b1aaf": {
 "a": {
 "id": "f-lst"
 }
 },
-"5b4b0c05": {
+"7ad2d066": {
 "a": {
 "id": "f-budget"
 }
 },
-"707b43c6": {
+"245473d0": {
 "a": {
 "id": "f-zeit"
 }
 },
-"268e51e2": {
+"f8765b": {
 "a": {
 "id": "f-ds"
 }

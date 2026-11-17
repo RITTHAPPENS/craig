@@ -357,3 +357,20 @@
 .v7 .legal-row .copy p:last-child { margin-bottom: 0; }
 .v7 .legal-row .copy a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; }
 @media (max-width: 900px) { .v7 .legal-row { grid-template-columns: 1fr; } }
+.v7 .legal-doc { max-width: 76ch; }
+.v7 .legal-doc h2 { font-family: var(--display); font-weight: 600; font-feature-settings: "ss02"; letter-spacing: -.015em; font-size: clamp(1.5rem, 1.2vw + 1.1rem, 2.1rem); line-height: 1.15; margin: clamp(48px, 6vw, 72px) 0 20px; padding-top: clamp(28px, 3vw, 36px); border-top: 1px solid var(--line); }
+.v7 .legal-doc h2:first-child { margin-top: 0; }
+.v7 .legal-doc h3 { font-family: var(--display); font-weight: 600; font-feature-settings: "ss02"; letter-spacing: -.01em; font-size: clamp(1.15rem, .5vw + 1rem, 1.35rem); line-height: 1.2; margin: 36px 0 12px; }
+.v7 .legal-doc h4 { font-size: 1rem; font-weight: 700; line-height: 1.4; margin: 24px 0 8px; }
+.v7 .legal-doc p, .v7 .legal-doc li { margin: 0 0 1em; overflow-wrap: anywhere; }
+.v7 .legal-doc ul { margin: 0 0 1.2em; padding-left: 1.2em; }
+.v7 .legal-doc li { margin-bottom: .5em; }
+.v7 .legal-doc a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; }
+
+/* Stimmen: Bewertungskopf mit Link, Trustindex-Widget */
+.v7 .voices .reviews-head { align-items: flex-start; }
+.v7 .reviews-head-l { display: flex; flex-direction: column; align-items: flex-start; }
+.v7 .reviews-head-l .reviews-g { margin: 0; }
+.v7 .reviews-head-l .link-more { margin-top: 14px; }
+.v7 .reviews-score .reviews-src { font-size: 1.1rem; }
+.v7 .reviews-widget { display: block; }

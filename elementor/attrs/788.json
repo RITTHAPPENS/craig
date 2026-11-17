@@ -1,832 +1,832 @@
 {
-"5bab328e": {
+"115968d7": {
 "a": {
 "aria-labelledby": "h1"
 }
 },
-"4b352779": {
+"45d772d": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"17fbdd3a": {
+"3c9fca55": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"2e76063d": {
+"1877f589": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"2204c98a": {
+"7ca546b8": {
 "a": {
 "aria-labelledby": "h-projekte"
 }
 },
-"73ca544e": {
+"2bd1361a": {
 "a": {
 "role": "group",
 "aria-label": "Projekte filtern",
 "data-rf-filter": ""
 }
 },
-"55b02aa5": {
+"574fe450": {
 "a": {
 "type": "button",
 "data-cat": "alle",
 "aria-pressed": "true"
 }
 },
-"7b76745d": {
+"ff7dae8": {
 "a": {
 "type": "button",
 "data-cat": "garten",
 "aria-pressed": "false"
 }
 },
-"6ffcd83f": {
+"366363f6": {
 "a": {
 "type": "button",
 "data-cat": "hof",
 "aria-pressed": "false"
 }
 },
-"17eaedd8": {
+"515e2de": {
 "a": {
 "type": "button",
 "data-cat": "fz",
 "aria-pressed": "false"
 }
 },
-"7ef694b6": {
+"60b4b6f5": {
 "a": {
 "data-rf-grid": ""
 }
 },
-"58bcd85f": {
+"291b5ffe": {
 "a": {
 "data-cat": "garten"
 }
 },
-"76a0d902": {
+"cf3858": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"19b5d3fa": {
+"28666956": {
 "a": {
 "loading": "lazy"
 }
 },
-"585a37ba": {
+"4a0cd17c": {
 "a": {
 "loading": "lazy"
 }
 },
-"33a0058f": {
+"c0319cb": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"76c6e45b": {
+"476211b6": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"7d36a3a7": {
+"3a3a1933": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"7a55f0af": {
+"3db7a7ee": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"1ff46c2f": {
+"17e02466": {
 "a": {
 "for": "rf-1"
 }
 },
-"1675ecc0": {
+"74917e29": {
 "r": "<input class=\"compare-range\" id=\"rf-1\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"7306b035": {
+"59322f5b": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"1ad99c81": {
+"5249c1dc": {
 "a": {
 "data-cat": "hof"
 }
 },
-"50b07bec": {
+"6f0a47ba": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"392e657b": {
+"7c409dbd": {
 "a": {
 "loading": "lazy"
 }
 },
-"2152a7eb": {
+"12cba0ad": {
 "a": {
 "loading": "lazy"
 }
 },
-"929a9c3": {
+"4e7188b0": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"464cec87": {
+"673f488": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"4fe97d0d": {
+"69fb6e5": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"5704047f": {
+"2bbd23e0": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"644e4ee6": {
+"1d9b94b7": {
 "a": {
 "for": "rf-2"
 }
 },
-"232c8d3d": {
+"2776960d": {
 "r": "<input class=\"compare-range\" id=\"rf-2\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"24fb4327": {
+"7f4026b5": {
 "a": {
 "data-cat": "garten"
 }
 },
-"5ddbc22d": {
+"31f1756d": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"2cb34aea": {
+"44b2a4af": {
 "a": {
 "loading": "lazy"
 }
 },
-"54097be8": {
+"2c6ee6f8": {
 "a": {
 "loading": "lazy"
 }
 },
-"306725c7": {
+"2903426f": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"391bd828": {
+"3a9a4bf2": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"5383cc41": {
+"174d8843": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"7b8a68c2": {
+"309648a2": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"398b9cbf": {
+"27dd55a1": {
 "a": {
 "for": "rf-3"
 }
 },
-"8e27fa1": {
+"3d8d5d29": {
 "r": "<input class=\"compare-range\" id=\"rf-3\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"3f9f2226": {
+"4f465087": {
 "a": {
 "data-cat": "fz"
 }
 },
-"4db37d04": {
+"58229bcc": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"3cc3cec8": {
+"2b8bd2d1": {
 "a": {
 "loading": "lazy"
 }
 },
-"29a9d6d8": {
+"3ea7b140": {
 "a": {
 "loading": "lazy"
 }
 },
-"11ab4a60": {
+"3215f15b": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"5a5a060d": {
+"2d5af03d": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"1ff8133f": {
+"39af4ef1": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"1b9c388f": {
+"4df8b0e7": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"2b56c768": {
+"41e06b80": {
 "a": {
 "for": "rf-4"
 }
 },
-"6f2cf35f": {
+"e8b323": {
 "r": "<input class=\"compare-range\" id=\"rf-4\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"708a881f": {
+"3c1e7152": {
 "a": {
 "data-cat": "garten"
 }
 },
-"5d82568e": {
+"3faa5890": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"1b03236e": {
+"4c4ea041": {
 "a": {
 "loading": "lazy"
 }
 },
-"66d2c219": {
+"6b863bb0": {
 "a": {
 "loading": "lazy"
 }
 },
-"1249f6ed": {
+"36e65d3d": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"4f06981e": {
+"63d3e408": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"1bba7f48": {
+"6821f5c5": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"50cd430b": {
+"4f80dc94": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"73da696c": {
+"17dc1c25": {
 "a": {
 "for": "rf-6"
 }
 },
-"5791b2e0": {
+"36b5ecb6": {
 "r": "<input class=\"compare-range\" id=\"rf-6\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"40a7cdd3": {
+"5b28f1e4": {
 "a": {
 "data-cat": "hof"
 }
 },
-"58fed526": {
+"342ee37c": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"5402cad4": {
+"6d43cf2d": {
 "a": {
 "loading": "lazy"
 }
 },
-"75998e23": {
+"2c51d5ec": {
 "a": {
 "loading": "lazy"
 }
 },
-"1890c334": {
+"5440f331": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"149d5110": {
+"364c169c": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"4d06860": {
+"10a9e8d8": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"61acddca": {
+"443efbd0": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"c88520a": {
+"43848bea": {
 "a": {
 "for": "rf-7"
 }
 },
-"6f702b22": {
+"2905c192": {
 "r": "<input class=\"compare-range\" id=\"rf-7\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"7a65eb55": {
+"600c7a54": {
 "a": {
 "data-cat": "garten"
 }
 },
-"7ead60f2": {
+"3303fd1e": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"7fc1b16f": {
+"1861b546": {
 "a": {
 "loading": "lazy"
 }
 },
-"4cab2114": {
+"45e9ae5f": {
 "a": {
 "loading": "lazy"
 }
 },
-"7a43d12": {
+"83bd3a5": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"17926637": {
+"2d5ac85c": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"628cbcf7": {
+"4afa2c16": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"29f4f8c1": {
+"264631bb": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"163746f7": {
+"73a4b8e7": {
 "a": {
 "for": "rf-8"
 }
 },
-"42bdd0bf": {
+"4f6961c1": {
 "r": "<input class=\"compare-range\" id=\"rf-8\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"7be4d720": {
+"3f689c89": {
 "a": {
 "data-cat": "hof"
 }
 },
-"2c52909c": {
+"145387f7": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"6aa81f2b": {
+"691fadb8": {
 "a": {
 "loading": "lazy"
 }
 },
-"447e21be": {
+"1ce29b38": {
 "a": {
 "loading": "lazy"
 }
 },
-"1aa2bdf4": {
+"70dca8e6": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"7b4d30e5": {
+"100707db": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"6e1c6b0c": {
+"6f5a3e7": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"75fb07be": {
+"314c9c6a": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"5d3d08c0": {
+"198d494e": {
 "a": {
 "for": "rf-9"
 }
 },
-"22b0af8a": {
+"382c1def": {
 "r": "<input class=\"compare-range\" id=\"rf-9\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"55dcb4a0": {
+"120c52f1": {
 "a": {
 "data-cat": "fz"
 }
 },
-"1269c122": {
+"72749871": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"13c13b11": {
+"2255c479": {
 "a": {
 "loading": "lazy"
 }
 },
-"1d8d0b8f": {
+"820e384": {
 "a": {
 "loading": "lazy"
 }
 },
-"4f792932": {
+"39992d05": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"51989af1": {
+"44534350": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"2157fb19": {
+"183b0657": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"2cdd67df": {
+"6687aa9": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"6da34be": {
+"47008e1f": {
 "a": {
 "for": "rf-10"
 }
 },
-"f8d31f7": {
+"23b15f57": {
 "r": "<input class=\"compare-range\" id=\"rf-10\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"751ffa8a": {
+"1781046": {
 "a": {
 "data-cat": "hof"
 }
 },
-"788c06b9": {
+"5274dd1d": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"5c543463": {
+"74f4bb65": {
 "a": {
 "loading": "lazy"
 }
 },
-"2712243e": {
+"7ed401dd": {
 "a": {
 "loading": "lazy"
 }
 },
-"78c7b1ff": {
+"3757b885": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"2d6f9010": {
+"6677784c": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"593aef6b": {
+"67989778": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"27b9bb4": {
+"13a7ea38": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"1de07482": {
+"4fe32b60": {
 "a": {
 "for": "rf-11"
 }
 },
-"2147335c": {
+"53d6fa79": {
 "r": "<input class=\"compare-range\" id=\"rf-11\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"46263072": {
+"28d77e96": {
 "a": {
 "data-cat": "garten"
 }
 },
-"41e9a65d": {
+"9fb8d85": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"7d972f1a": {
+"170a6e1e": {
 "a": {
 "loading": "lazy"
 }
 },
-"a5eedb0": {
+"265045ec": {
 "a": {
 "loading": "lazy"
 }
 },
-"51dd95a1": {
+"67afa88": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"59d1d994": {
+"5b041ac0": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"7e64cbda": {
+"7ba9a28b": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"20526347": {
+"352c0769": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"7c5b08dd": {
+"50d89f02": {
 "a": {
 "for": "rf-12"
 }
 },
-"44a37e21": {
+"137b0800": {
 "r": "<input class=\"compare-range\" id=\"rf-12\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"4826fc85": {
+"8d67b4": {
 "a": {
 "data-cat": "hof"
 }
 },
-"2c957cf6": {
+"b721ba1": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"72894daf": {
+"303a9be0": {
 "a": {
 "loading": "lazy"
 }
 },
-"2487770a": {
+"37cc83b6": {
 "a": {
 "loading": "lazy"
 }
 },
-"67e7c199": {
+"176a193f": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"56041716": {
+"79794c7f": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"e3d7d6f": {
+"56a2ce8f": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"176fd315": {
+"30643f78": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"7a2d852": {
+"7d911868": {
 "a": {
 "for": "rf-13"
 }
 },
-"49433599": {
+"3c981e3a": {
 "r": "<input class=\"compare-range\" id=\"rf-13\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"fd0a25b": {
+"1526d3c1": {
 "a": {
 "aria-labelledby": "h-voices"
 }
 },
-"5c11b6fe": {
+"73fba167": {
 "a": {
 "role": "img",
 "aria-label": "5,0 von 5 Sternen"
 }
 },
-"1104340e": {
+"7b2fa8b2": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"5cf25071": {
+"59435b3d": {
 "a": {
 "data-tvid": "",
 "data-src": "/wp-content/uploads/2026/11/bauservice-craig-kundenstimme-erfurt.mp4"
 }
 },
-"85a8669": {
+"173c167f": {
 "a": {
 "type": "button",
 "aria-label": "Kundenstimme aus Erfurt abspielen, Dauer 1:49 Minuten"
 }
 },
-"99d7422": {
+"4b0e8569": {
 "a": {
 "loading": "lazy"
 }
 },
-"17c8ec88": {
+"4301f581": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"336757bb": {
+"5d589e3e": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"e607328": {
+"62348ee8": {
 "a": {
 "data-tvid": "",
 "data-src": "/wp-content/uploads/2026/11/bauservice-craig-kundenstimme-weimar.mp4"
 }
 },
-"6f1bef6": {
+"c77a539": {
 "a": {
 "type": "button",
 "aria-label": "Kundenstimme aus Weimar abspielen, Dauer 1:53 Minuten"
 }
 },
-"16dbf870": {
+"437b960e": {
 "a": {
 "loading": "lazy"
 }
 },
-"8c8f4a8": {
+"390cbb4b": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"11a3ded9": {
+"67093e2": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"38b3a87e": {
+"15c5a5aa": {
 "a": {
 "data-tvid": "",
 "data-src": "/wp-content/uploads/2026/11/bauservice-craig-kundenstimme-bad-berka.mp4"
 }
 },
-"6daaf00e": {
+"285becc7": {
 "a": {
 "type": "button",
 "aria-label": "Kundenstimme aus Bad Berka abspielen, Dauer 2:08 Minuten"
 }
 },
-"718f014c": {
+"b0b299a": {
 "a": {
 "loading": "lazy"
 }
 },
-"43f153cf": {
+"14a02ab7": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"31bc3328": {
+"1394e3c3": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"66c87090": {
+"8f8ecf8": {
 "a": {
 "aria-labelledby": "h-anfrage"
 }
 },
-"73691eec": {
+"3aad24cc": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"6f3a5256": {
+"3d506c70": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"2f60c797": {
+"7412e7d2": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"52b16202": {
+"99c7c05": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"4ba4484f": {
+"40abf544": {
 "a": {
 "autocomplete": "name"
 }
 },
-"36f49076": {
+"217385d7": {
 "a": {
 "autocomplete": "tel"
 }
 },
-"79ee6f7": {
+"6d8f3c4c": {
 "a": {
 "autocomplete": "email"
 }
 },
-"6b81f630": {
+"180bac0d": {
 "a": {
 "autocomplete": "postal-code"
 }
 },
-"6d1a103f": {
+"30d01fec": {
 "a": {
 "id": "f-lst"
 }
 },
-"3aff77da": {
+"4178da82": {
 "a": {
 "id": "f-budget"
 }
 },
-"23a409a2": {
+"5e41ae07": {
 "a": {
 "id": "f-zeit"
 }
 },
-"35835495": {
+"1e8a5fb": {
 "a": {
 "id": "f-ds"
 }

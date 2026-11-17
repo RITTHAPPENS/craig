@@ -1,215 +1,215 @@
 {
-"2a8703a4": {
+"2661f0af": {
 "a": {
 "aria-labelledby": "h1"
 }
 },
-"60406d3e": {
+"a9b740": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"13f0beff": {
+"64b7c36e": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"6c290e3d": {
+"374966f3": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"11bdb52b": {
+"4e0d13d": {
 "a": {
 "aria-labelledby": "h-gl"
 }
 },
-"68efe125": {
+"71c0b836": {
 "a": {
 "loading": "lazy"
 }
 },
-"4e0329aa": {
+"2b055f3a": {
 "a": {
 "loading": "lazy"
 }
 },
-"4db815a7": {
+"2aedacb7": {
 "a": {
 "loading": "lazy"
 }
 },
-"2a4fcf96": {
+"707029d1": {
 "a": {
 "loading": "lazy"
 }
 },
-"27966234": {
+"7f294b37": {
 "a": {
 "loading": "lazy"
 }
 },
-"409a975f": {
+"4c2feec5": {
 "a": {
 "loading": "lazy"
 }
 },
-"6e9f9b5f": {
+"1aa1d2d3": {
 "a": {
 "aria-labelledby": "h-ba"
 }
 },
-"67a904c2": {
+"72a3b484": {
 "a": {
 "data-compare": "",
 "style": "--pos:50%"
 }
 },
-"304fe06": {
+"2f87eb3d": {
 "a": {
 "loading": "lazy"
 }
 },
-"32f17be2": {
+"19688176": {
 "a": {
 "loading": "lazy"
 }
 },
-"31847333": {
+"3ce3f91d": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"4dac1db9": {
+"2d323bd7": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"11c41626": {
+"3297c73f": {
 "a": {
 "data-handle": "",
 "aria-hidden": "true"
 }
 },
-"754562e7": {
+"30bfeb7": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"122b8af0": {
+"641a3acb": {
 "a": {
 "for": "ba-1"
 }
 },
-"67caa039": {
+"1c056dab": {
 "r": "<input class=\"compare-range\" id=\"ba-1\" max=\"100\" min=\"0\" step=\"1\" type=\"range\" value=\"50\"/>"
 },
-"705caac2": {
+"1c2740e9": {
 "a": {
 "aria-labelledby": "h-usp"
 }
 },
-"63daea7b": {
+"6177edfc": {
 "a": {
 "aria-labelledby": "h-process"
 }
 },
-"53ab1db5": {
+"2c3d55df": {
 "a": {
 "loading": "lazy"
 }
 },
-"cf1215c": {
+"33aafbdc": {
 "a": {
 "aria-labelledby": "h-faq"
 }
 },
-"1fd15170": {
+"40a1ac22": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"6ebfd5bf": {
+"4abeb20c": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"67465131": {
+"2f5403a5": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"21d302be": {
+"75ef0129": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"806e5db": {
+"7828f5fa": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"2f83bc59": {
+"4c6a1ffa": {
 "a": {
 "aria-labelledby": "h-anfrage"
 }
 },
-"36d25ebb": {
+"3701602d": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"a1df562": {
+"3613ee91": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"21da8013": {
+"3a7afd88": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"662348cb": {
+"395bc9c9": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"f060878": {
+"4c883412": {
 "a": {
 "autocomplete": "name"
 }
 },
-"df2ffb7": {
+"749422bd": {
 "a": {
 "autocomplete": "tel"
 }
 },
-"9bcb59a": {
+"48e67805": {
 "a": {
 "autocomplete": "email"
 }
 },
-"6a678602": {
+"5acaefb7": {
 "a": {
 "autocomplete": "postal-code"
 }
 },
-"456132bd": {
+"6fdd6615": {
 "a": {
 "id": "f-lst"
 }
 },
-"48502b84": {
+"6df8a14b": {
 "a": {
 "id": "f-budget"
 }
 },
-"1e07f338": {
+"17029d69": {
 "a": {
 "id": "f-zeit"
 }
 },
-"5244fc52": {
+"57d395ba": {
 "a": {
 "id": "f-ds"
 }
