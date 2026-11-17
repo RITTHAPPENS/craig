@@ -346,3 +346,14 @@
 .member-ph .ph-note { color: var(--mute); font-size: .85rem; letter-spacing: .04em; }
 .profile-wide .member-text strong { color: var(--ink); font-weight: 600; }
 @media (max-width: 760px) { .profile-wide { grid-template-columns: 1fr; } .profile-wide .member-ph { max-width: 420px; } }
+
+/* Rechtstexte */
+.v7 .legal { padding-top: calc(var(--head-h, 88px) + clamp(48px, 7vw, 104px)); }
+.v7 .legal-title { margin: 0 0 clamp(32px, 5vw, 64px); }
+.v7 .legal-list { border-top: 1px solid var(--line); }
+.v7 .legal-row { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 12px clamp(32px, 6vw, 104px); padding: clamp(24px, 3vw, 36px) 0; border-bottom: 1px solid var(--line); }
+.v7 .legal-row .gl-name { margin: 0; }
+.v7 .legal-row .copy p { max-width: 62ch; }
+.v7 .legal-row .copy p:last-child { margin-bottom: 0; }
+.v7 .legal-row .copy a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; }
+@media (max-width: 900px) { .v7 .legal-row { grid-template-columns: 1fr; } }
