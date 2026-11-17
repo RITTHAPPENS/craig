@@ -170,7 +170,7 @@ class Conv:
                          'email': {'to': ['info@bauservice-craig.de'],
                                    'subject': 'Neue Projektanfrage über bauservice-craig.de',
                                    'message': '[all-fields]', 'send-as': 'html',
-                                   'from-name': 'Website Bauservice Craig', 'from': 'noreply@bauservice-craig.de'}}
+                                   'from-name': 'Website Bauservice Craig', 'from': 'noreply@bauservice-craig.de', 'reply-to': '[field id="f-mail"]'}}
         self.cls[fid] = self.classes(f)
         parts = []
         for ch in f.children:
@@ -226,7 +226,7 @@ class Conv:
             opts = []
             for o in n.find_all('option'):
                 v = o.get('value', o.get_text(strip=True))
-                opts.append({'key': o.get_text(strip=True), 'value': v})
+                opts.append({'key': o.get_text(strip=True).replace(' & ', ' und '), 'value': v.replace(' & ', ' und ')})
             self.cfg[cid] = {'name': n.get('name', ''), 'options': opts, 'required': n.has_attr('required')}
             sel = n.find('option', selected=True)
             if sel:
