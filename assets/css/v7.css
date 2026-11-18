@@ -436,7 +436,8 @@
 
 /* Karriere */
 .kr-grid { list-style: none; margin: clamp(28px, 4vw, 48px) 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); gap: 0 clamp(20px, 2.4vw, 36px); }
-.kr-item { display: grid; align-content: start; gap: 6px; padding: 18px 0; }
+.kr-item { display: grid; align-content: start; gap: 6px; padding: 22px 0; border-top: 1px solid var(--line); margin-top: -1px; }
+.kr-grid { overflow: hidden; } /* oberste Linie je Spalte abgeschnitten, Linien zwischen den Reihen bleiben */
 .kr-t { font-family: var(--text); font-weight: 700; font-size: 1.12rem; color: var(--ink); }
 .kr-d { color: var(--mute); line-height: 1.55; }
 .kr-facts { list-style: none; margin: 0; padding: 0; }
