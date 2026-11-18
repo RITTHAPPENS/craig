@@ -461,3 +461,11 @@
 .v7 .intro-grid > * { min-width: 0; }
 .v7 .kr-terms .intro-grid > div:first-child { container-type: inline-size; }
 .v7 .kr-terms .h2 { font-size: min(clamp(2rem, 2.4vw + 1rem, 3.5rem), 8.4cqi); max-width: none; }
+
+/* Karriere-Hero: Gruppenfoto, Text tiefer und einzeilig, damit er auf Brusthöhe statt auf den Gesichtern liegt */
+@media (min-width: 761px) {
+  .v7 .kr-hero { min-height: max(clamp(480px, 88svh, 880px), min(100svh, 820px)); }
+  .v7 .kr-hero .display { max-width: none; }
+  .v7 .kr-hero .page-hero-inner { padding-bottom: clamp(36px, 5vh, 64px); }
+}
+@media (max-width: 760px) { .v7 .kr-hero { min-height: 640px; } }
