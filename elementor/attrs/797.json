@@ -1,136 +1,135 @@
 {
-"6eefc98c": {
+"3477f0a0": {
 "a": {
 "aria-labelledby": "h1"
 }
 },
-"54e4814e": {
+"3438522a": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"5efcb7d2": {
+"64c57cd9": {
 "a": {
 "aria-labelledby": "h-staerke"
 }
 },
-"4ee11fd9": {
+"7694c273": {
 "a": {
 "aria-labelledby": "h-menschen"
 }
 },
-"40ecf70c": {
+"57c1985c": {
 "a": {
 "loading": "lazy"
 }
 },
-"18f56eae": {
+"13b6dc3a": {
 "a": {
 "loading": "lazy"
 }
 },
-"28f8567d": {
+"3b16f0a7": {
 "a": {
 "loading": "lazy"
 }
 },
-"2bde57a1": {
+"79043cff": {
 "a": {
 "loading": "lazy"
 }
 },
-"748e1dbe": {
+"21640656": {
 "a": {
 "loading": "lazy"
 }
 },
-"7324f929": {
+"36225982": {
 "a": {
 "loading": "lazy"
 }
 },
-"607529ed": {
+"15a2e797": {
 "a": {
-"role": "img",
-"aria-label": "Foto von Linus Welker folgt"
+"loading": "lazy"
 }
 },
-"56ba27e6": {
+"d01412d": {
 "a": {
-"aria-hidden": "true"
+"loading": "lazy"
 }
 },
-"1ae10d17": {
+"11f255c3": {
 "a": {
 "aria-labelledby": "h-auszeichnet"
 }
 },
-"bad6cf9": {
+"43d0804": {
 "a": {
 "loading": "lazy"
 }
 },
-"2b66cc24": {
+"6c0c5fd0": {
 "a": {
 "aria-labelledby": "h-anfrage"
 }
 },
-"67b8a8f6": {
+"afff7db": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"33f71e7c": {
+"72104117": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"16f9c295": {
+"7b275aca": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"57154dad": {
+"5da5f440": {
 "a": {
 "aria-hidden": "true"
 }
 },
-"16e7096a": {
+"35417df6": {
 "a": {
 "autocomplete": "name"
 }
 },
-"73f6b7e4": {
+"76b8aeda": {
 "a": {
 "autocomplete": "tel"
 }
 },
-"260c29d3": {
+"37b6d428": {
 "a": {
 "autocomplete": "email"
 }
 },
-"4d593896": {
+"6e6a33cb": {
 "a": {
 "autocomplete": "postal-code"
 }
 },
-"682d82dd": {
+"37f2c001": {
 "a": {
 "id": "f-lst"
 }
 },
-"6d5a6c": {
+"797a5d9b": {
 "a": {
 "id": "f-budget"
 }
 },
-"199e119": {
+"28295bad": {
 "a": {
 "id": "f-zeit"
 }
 },
-"d6bfe10": {
+"e0b3e9e": {
 "a": {
 "id": "f-ds"
 }
