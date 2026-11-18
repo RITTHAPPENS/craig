@@ -315,7 +315,7 @@
 .sub-page.bn-page main > .section.bn-ref { background: var(--ground); }
 .bn-list { list-style: none; margin: clamp(28px, 3vw, 44px) 0 0; padding: 0; }
 .bn-area { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(24px, 4vw, 64px); align-items: start; padding-block: clamp(32px, 4vw, 56px); border-top: 1px solid var(--line); scroll-margin-top: var(--head-h); }
-.bn-area:last-child { border-bottom: 1px solid var(--line); }
+.bn-area:last-child { border-bottom: 0; }
 .bn-area figure { margin: 0; }
 .bn-area img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
 .bn-area h2 { margin: 0; }
@@ -406,3 +406,7 @@
   .v7 .mega, .v7 .mega.is-open { background: transparent; box-shadow: none; }
   html.menu-open .site-head .head-phone { display: none; }
 }
+
+/* Footer-Logo verlinkt zur Startseite */
+.foot-logo { display: inline-block; line-height: 0; }
+.foot-logo:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
