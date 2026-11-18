@@ -410,7 +410,7 @@
 .foot-logo:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 
 /* Einheitliche Textlinks: halbfett, Unterstrich in Terrakotta, Hover in Terrakotta */
-.v7 .gl-body p a, .v7 .bn-text a, .v7 .sv-usp .copy a, .v7 .legal-row .copy a, .v7 .legal-doc a, .v7 .field label a {
+.v7 .gl-body p a, .v7 .bn-text a, .v7 .sv-usp .copy a, .v7 .team-intro .copy a, .v7 .story-intro .copy a, .v7 .legal-row .copy a, .v7 .legal-doc a, .v7 .field label a {
   color: var(--ink); font-weight: 600; text-decoration: underline; text-decoration-color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: 4px; transition: color 160ms var(--ease-out, ease);
 }
 @media (hover: hover) and (pointer: fine) {
@@ -433,3 +433,26 @@
 @media (min-width: 901px) {
   html.mega-compact .site-head .mega-desc { display: none; }
 }
+
+/* Karriere */
+.kr-grid { list-style: none; margin: clamp(28px, 4vw, 48px) 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); gap: 0 clamp(20px, 2.4vw, 36px); }
+.kr-item { display: grid; gap: 6px; padding: 22px 0; border-top: 1px solid var(--line); }
+.kr-t { font-family: var(--text); font-weight: 700; font-size: 1.12rem; color: var(--ink); }
+.kr-d { color: var(--mute); line-height: 1.55; }
+.kr-facts { list-style: none; margin: 0; padding: 0; }
+.kr-facts li { display: grid; grid-template-columns: minmax(130px, 34%) 1fr; gap: 16px; padding: 16px 0; border-top: 1px solid var(--line); }
+.kr-facts li:last-child { border-bottom: 1px solid var(--line); }
+.kr-k { color: var(--mute); }
+.kr-v { color: var(--ink); }
+.kr-job summary > span { display: inline-flex; align-items: baseline; gap: 14px; }
+.kr-n { color: var(--accent); font-variant-numeric: tabular-nums; font-size: .9em; }
+.kr-job-body { padding: 4px 0 26px; max-width: 68ch; }
+.kr-job-body p { color: var(--mute); line-height: 1.65; margin: 0 0 14px; }
+.kr-job-body .kr-claim { color: var(--ink); font-weight: 600; font-size: 1.08rem; }
+.kr-h { font-size: 1.05rem; font-weight: 600; color: var(--ink); margin: 22px 0 10px; }
+.kr-ul { margin: 0; padding: 0 0 0 1.15em; list-style: square; color: var(--mute); line-height: 1.6; }
+.kr-ul li { margin: 0 0 6px; }
+.kr-ul li::marker { color: var(--accent); }
+.kr-job-body .kr-note { margin-top: 18px; font-size: .95rem; }
+.kr-job-body .cta-row, .kr-apply .cta-row { margin-top: 20px; display: flex; flex-wrap: wrap; gap: 12px; }
+@media (max-width: 560px) { .kr-facts li { grid-template-columns: 1fr; gap: 4px; } }

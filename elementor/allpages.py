@@ -2,7 +2,7 @@ import sys,json,os,re,requests,glob
 sys.path.insert(0,'/home/claude/craig/elementor');import build,run
 H={'Authorization':'Basic '+open(os.path.expanduser('~/.wp/auth')).read().strip()}
 pages=json.load(open('pages.json'))
-TITLES={'aussenanlagen-galabau':'Garten- & Landschaftsbau','badsanierung':'Badsanierung','bauen':'Bauausführung','bauleitung-baubegleitung':'Bauleitung & Baubegleitung','bausachverstaendiger':'Bausachverständiger','fliesen-bodenarbeiten':'Fliesen- & Bodenarbeiten','hochbau':'Hochbau','kontakt':'Kontakt','poolbau':'Poolbau','referenzen':'Referenzen','sanierung-modernisierung':'Sanierung & Modernisierung','team':'Team','tiefbau':'Tiefbau','trockenbau-innenausbau':'Trockenbau & Innenausbau','unsere-geschichte':'Unsere Geschichte'}
+TITLES={'aussenanlagen-galabau':'Garten- & Landschaftsbau','badsanierung':'Badsanierung','bauen':'Bauausführung','bauleitung-baubegleitung':'Bauleitung & Baubegleitung','bausachverstaendiger':'Bausachverständiger','fliesen-bodenarbeiten':'Fliesen- & Bodenarbeiten','hochbau':'Hochbau','kontakt':'Kontakt','poolbau':'Poolbau','referenzen':'Referenzen','sanierung-modernisierung':'Sanierung & Modernisierung','team':'Team','tiefbau':'Tiefbau','trockenbau-innenausbau':'Trockenbau & Innenausbau','unsere-geschichte':'Unsere Geschichte','karriere':'Karriere'}
 only=sys.argv[1:]
 for slug,title in TITLES.items():
     f=slug+'.html'

@@ -43,7 +43,10 @@ def link(h):
 
 
 def call(name, args):
-    p = subprocess.run([os.path.expanduser('~/.wp/call.sh'), name, json.dumps(args)], capture_output=True, text=True)
+    body = json.dumps({'jsonrpc': '2.0', 'id': 1, 'method': 'tools/call', 'params': {'name': name, 'arguments': args}})
+    bf = os.path.join(S, 'mcp_body.json')
+    open(bf, 'w').write(body)
+    p = subprocess.run([os.path.expanduser('~/.wp/mcp.sh'), '@file', bf], capture_output=True, text=True)
     out = p.stdout
     try:
         d = json.loads(out)
