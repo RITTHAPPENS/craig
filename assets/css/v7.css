@@ -410,3 +410,17 @@
 /* Footer-Logo verlinkt zur Startseite */
 .foot-logo { display: inline-block; line-height: 0; }
 .foot-logo:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+
+/* Einheitliche Textlinks: halbfett, Unterstrich in Terrakotta, Hover in Terrakotta */
+.v7 .gl-body p a, .v7 .bn-text a, .v7 .sv-usp .copy a, .v7 .legal-row .copy a, .v7 .legal-doc a, .v7 .field label a {
+  color: var(--ink); font-weight: 600; text-decoration: underline; text-decoration-color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: 4px; transition: color 160ms var(--ease-out, ease);
+}
+@media (hover: hover) and (pointer: fine) {
+  .v7 .gl-body p a:hover, .v7 .bn-text a:hover, .v7 .sv-usp .copy a:hover, .v7 .legal-row .copy a:hover, .v7 .legal-doc a:hover, .v7 .field label a:hover { color: var(--accent); }
+}
+.v7 .gl-body p a:focus-visible, .v7 .bn-text a:focus-visible, .v7 .legal-doc a:focus-visible, .v7 .field label a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+/* Desktop/Tablet: Leistungen-Menü scrollbar, wenn es höher als der Bildschirm ist */
+@media (min-width: 901px) {
+  .v7 .mega { max-height: calc(100dvh - var(--mega-top, 96px)); overflow-y: auto; overscroll-behavior: contain; }
+}

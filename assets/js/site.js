@@ -179,4 +179,14 @@
       v.focus();
     }, { once: true });
   });
+
+  // Leistungen-Menü: verfügbare Höhe unter dem Header, damit es auf Tablets scrollbar bleibt
+  const headEl = document.querySelector('.site-head');
+  if (headEl) {
+    const setTop = () => document.documentElement.style.setProperty('--mega-top', Math.max(0, headEl.getBoundingClientRect().bottom) + 'px');
+    setTop();
+    window.addEventListener('resize', setTop);
+    window.addEventListener('scroll', setTop, { passive: true });
+    document.querySelectorAll('.nav-trigger').forEach((t) => t.addEventListener('click', setTop));
+  }
 })();
