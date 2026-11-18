@@ -427,3 +427,6 @@
 
 /* Pflichtfeld-Sternchen direkt am Label */
 .v7 .req { margin-left: 1px; }
+
+/* Glas-Button (Telefon im Hero): Hover mit dunkler Schrift auf Weiß */
+@media (hover: hover) and (pointer: fine) { .v7 .btn-glass:hover { background: #fff; color: #141414; border-color: #fff; } }
