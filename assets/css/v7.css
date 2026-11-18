@@ -293,12 +293,10 @@
 }
 
 /* Badsanierung: Vorher/Nachher als Paar im Ablauf */
-.process-photo.bd-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-.bd-pair figure { position: relative; margin: 0; }
-.process-photo.bd-pair img { aspect-ratio: 2 / 3; }
-.bd-pair .compare-tag { left: 12px; }
-.bd-pair .bd-cap { grid-column: 1 / -1; color: var(--mute); font-size: .97rem; line-height: 1.6; margin-top: 6px; }
-@media (max-width: 900px) { .process-photo.bd-pair img { aspect-ratio: 3 / 4; } }
+.process-photo.bd-pair { display: grid; grid-template-columns: 1fr; gap: 10px; }
+.bd-pair .bd-compare { aspect-ratio: 2 / 3; }
+.bd-pair .bd-cap { color: var(--mute); font-size: .97rem; line-height: 1.6; margin-top: 6px; }
+@media (max-width: 900px) { .bd-pair .bd-compare { aspect-ratio: 4 / 5; } }
 
 /* Poolbau: Bauablauf als Bildfolge */
 .pl-steps { list-style: none; margin: clamp(28px, 3vw, 44px) 0 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(16px, 2vw, 28px); counter-reset: pl; }

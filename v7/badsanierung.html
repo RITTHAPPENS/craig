@@ -260,8 +260,15 @@
   <section class="section gl-process" aria-labelledby="h-process">
     <div class="wrap process-grid">
       <div class="process-photo bd-pair">
-        <figure><img src="../assets/img/05_fliesen-boden/bauservice-craig-badsanierung-vorher.webp" alt="Vorher: Bad nach dem Rückbau mit freigelegten Wänden und neuer Vorwand" width="1333" height="2000" loading="lazy" decoding="async"><span class="compare-tag" aria-hidden="true">Vorher</span></figure>
-        <figure><img src="../assets/img/05_fliesen-boden/bauservice-craig-badsanierung-nachher.webp" alt="Nachher: derselbe Raum mit neuen Wänden, Holzboden und verkleideter Vorwand" width="1333" height="2000" loading="lazy" decoding="async"><span class="compare-tag" aria-hidden="true">Nachher</span></figure>
+        <div class="compare bd-compare" data-compare style="--pos:50%">
+          <img class="compare-img" src="../assets/img/05_fliesen-boden/bauservice-craig-badsanierung-nachher.webp" alt="Nachher: derselbe Raum mit neuen Wänden, Holzboden und verkleideter Vorwand" width="1333" height="2000" loading="lazy" decoding="async">
+          <div class="compare-before"><img class="compare-img" src="../assets/img/05_fliesen-boden/bauservice-craig-badsanierung-vorher.webp" alt="Vorher: Bad nach dem Rückbau mit freigelegten Wänden und neuer Vorwand" width="1333" height="2000" loading="lazy" decoding="async"></div>
+          <span class="compare-tag tag-before" aria-hidden="true">Vorher</span>
+          <span class="compare-tag tag-after" aria-hidden="true">Nachher</span>
+          <div class="compare-handle" data-handle aria-hidden="true"><svg class="ic" aria-hidden="true"><use href="#i-drag"/></svg></div>
+          <label class="sr" for="ba-bad">Vorher und Nachher vergleichen</label>
+          <input id="ba-bad" class="compare-range" type="range" min="0" max="100" value="50" step="1">
+        </div>
         <p class="bd-cap">Derselbe Raum: Rückbau bis auf den Rohbau, danach neue Wände, Boden und Vorwand, bereit für die Sanitärobjekte.</p>
       </div>
       <div>
