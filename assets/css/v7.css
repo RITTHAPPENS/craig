@@ -436,7 +436,7 @@
 
 /* Karriere */
 .kr-grid { list-style: none; margin: clamp(28px, 4vw, 48px) 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); gap: 0 clamp(20px, 2.4vw, 36px); }
-.kr-item { display: grid; gap: 6px; padding: 22px 0; border-top: 1px solid var(--line); }
+.kr-item { display: grid; align-content: start; gap: 6px; padding: 18px 0; }
 .kr-t { font-family: var(--text); font-weight: 700; font-size: 1.12rem; color: var(--ink); }
 .kr-d { color: var(--mute); line-height: 1.55; }
 .kr-facts { list-style: none; margin: 0; padding: 0; }
@@ -469,3 +469,10 @@
   .v7 .kr-hero .page-hero-inner { padding-bottom: clamp(36px, 5vh, 64px); }
 }
 @media (max-width: 760px) { .v7 .kr-hero { min-height: 640px; } }
+
+/* Karriere: Bewerbung dunkel wie die Anfrage-Sektion der anderen Seiten, damit sie sich vom Footer abhebt; Stellen dafür auf Zwischenfläche */
+.sub-page main > .section.team-intro:has(~ .kr-apply) { background: var(--bg); }
+.sub-page main > .section.kr-benefits { background: var(--ground); }
+.sub-page main > .section.kr-terms { background: var(--bg); }
+.sub-page main > .section.kr-jobs { background: var(--ground); }
+.sub-page main > .section.kr-apply { background: var(--bg); }
