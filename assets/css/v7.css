@@ -381,3 +381,9 @@
 
 /* Mega-Menü: keine Linie über dem ersten Eintrag je Gruppe */
 .mega-list > li:first-child > .mega-link { border-top: 0; }
+
+/* CI-Sternmuster im Anfragebereich (vierzackige Sterne, aus .pattern in v5) */
+.contact::before { content: ""; position: absolute; z-index: -1; left: 0; bottom: 0; width: min(40vw, 560px); height: 280px; pointer-events: none;
+  --star: 56px; background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path fill='%233a3e43' d='M50 0Q60 32 100 50Q60 68 50 100Q40 68 0 50Q40 32 50 0Z'/></svg>"); background-size: var(--star) var(--star); background-position: 0 0;
+  -webkit-mask-image: linear-gradient(90deg, #000 25%, transparent), linear-gradient(0deg, #000 40%, transparent); -webkit-mask-composite: source-in; mask-image: linear-gradient(90deg, #000 25%, transparent), linear-gradient(0deg, #000 40%, transparent); mask-composite: intersect; }
+@media (max-width: 900px) { .contact::before { top: 0; bottom: auto; width: 100%; height: 84px; --star: 28px; -webkit-mask-image: linear-gradient(180deg, #000 30%, transparent); mask-image: linear-gradient(180deg, #000 30%, transparent); -webkit-mask-composite: source-over; mask-composite: add; } }
