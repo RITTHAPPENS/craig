@@ -456,3 +456,8 @@
 .kr-job-body .kr-note { margin-top: 18px; font-size: .95rem; }
 .kr-job-body .cta-row, .kr-apply .cta-row { margin-top: 20px; display: flex; flex-wrap: wrap; gap: 12px; }
 @media (max-width: 560px) { .kr-facts li { grid-template-columns: 1fr; gap: 4px; } }
+
+/* Lange Ein-Wort-Headlines im zweispaltigen Raster: Schrift passt sich der Spaltenbreite an statt überzulaufen */
+.v7 .intro-grid > * { min-width: 0; }
+.v7 .kr-terms .intro-grid > div:first-child { container-type: inline-size; }
+.v7 .kr-terms .h2 { font-size: min(clamp(2rem, 2.4vw + 1rem, 3.5rem), 8.4cqi); max-width: none; }
