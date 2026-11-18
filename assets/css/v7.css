@@ -429,7 +429,7 @@
 /* Glas-Button (Telefon im Hero): Hover mit dunkler Schrift auf Weiß */
 @media (hover: hover) and (pointer: fine) { .v7 .btn-glass:hover { background: #fff; color: #141414; border-color: #fff; } }
 
-/* Leistungen-Menü auf niedrigen Bildschirmen: Untertitel ausblenden, damit alles ohne Scrollen passt */
-@media (min-width: 901px) and (max-height: 820px) {
-  .v7 .mega-desc { display: none; }
+/* Leistungen-Menü: Untertitel nur ausblenden, wenn das Menü sonst nicht auf den Bildschirm passt (Klasse per JS) */
+@media (min-width: 901px) {
+  html.mega-compact .site-head .mega-desc { display: none; }
 }

@@ -222,7 +222,14 @@ document.querySelectorAll('img').forEach(function(i){var f=(i.getAttribute('src'
   // Leistungen-Menü: verfügbare Höhe unter dem Header, damit es auf Tablets scrollbar bleibt
   const headEl = document.querySelector('.site-head');
   if (headEl) {
-    const setTop = () => document.documentElement.style.setProperty('--mega-top', Math.max(0, headEl.getBoundingClientRect().bottom) + 'px');
+    const megaEl = document.querySelector('.mega');
+    const setTop = () => {
+      const top = Math.max(0, headEl.getBoundingClientRect().bottom);
+      document.documentElement.style.setProperty('--mega-top', top + 'px');
+      if (!megaEl || window.innerWidth < 901) { document.documentElement.classList.remove('mega-compact'); return; }
+      document.documentElement.classList.remove('mega-compact');
+      if (megaEl.scrollHeight > window.innerHeight - top) document.documentElement.classList.add('mega-compact');
+    };
     setTop();
     window.addEventListener('resize', setTop);
     window.addEventListener('scroll', setTop, { passive: true });
