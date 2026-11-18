@@ -424,3 +424,6 @@
 @media (min-width: 901px) {
   .v7 .mega { max-height: calc(100dvh - var(--mega-top, 96px)); overflow-y: auto; overscroll-behavior: contain; }
 }
+
+/* Pflichtfeld-Sternchen direkt am Label */
+.v7 .req { margin-left: 1px; }
