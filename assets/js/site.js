@@ -115,6 +115,24 @@
     range.addEventListener('pointerdown', () => fig.classList.add('is-dragging'));
     ['pointerup', 'pointercancel', 'blur'].forEach((ev) => range.addEventListener(ev, () => fig.classList.remove('is-dragging')));
     apply();
+    // Einzelne Vergleiche (nicht im Slider): Ziehen direkt im Bild, auch per Touch (iOS trifft den unsichtbaren Regler sonst kaum)
+    if (!fig.closest('.ba-slide')) {
+      range.style.pointerEvents = 'none';
+      fig.style.touchAction = 'pan-y';
+      const set = (x) => {
+        const r = fig.getBoundingClientRect();
+        range.value = Math.max(0, Math.min(100, ((x - r.left) / r.width) * 100));
+        apply();
+      };
+      let drag = false;
+      fig.addEventListener('pointerdown', (e) => {
+        drag = true; fig.classList.add('is-dragging');
+        try { fig.setPointerCapture(e.pointerId); } catch (err) {}
+        if (e.pointerType === 'mouse') { set(e.clientX); e.preventDefault(); }
+      });
+      fig.addEventListener('pointermove', (e) => { if (drag) set(e.clientX); });
+      ['pointerup', 'pointercancel', 'lostpointercapture'].forEach((ev) => fig.addEventListener(ev, () => { drag = false; fig.classList.remove('is-dragging'); }));
+    }
   });
 
   // Referenzen: Projekte filtern, bei ungerader Anzahl das erste Projekt breit

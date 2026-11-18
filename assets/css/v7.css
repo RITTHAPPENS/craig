@@ -183,7 +183,7 @@
 .gl-page .sv-usp { background: var(--bg); }
 .sv-usp .copy p:last-child { margin-bottom: 0; }
 .page-hero .display { text-wrap: balance; }
-@media (max-width: 560px) { .page-hero .display { font-size: clamp(2rem, 8.4vw, 2.6rem); hyphens: auto; overflow-wrap: break-word; } }
+@media (max-width: 560px) { .page-hero .display { font-size: clamp(1.7rem, 7.6vw, 2.6rem); hyphens: auto; overflow-wrap: break-word; } }
 .gl-page .sn-ba { background: var(--bg); }
 .gl-page .sn-ba ~ .sv-usp { background: var(--ground); }
 .gl-page .sn-ba ~ .gl-process { background: var(--bg); }
@@ -399,4 +399,10 @@
   .v7 .show-copy h2 { order: 2; margin: 0 0 24px; }
   .v7 .show-media { order: 3; }
   .v7 .show-copy > :not(.soon):not(h2) { order: 4; margin-top: 24px; }
+}
+
+/* Mobiles Menü: Leistungen-Liste ohne eigene Fläche, Telefon-Button bei offenem Menü aus */
+@media (max-width: 900px) {
+  .v7 .mega, .v7 .mega.is-open { background: transparent; box-shadow: none; }
+  html.menu-open .site-head .head-phone { display: none; }
 }
