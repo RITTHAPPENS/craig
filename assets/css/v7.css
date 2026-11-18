@@ -378,3 +378,6 @@
 /* Bauen/Begleiten/Bewerten: "Bausachverständiger" ohne Trennung in einer Zeile */
 .v7 .bbb .duo-box { container-type: inline-size; }
 .v7 .bbb .duo-name { padding-right: 0; hyphens: manual; font-size: min(clamp(1.25rem, .8vw + 1rem, 1.6rem), 8.4cqi); }
+
+/* Mega-Menü: keine Linie über dem ersten Eintrag je Gruppe */
+.mega-list > li:first-child > .mega-link { border-top: 0; }
